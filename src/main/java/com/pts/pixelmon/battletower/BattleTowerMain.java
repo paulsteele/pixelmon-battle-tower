@@ -1,7 +1,12 @@
-package com.example.examplemod;
+package com.pts.pixelmon.battletower;
 
+import com.pts.pixelmon.battletower.BattleTowerComputer.BattleTowerComputer;
+import com.pts.pixelmon.battletower.BattleTowerComputer.BattleTowerComputerBlock;
+import com.pts.pixelmon.battletower.BattleTowerComputer.BattleTowerComputerItem;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,12 +25,12 @@ import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("pixelmonbattletower")
-public class ExampleMod
+public class BattleTowerMain
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public ExampleMod() {
+    public BattleTowerMain() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
@@ -77,8 +82,16 @@ public class ExampleMod
     public static class RegistryEvents {
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent) {
-            // register a new block here
-            LOGGER.info("HELLO from Register Block");
+            LOGGER.info("Registering blocks");
+            blockRegistryEvent.getRegistry().register(BattleTowerComputer.GetInstance().Block);
+            LOGGER.info("Registered blocks");
+        }
+
+        @SubscribeEvent
+        public static void onItemsRegistry(final RegistryEvent.Register<Item> itemRegisterEvent){
+            LOGGER.info("Registering items");
+            itemRegisterEvent.getRegistry().register(BattleTowerComputer.GetInstance().Item);
+            LOGGER.info("Registered items");
         }
     }
 }
