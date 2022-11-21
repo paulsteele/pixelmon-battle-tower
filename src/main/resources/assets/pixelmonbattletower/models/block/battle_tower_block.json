@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pixelmonbattletower:block/battle_tower_block"
+  }
+}

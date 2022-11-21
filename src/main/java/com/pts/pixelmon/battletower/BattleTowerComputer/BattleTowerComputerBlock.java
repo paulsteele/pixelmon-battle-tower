@@ -5,7 +5,7 @@ import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
 public class BattleTowerComputerBlock extends Block {
-    private static final String REGISTRY_NAME = "battle_tower_block_registry";
+    private static final String REGISTRY_NAME = "battle_tower_block";
 
     private static final Properties BlockProperties = Properties
             .of(Material.STONE)

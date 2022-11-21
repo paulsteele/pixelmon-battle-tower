@@ -3,7 +3,7 @@ package com.pts.pixelmon.battletower.BattleTowerComputer;
 import net.minecraft.item.BlockItem;
 
 public class BattleTowerComputerItem extends BlockItem {
-    private static final String REGISTRY_NAME = "battle_tower_item_registry";
+    private static final String REGISTRY_NAME = "battle_tower_item";
 
     public BattleTowerComputerItem(BattleTowerComputerBlock b) {
         super(b, new Properties());
