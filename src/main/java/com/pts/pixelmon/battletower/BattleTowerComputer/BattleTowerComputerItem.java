@@ -1,13 +1,12 @@
 package com.pts.pixelmon.battletower.BattleTowerComputer;
 
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraftforge.registries.DeferredRegister;
 
 public class BattleTowerComputerItem extends BlockItem {
-    private static final String REGISTRY_NAME = "battle_tower_item";
-
-    public BattleTowerComputerItem(BattleTowerComputerBlock b) {
+    public BattleTowerComputerItem(DeferredRegister<Item> itemDeferredRegister, BattleTowerComputerBlock b) {
         super(b, new Properties());
-
-        setRegistryName(REGISTRY_NAME);
+        itemDeferredRegister.register("battle_tower_item", () -> this);
     }
 }

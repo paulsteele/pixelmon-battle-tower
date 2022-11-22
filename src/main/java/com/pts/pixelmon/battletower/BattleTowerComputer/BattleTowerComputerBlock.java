@@ -1,23 +1,6 @@
 package com.pts.pixelmon.battletower.BattleTowerComputer;
 
-import com.google.common.collect.Lists;
-import com.pixelmonmod.pixelmon.Pixelmon;
-import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
-import com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory;
-import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
-import com.pixelmonmod.pixelmon.api.storage.PixelmonStorageManager;
-import com.pixelmonmod.pixelmon.api.storage.StorageProxy;
-import com.pixelmonmod.pixelmon.battles.BattleQuery;
-import com.pixelmonmod.pixelmon.battles.BattleRegistry;
-import com.pixelmonmod.pixelmon.battles.api.BattleBuilder;
-import com.pixelmonmod.pixelmon.battles.api.rules.teamselection.TeamSelectionRegistry;
-import com.pixelmonmod.pixelmon.battles.controller.BattleController;
-import com.pixelmonmod.pixelmon.battles.controller.participants.BattleParticipant;
-import com.pixelmonmod.pixelmon.battles.controller.participants.PlayerParticipant;
-import com.pixelmonmod.pixelmon.battles.controller.participants.TrainerParticipant;
-import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
-import com.pixelmonmod.pixelmon.entities.pixelmon.PixelmonEntity;
-import com.pts.pixelmon.battletower.BattleTowerMain;
+import com.pts.pixelmon.battletower.BattleTowerController;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.material.Material;
@@ -29,21 +12,24 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ToolType;
-
-import java.util.UUID;
+import net.minecraftforge.registries.DeferredRegister;
 
 public class BattleTowerComputerBlock extends Block {
-    private static final String REGISTRY_NAME = "battle_tower_block";
 
     private static final Properties BlockProperties = Properties
             .of(Material.STONE)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
             .strength(5f);
+    private final BattleTowerController controller;
 
-    public BattleTowerComputerBlock() {
+    public BattleTowerComputerBlock(
+            DeferredRegister<Block> blockDeferredRegister,
+            BattleTowerController controller
+    ) {
         super(BlockProperties);
-        setRegistryName(REGISTRY_NAME);
+        this.controller = controller;
+        blockDeferredRegister.register("battle_tower_block", () -> this);
     }
 
     @SuppressWarnings({"deprecation", "NullableProblems"})
@@ -55,21 +41,7 @@ public class BattleTowerComputerBlock extends Block {
 
         ServerPlayerEntity serverPlayer = (ServerPlayerEntity) player;
 
-        NPCTrainer trainerNPC = new NPCTrainer(world);
-        trainerNPC.setPos(player.getX(), player.getY(), player.getZ());
-        trainerNPC.setUUID(UUID.randomUUID());
-        trainerNPC.loadPokemon(Lists.newArrayList(PokemonFactory.create(PixelmonSpecies.get("Bidoof").get().getValueUnsafe())));
-        trainerNPC.canEngage = true;
-        trainerNPC.greeting = "hullo";
-        trainerNPC.init("Cool Guy");
-
-        world.addFreshEntity(trainerNPC);
-
-        TeamSelectionRegistry.builder()
-                .closeable(false)
-                .showOpponentTeam()
-                .members(serverPlayer, trainerNPC)
-                .start();
+        controller.StartRun(world, serverPlayer);
 
         return ActionResultType.SUCCESS;
     }

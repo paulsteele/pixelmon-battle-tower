@@ -1,28 +1,23 @@
 package com.pts.pixelmon.battletower.BetterItemFinder;
 
 import com.pixelmonmod.pixelmon.api.util.helpers.BlockHelper;
-import com.pixelmonmod.pixelmon.blocks.enums.EnumPokechestVisibility;
 import com.pixelmonmod.pixelmon.blocks.tileentity.PokeChestTileEntity;
 import com.pixelmonmod.pixelmon.items.ItemFinderItem;
-import com.pts.pixelmon.battletower.BattleTowerComputer.BattleTowerComputerBlock;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.TextComponent;
 import net.minecraft.world.World;
+import net.minecraftforge.registries.DeferredRegister;
 
 public class BetterItemFinderItem extends ItemFinderItem {
-    private static final String REGISTRY_NAME = "better_item_finder_item";
     private static final double RADIUS = 100.0;
 
-    public BetterItemFinderItem() {
+    public BetterItemFinderItem(DeferredRegister<Item> itemDeferredRegister) {
         super();
-
-        setRegistryName(REGISTRY_NAME);
+        itemDeferredRegister.register("better_item_finder_item", () -> this);
     }
 
     @Override
