@@ -9,14 +9,10 @@ import com.pixelmonmod.pixelmon.battles.api.rules.teamselection.TeamSelectionReg
 import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.world.World;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
-import java.util.UUID;
-import java.util.stream.Collectors;
+import java.util.*;
 
 public class BattleTowerController {
-    HashSet<BattleTowerRun> Runs = new HashSet<>();
+    HashMap<ServerPlayerEntity, BattleTowerRun> RunMap = new HashMap<>();
 
     public void StartRun(World world, ServerPlayerEntity serverPlayerEntity){
         NPCTrainer trainerNPC = new NPCTrainer(world);
@@ -29,15 +25,22 @@ public class BattleTowerController {
 
         world.addFreshEntity(trainerNPC);
 
-        if (Runs.stream().noneMatch(battleTowerRun -> battleTowerRun.GetServerPlayerEntity() == serverPlayerEntity)){
-            Runs.add(new BattleTowerRun(serverPlayerEntity));
-        }
+        BattleTowerRun run = new BattleTowerRun();
+        run.SetStatus(BattleTowerRun.BattleTowerRunStatus.BATTLING);
+        OverwriteRun(serverPlayerEntity, run);
 
         TeamSelectionRegistry.builder()
                 .closeable(false)
                 .members(serverPlayerEntity, trainerNPC)
                 .hideOpponentTeam()
                 .start();
+    }
+
+    private void OverwriteRun(ServerPlayerEntity player, BattleTowerRun run){
+        if (RunMap.containsKey(player)){
+            RunMap.replace(player, run);
+        }
+        RunMap.put(player, run);
     }
 
     public void onBattleEnded(final BattleEndEvent endEvent){
@@ -48,15 +51,11 @@ public class BattleTowerController {
 
         ServerPlayerEntity player = players.get(0);
 
-        List<BattleTowerRun> runs = Runs.stream()
-                .filter(battleTowerRun -> battleTowerRun.GetServerPlayerEntity() == player)
-                .collect(Collectors.toList());
-
-        if (runs.size() != 1) {
-           return;
+        if (!RunMap.containsKey(player)){
+            return;
         }
 
-        BattleTowerRun run = runs.get(0);
+        BattleTowerRun run = RunMap.get(player);
 
         Optional<BattleResults> resultsOptional = endEvent.getResult(player);
 
@@ -65,10 +64,11 @@ public class BattleTowerController {
         }
 
         if (resultsOptional.get() == BattleResults.VICTORY){
+            run.SetStatus(BattleTowerRun.BattleTowerRunStatus.WAITING_ON_RESULTS);
             run.IncrementStreak();
         }
         else {
-            Runs.remove(run);
+            RunMap.remove(player);
         }
     }
 }

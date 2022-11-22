@@ -1,15 +1,7 @@
 package com.pts.pixelmon.battletower;
 
-import net.minecraft.entity.player.ServerPlayerEntity;
-
 public class BattleTowerRun {
-    private final ServerPlayerEntity playerEntity;
-
-    public ServerPlayerEntity GetServerPlayerEntity() {
-        return playerEntity;
-    }
-
-    int streak;
+    private int streak;
 
     public void IncrementStreak(){
         streak++;
@@ -19,9 +11,25 @@ public class BattleTowerRun {
         return streak;
     }
 
-    public BattleTowerRun(ServerPlayerEntity playerEntity)
+    private BattleTowerRunStatus status;
+
+    public void SetStatus(BattleTowerRunStatus status){
+        this.status = status;
+    }
+
+    public BattleTowerRunStatus GetStatus(){
+        return status;
+    }
+
+    public BattleTowerRun()
     {
-        this.playerEntity = playerEntity;
         streak = 0;
+        status = BattleTowerRunStatus.WAITING_ON_CHOICES;
+    }
+
+    public enum BattleTowerRunStatus {
+        WAITING_ON_CHOICES,
+        BATTLING,
+        WAITING_ON_RESULTS,
     }
 }
