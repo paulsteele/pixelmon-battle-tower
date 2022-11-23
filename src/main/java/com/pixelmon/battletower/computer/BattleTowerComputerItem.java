@@ -1,4 +1,4 @@
-package com.pixelmon.battletower.battleTowerComputer;
+package com.pixelmon.battletower.computer;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;

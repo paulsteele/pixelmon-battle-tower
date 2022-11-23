@@ -1,7 +1,11 @@
 package com.pixelmon.battletower;
 
-import com.pixelmon.battletower.battleTowerComputer.BattleTowerComputerBlock;
-import com.pixelmon.battletower.battleTowerComputer.BattleTowerComputerItem;
+import com.pixelmon.battletower.computer.BattleTowerComputerBlock;
+import com.pixelmon.battletower.computer.BattleTowerComputerItem;
+import com.pixelmon.battletower.opponentSpot.BattleTowerOpponentSpotBlock;
+import com.pixelmon.battletower.opponentSpot.BattleTowerOpponentSpotItem;
+import com.pixelmon.battletower.playerSpot.BattleTowerPlayerSpotBlock;
+import com.pixelmon.battletower.playerSpot.BattleTowerPlayerSpotItem;
 import com.pixelmonmod.pixelmon.Pixelmon;
 import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
 import net.minecraft.block.Block;
@@ -33,7 +37,12 @@ public class BattleTowerMain
 
         BattleTowerComputerBlock battleTowerComputerBlock = new BattleTowerComputerBlock(BlockRegister, controller);
         new BattleTowerComputerItem(ItemRegister, battleTowerComputerBlock);
-        //new BetterItemFinderItem(ItemRegister);
+
+        BattleTowerPlayerSpotBlock battleTowerPlayerSpotBlock = new BattleTowerPlayerSpotBlock(BlockRegister);
+        new BattleTowerPlayerSpotItem(ItemRegister, battleTowerPlayerSpotBlock);
+
+        BattleTowerOpponentSpotBlock battleTowerOpponentSpotBlock = new BattleTowerOpponentSpotBlock(BlockRegister);
+        new BattleTowerOpponentSpotItem(ItemRegister, battleTowerOpponentSpotBlock);
 
         BlockRegister.register(FMLJavaModLoadingContext.get().getModEventBus());
         ItemRegister.register(FMLJavaModLoadingContext.get().getModEventBus());

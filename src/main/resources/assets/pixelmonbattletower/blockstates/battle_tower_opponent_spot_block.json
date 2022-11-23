@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "pixelmonbattletower:block/battle_tower_opponent_spot_block" }
+  }
+}

@@ -1,4 +1,4 @@
-package com.pixelmon.battletower.battleTowerComputer;
+package com.pixelmon.battletower.computer;
 
 import com.pixelmon.battletower.BattleTowerController;
 import net.minecraft.block.Block;
@@ -11,16 +11,13 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.World;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.registries.DeferredRegister;
 
 public class BattleTowerComputerBlock extends Block {
 
     private static final Properties BlockProperties = Properties
             .of(Material.STONE)
-            .harvestLevel(2)
-            .harvestTool(ToolType.PICKAXE)
-            .strength(5f);
+            .strength(-1);
     private final BattleTowerController controller;
 
     public BattleTowerComputerBlock(
