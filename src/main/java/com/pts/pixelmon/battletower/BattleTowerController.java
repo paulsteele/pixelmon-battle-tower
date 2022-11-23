@@ -8,26 +8,32 @@ import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
 import com.pixelmonmod.pixelmon.battles.api.rules.teamselection.TeamSelectionRegistry;
 import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
 import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
-import java.util.*;
+import net.minecraftforge.registries.ForgeRegistries;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
 
 public class BattleTowerController {
-    HashMap<ServerPlayerEntity, BattleTowerRun> RunMap = new HashMap<>();
+
+    BattleTowerSavedData savedData;
 
     public void StartRun(World world, ServerPlayerEntity serverPlayerEntity){
         NPCTrainer trainerNPC = new NPCTrainer(world);
         trainerNPC.setPos(serverPlayerEntity.getX(), serverPlayerEntity.getY(), serverPlayerEntity.getZ());
         trainerNPC.setUUID(UUID.randomUUID());
         trainerNPC.loadPokemon(Lists.newArrayList(PokemonFactory.create(PixelmonSpecies.get("Bidoof").get().getValueUnsafe())));
+        trainerNPC.updateDrops(new ItemStack[]{ new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:dirt"))) });
         trainerNPC.canEngage = true;
         trainerNPC.greeting = "hi";
         trainerNPC.init("Cool Guy");
 
         world.addFreshEntity(trainerNPC);
 
-        BattleTowerRun run = new BattleTowerRun();
-        run.SetStatus(BattleTowerRun.BattleTowerRunStatus.BATTLING);
-        OverwriteRun(serverPlayerEntity, run);
+        savedData.StartRun(serverPlayerEntity);
 
         TeamSelectionRegistry.builder()
                 .closeable(false)
@@ -36,26 +42,18 @@ public class BattleTowerController {
                 .start();
     }
 
-    private void OverwriteRun(ServerPlayerEntity player, BattleTowerRun run){
-        if (RunMap.containsKey(player)){
-            RunMap.replace(player, run);
-        }
-        RunMap.put(player, run);
-    }
-
-    public void onBattleEnded(final BattleEndEvent endEvent){
+    public void OnBattleEnded(final BattleEndEvent endEvent){
         List<ServerPlayerEntity> players = endEvent.getPlayers();
         if (players.size() != 1){
             return;
         }
+        endEvent.getBattleController();
 
         ServerPlayerEntity player = players.get(0);
 
-        if (!RunMap.containsKey(player)){
+        if (!savedData.HasRun(player)){
             return;
         }
-
-        BattleTowerRun run = RunMap.get(player);
 
         Optional<BattleResults> resultsOptional = endEvent.getResult(player);
 
@@ -64,11 +62,10 @@ public class BattleTowerController {
         }
 
         if (resultsOptional.get() == BattleResults.VICTORY){
-            run.SetStatus(BattleTowerRun.BattleTowerRunStatus.WAITING_ON_RESULTS);
-            run.IncrementStreak();
+            savedData.IncrementStreak(player);
         }
         else {
-            RunMap.remove(player);
+            savedData.EndRun(player);
         }
     }
 }

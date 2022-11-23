@@ -1,5 +1,7 @@
 package com.pts.pixelmon.battletower;
 
+import net.minecraft.nbt.CompoundNBT;
+
 public class BattleTowerRun {
     private int streak;
 
@@ -7,29 +9,25 @@ public class BattleTowerRun {
         streak++;
     }
 
+    private void SetStreak(int streak){
+        this.streak = streak;
+    }
+
     public int GetStreak(){
         return streak;
     }
 
-    private BattleTowerRunStatus status;
+    public CompoundNBT ToNbt(){
+        CompoundNBT nbt = new CompoundNBT();
+        nbt.putInt("streak", streak);
 
-    public void SetStatus(BattleTowerRunStatus status){
-        this.status = status;
+        return nbt;
     }
 
-    public BattleTowerRunStatus GetStatus(){
-        return status;
-    }
+   public static BattleTowerRun FromNbt(CompoundNBT nbt){
+        BattleTowerRun run = new BattleTowerRun();
+        run.SetStreak(nbt.getInt("streak"));
 
-    public BattleTowerRun()
-    {
-        streak = 0;
-        status = BattleTowerRunStatus.WAITING_ON_CHOICES;
-    }
-
-    public enum BattleTowerRunStatus {
-        WAITING_ON_CHOICES,
-        BATTLING,
-        WAITING_ON_RESULTS,
-    }
+        return run;
+   }
 }

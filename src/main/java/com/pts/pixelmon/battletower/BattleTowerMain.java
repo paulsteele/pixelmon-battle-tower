@@ -42,6 +42,6 @@ public class BattleTowerMain
 
     @SubscribeEvent
     public void onBattleEndEvent(final BattleEndEvent event){
-        controller.onBattleEnded(event);
+        controller.OnBattleEnded(event);
     }
 }
