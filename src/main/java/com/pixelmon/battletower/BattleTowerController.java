@@ -1,6 +1,9 @@
 package com.pixelmon.battletower;
 
 import com.google.common.collect.Lists;
+import com.pixelmon.battletower.blocks.opponentSpot.BattleTowerOpponentSpotBlock;
+import com.pixelmon.battletower.blocks.playerSpot.BattleTowerPlayerSpotBlock;
+import com.pixelmon.battletower.helper.BlockFinder;
 import com.pixelmon.battletower.persistence.BattleTowerRun;
 import com.pixelmon.battletower.persistence.BattleTowerSavedData;
 import com.pixelmonmod.pixelmon.api.battles.BattleResults;
@@ -15,6 +18,8 @@ import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,25 +32,43 @@ import java.util.stream.Collectors;
 public class BattleTowerController {
 
     private BattleTowerSavedData savedData;
+    private BlockFinder finder;
+    private final BattleTowerPlayerSpotBlock playerSpotBlock;
+    private final BattleTowerOpponentSpotBlock opponentSpotBlock;
 
-    public void PresentChoices(World world, ServerPlayerEntity serverPlayerEntity){
+    public BattleTowerController(
+        BlockFinder finder,
+        BattleTowerPlayerSpotBlock playerSpotBlock,
+        BattleTowerOpponentSpotBlock opponentSpotBlock
+    ){
+        this.finder = finder;
+
+        this.playerSpotBlock = playerSpotBlock;
+        this.opponentSpotBlock = opponentSpotBlock;
+    }
+
+    public void PresentChoices(
+            World world,
+            ServerPlayerEntity serverPlayerEntity,
+            BlockPos computerBlockPos
+    ){
         BattleTowerSavedData data = GetOrCreateSavedData((ServerWorld) world);
 
         if (data.HasRun(serverPlayerEntity)){
-            PresentContinueRun(world, serverPlayerEntity);
+            PresentContinueRun(world, serverPlayerEntity, computerBlockPos);
         }
         else {
-            PresentStartRun(world, serverPlayerEntity);
+            PresentStartRun(world, serverPlayerEntity, computerBlockPos);
         }
     }
 
-    private void PresentContinueRun(World world, ServerPlayerEntity player){
+    private void PresentContinueRun(World world, ServerPlayerEntity player, BlockPos computerBlockPos){
         Dialogue.DialogueBuilder builder = new Dialogue.DialogueBuilder();
         Choice.ChoiceBuilder continueChoice = new Choice.ChoiceBuilder();
 
         continueChoice.setText("Continue");
         continueChoice.setHandle(dialogueChoiceEvent -> {
-            StartRun(world, player, savedData.GetType(player));
+            StartRun(world, player, computerBlockPos, savedData.GetType(player));
         });
 
         Choice.ChoiceBuilder quit = new Choice.ChoiceBuilder();
@@ -67,19 +90,19 @@ public class BattleTowerController {
                 .open(player);
     }
 
-    private void PresentStartRun(World world, ServerPlayerEntity player){
+    private void PresentStartRun(World world, ServerPlayerEntity player, BlockPos computerBlockPos){
         Dialogue.DialogueBuilder builder = new Dialogue.DialogueBuilder();
         Choice.ChoiceBuilder singles = new Choice.ChoiceBuilder();
 
         singles.setText("Singles");
         singles.setHandle(dialogueChoiceEvent -> {
-            StartRun(world, player, BattleTowerRun.RunType.SINGLES);
+            StartRun(world, player, computerBlockPos, BattleTowerRun.RunType.SINGLES);
         });
 
         Choice.ChoiceBuilder doubles = new Choice.ChoiceBuilder();
         doubles.setText("Doubles");
         doubles.setHandle(dialogueChoiceEvent -> {
-            StartRun(world, player, BattleTowerRun.RunType.DOUBLES);
+            StartRun(world, player, computerBlockPos, BattleTowerRun.RunType.DOUBLES);
         });
 
         Choice.ChoiceBuilder cancel = new Choice.ChoiceBuilder();
@@ -95,7 +118,20 @@ public class BattleTowerController {
                 .open(player);
     }
 
-    private void StartRun(World world, ServerPlayerEntity serverPlayerEntity, BattleTowerRun.RunType type){
+    private void StartRun(World world, ServerPlayerEntity serverPlayerEntity, BlockPos computerBlockPos, BattleTowerRun.RunType type){
+        Optional<BlockPos> playerBlock = GetPlayerBlock(world, computerBlockPos);
+        Optional<BlockPos> opponentBlock = GetOpponentBlock(world, computerBlockPos);
+
+        if (!playerBlock.isPresent()){
+            serverPlayerEntity.displayClientMessage(new StringTextComponent("Could not find player pedestal nearby"), false);
+            return;
+        }
+        if (!opponentBlock.isPresent()){
+            serverPlayerEntity.displayClientMessage(new StringTextComponent("Could not find opponent pedestal nearby"), false);
+            return;
+        }
+        BlockPos playerPos = playerBlockPos.get();
+        BlockPos opponentPos = opponentBlockPos.get();
 
         NPCTrainer trainerNPC = new NPCTrainer(world);
         trainerNPC.setPos(serverPlayerEntity.getX(), serverPlayerEntity.getY(), serverPlayerEntity.getZ());
@@ -107,6 +143,8 @@ public class BattleTowerController {
         trainerNPC.init("Cool Guy");
 
         world.addFreshEntity(trainerNPC);
+        trainerNPC.teleportTo(opponentPos.getX() + .5, opponentPos.getY() + 1, opponentPos.getZ() + .5);
+        serverPlayerEntity.teleportTo(playerPos.getX() + .5, playerPos.getY() + 1, playerPos.getZ() + .5);
 
         savedData.StartRun(serverPlayerEntity, type);
 
@@ -115,6 +153,24 @@ public class BattleTowerController {
                 .members(serverPlayerEntity, trainerNPC)
                 .hideOpponentTeam()
                 .start();
+    }
+
+    private Optional<BlockPos> playerBlockPos;
+    private Optional<BlockPos> opponentBlockPos;
+    private Optional<BlockPos> GetPlayerBlock(World world, BlockPos computerBlockPos){
+        if (playerBlockPos == null || !playerBlockPos.isPresent() || world.getBlockState(playerBlockPos.get()).getBlock() != playerSpotBlock){
+            playerBlockPos = finder.FindNearestBlock(world, computerBlockPos, playerSpotBlock);
+        }
+
+        return playerBlockPos;
+    }
+
+    private Optional<BlockPos> GetOpponentBlock(World world, BlockPos computerBlockPos){
+        if (opponentBlockPos == null || !opponentBlockPos.isPresent() || world.getBlockState(opponentBlockPos.get()).getBlock() != opponentSpotBlock){
+            opponentBlockPos = finder.FindNearestBlock(world, computerBlockPos, opponentSpotBlock);
+        }
+
+        return opponentBlockPos;
     }
 
     private BattleTowerSavedData GetOrCreateSavedData(ServerWorld world){
