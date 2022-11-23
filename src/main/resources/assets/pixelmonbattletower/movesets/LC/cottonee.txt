@@ -1,0 +1,9 @@
+Cottonee @ Eviolite
+Level: 5
+Ability: Prankster
+EVs: 36 HP / 36 Def / 140 SpA / 36 SpD / 228 Spe
+Timid Nature
+- Memento
+- Knock Off
+- Dazzling Gleam
+- Encore

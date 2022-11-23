@@ -1,0 +1,8 @@
+Deoxys-Attack @ Focus Sash
+Ability: Pressure
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Nasty Plot
+- Psychic
+- Thunder
+- Dark Pulse

@@ -1,0 +1,10 @@
+Dratini @ Life Orb
+Level: 5
+Ability: Shed Skin
+EVs: 164 Atk / 196 SpA / 116 Spe
+IVs: 17 HP
+Rash Nature
+- Draco Meteor
+- Extreme Speed
+- Iron Tail
+- Fire Blast

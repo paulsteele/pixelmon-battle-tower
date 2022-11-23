@@ -1,0 +1,8 @@
+Hoopa-Unbound @ Choice Band
+Ability: Magician
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Hyperspace Fury
+- Gunk Shot
+- Drain Punch
+- Fire Punch

@@ -1,0 +1,8 @@
+Jolteon @ Heavy-Duty Boots
+Ability: Volt Absorb
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Volt Switch
+- Shadow Ball
+- Toxic

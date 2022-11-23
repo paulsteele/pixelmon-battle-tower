@@ -1,0 +1,8 @@
+Wormadam-Trash @ Leftovers
+Ability: Overcoat
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Stealth Rock
+- Toxic
+- Protect
+- Iron Head

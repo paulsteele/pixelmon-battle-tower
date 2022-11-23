@@ -1,0 +1,8 @@
+Hitmonchan @ Assault Vest
+Ability: Iron Fist
+EVs: 160 HP / 252 Atk / 96 Spe
+Adamant Nature
+- Rapid Spin
+- Drain Punch
+- Mach Punch
+- Throat Chop

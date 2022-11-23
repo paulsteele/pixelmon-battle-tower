@@ -1,0 +1,9 @@
+Drifloon @ Flying Gem
+Level: 5
+Ability: Unburden
+EVs: 196 Atk / 116 SpA / 196 Spe
+Naive Nature
+- Acrobatics
+- Shadow Ball
+- Will-O-Wisp
+- Substitute

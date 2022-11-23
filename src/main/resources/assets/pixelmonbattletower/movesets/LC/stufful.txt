@@ -1,0 +1,9 @@
+Stufful @ Eviolite
+Level: 5
+Ability: Fluffy
+EVs: 236 Atk / 36 Def / 196 SpD / 36 Spe
+Adamant Nature
+- Swords Dance
+- Return
+- Brick Break
+- Ice Punch

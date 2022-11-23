@@ -1,0 +1,8 @@
+Arceus-Fighting @ Fist Plate
+Ability: Multitype
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Calm Mind
+- Judgment
+- Shadow Ball
+- Recover

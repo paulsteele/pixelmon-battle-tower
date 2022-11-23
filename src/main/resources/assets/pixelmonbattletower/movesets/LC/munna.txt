@@ -1,0 +1,9 @@
+Munna @ Eviolite
+Level: 5
+Ability: Synchronize
+EVs: 68 HP / 156 Def / 60 SpA / 156 SpD / 4 Spe
+Bold Nature
+- Calm Mind
+- Stored Power
+- Dazzling Gleam
+- Moonlight

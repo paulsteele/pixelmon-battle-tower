@@ -1,0 +1,9 @@
+Mienfoo @ Eviolite
+Level: 5
+Ability: Regenerator
+EVs: 196 Def / 36 SpD / 236 Spe
+Jolly Nature
+- High Jump Kick
+- U-turn
+- Knock Off
+- Fake Out

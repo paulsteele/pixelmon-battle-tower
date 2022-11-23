@@ -1,0 +1,8 @@
+Poliwrath @ Choice Band
+Ability: Water Absorb
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Liquidation
+- Close Combat
+- Darkest Lariat
+- Earthquake

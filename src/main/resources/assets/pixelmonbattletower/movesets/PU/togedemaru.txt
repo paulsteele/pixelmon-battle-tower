@@ -1,0 +1,8 @@
+Togedemaru @ Choice Scarf
+Ability: Lightning Rod
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Zing Zap
+- Iron Head
+- U-turn
+- Toxic

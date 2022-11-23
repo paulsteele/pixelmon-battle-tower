@@ -1,0 +1,9 @@
+Dustox @ Black Sludge
+Ability: Shield Dust
+EVs: 248 HP / 120 Def / 140 Spe
+IVs: 0 Atk
+Bold Nature
+- Quiver Dance
+- Iron Defense
+- Bug Buzz
+- Roost

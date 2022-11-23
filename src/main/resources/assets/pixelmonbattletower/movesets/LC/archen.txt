@@ -1,0 +1,9 @@
+Archen @ Choice Scarf
+Level: 5
+Ability: Defeatist
+EVs: 76 HP / 180 Atk / 196 Spe
+Jolly Nature
+- Dual Wingbeat
+- Earthquake
+- U-turn
+- Knock Off

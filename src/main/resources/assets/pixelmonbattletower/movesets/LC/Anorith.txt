@@ -1,0 +1,9 @@
+Anorith @ Berry Juice
+Level: 5
+Ability: Battle Armor
+EVs: 236 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Stealth Rock
+- Rapid Spin
+- Knock Off
+- Rock Blast

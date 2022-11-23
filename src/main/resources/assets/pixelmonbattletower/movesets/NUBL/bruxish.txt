@@ -1,0 +1,8 @@
+Bruxish @ Life Orb
+Ability: Strong Jaw
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Psychic Fangs
+- Aqua Jet
+- Crunch

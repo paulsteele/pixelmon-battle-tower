@@ -1,0 +1,8 @@
+Tapu Bulu @ Life Orb
+Ability: Grassy Surge
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Swords Dance
+- Horn Leech
+- Stone Edge
+- Zen Headbutt

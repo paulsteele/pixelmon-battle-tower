@@ -1,0 +1,9 @@
+Panpour @ Eviolite
+Level: 5
+Ability: Torrent
+EVs: 36 HP / 52 Def / 176 SpA / 244 Spe
+Timid Nature
+- Nasty Plot
+- Hydro Pump
+- Ice Beam
+- Hidden Power Grass

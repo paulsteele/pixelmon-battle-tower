@@ -1,0 +1,8 @@
+Hoopa @ Ghostium Z
+Ability: Magician
+EVs: 248 SpA / 8 SpD / 252 Spe
+Timid Nature
+- Shadow Ball
+- Focus Blast
+- Thunderbolt
+- Nasty Plot

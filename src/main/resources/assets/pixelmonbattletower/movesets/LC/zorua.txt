@@ -1,0 +1,9 @@
+Zorua @ Life Orb
+Level: 5
+Ability: Illusion
+EVs: 36 Def / 196 SpA / 36 SpD / 236 Spe
+Timid Nature
+- Night Daze
+- Extrasensory
+- Nasty Plot
+- U-turn

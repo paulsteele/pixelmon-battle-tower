@@ -1,0 +1,9 @@
+Bulbasaur @ Normalium Z
+Level: 5
+Ability: Chlorophyll
+EVs: 44 Def / 160 SpA / 240 Spe
+Modest Nature
+- Celebrate
+- Sludge Bomb
+- Giga Drain
+- Hidden Power Fire

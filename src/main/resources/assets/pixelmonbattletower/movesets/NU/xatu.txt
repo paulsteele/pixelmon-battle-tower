@@ -1,0 +1,8 @@
+Xatu @ Rocky Helmet
+Ability: Magic Bounce
+EVs: 252 HP / 240 Def / 16 Spe
+Timid Nature
+- Psychic
+- Foul Play
+- Roost
+- Teleport

@@ -1,0 +1,9 @@
+Ponyta @ Berry Juice
+Level: 5
+Ability: Flame Body
+EVs: 36 HP / 236 Atk / 196 Spe
+Jolly Nature
+- Flare Blitz
+- Wild Charge
+- Flame Charge
+- High Horsepower

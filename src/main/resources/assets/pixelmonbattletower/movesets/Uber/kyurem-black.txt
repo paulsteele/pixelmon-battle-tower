@@ -1,0 +1,8 @@
+Kyurem-Black @ Life Orb
+Ability: Teravolt
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Dance
+- Icicle Spear
+- Roost
+- Fusion Bolt

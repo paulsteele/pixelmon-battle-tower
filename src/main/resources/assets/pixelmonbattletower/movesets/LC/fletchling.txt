@@ -1,0 +1,9 @@
+Fletchling @ Berry Juice
+Level: 5
+Ability: Gale Wings
+EVs: 196 Atk / 92 Def / 180 Spe
+Adamant Nature
+- Acrobatics
+- Swords Dance
+- U-turn
+- Substitute

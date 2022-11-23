@@ -1,0 +1,9 @@
+Finneon @ Berry Juice
+Level: 5
+Ability: Storm Drain
+EVs: 44 HP / 232 Def / 48 SpA / 112 SpD / 72 Spe
+Bold Nature
+- Defog
+- Scald
+- U-turn
+- Hidden Power Fighting

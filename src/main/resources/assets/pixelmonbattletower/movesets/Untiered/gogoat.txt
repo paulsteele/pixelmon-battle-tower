@@ -1,0 +1,8 @@
+Gogoat @ Leftovers
+Ability: Sap Sipper
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Bulk Up
+- Horn Leech
+- Earthquake
+- Milk Drink

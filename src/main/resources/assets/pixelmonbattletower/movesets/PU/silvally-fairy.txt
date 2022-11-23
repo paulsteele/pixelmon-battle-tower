@@ -1,0 +1,8 @@
+Silvally-Fairy @ Fairy Memory
+Ability: RKS System
+EVs: 252 HP / 96 Def / 160 Spe
+Jolly Nature
+- Multi-Attack
+- Parting Shot
+- Defog
+- Flamethrower

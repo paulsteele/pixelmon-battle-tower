@@ -1,0 +1,8 @@
+Bewear @ Chople Berry
+Ability: Fluffy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Double-Edge
+- Drain Punch
+- Darkest Lariat

@@ -1,0 +1,9 @@
+Ludicolo @ Life Orb
+Ability: Swift Swim
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Modest Nature
+- Weather Ball
+- Giga Drain
+- Ice Beam
+- Protect

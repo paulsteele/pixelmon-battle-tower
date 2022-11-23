@@ -1,0 +1,10 @@
+Espurr @ Electrium Z
+Level: 5
+Ability: Infiltrator
+EVs: 20 HP / 4 Def / 176 SpA / 36 SpD / 216 Spe
+IVs: 0 Atk / 30 SpA / 30 Spe
+Timid Nature
+- Thunderbolt
+- Psychic
+- Substitute
+- Hidden Power Fire

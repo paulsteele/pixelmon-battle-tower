@@ -1,0 +1,9 @@
+Goomy @ Eviolite
+Level: 5
+Ability: Sap Sipper
+EVs: 76 HP / 236 Def / 156 SpD / 40 Spe
+Bold Nature
+- Dragon Pulse
+- Sludge Wave
+- Rest
+- Sleep Talk

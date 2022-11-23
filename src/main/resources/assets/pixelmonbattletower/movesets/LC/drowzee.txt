@@ -1,0 +1,9 @@
+Drowzee @ Eviolite
+Level: 5
+Ability: Insomnia
+EVs: 196 HP / 236 Def / 12 SpA / 36 SpD / 20 Spe
+Bold Nature
+- Psychic
+- Counter
+- Wish
+- Protect

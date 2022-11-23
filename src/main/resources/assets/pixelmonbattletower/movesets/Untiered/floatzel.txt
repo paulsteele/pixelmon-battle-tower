@@ -1,0 +1,8 @@
+Floatzel @ Life Orb
+Ability: Swift Swim
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hydro Pump
+- Ice Beam
+- Focus Blast
+- Taunt

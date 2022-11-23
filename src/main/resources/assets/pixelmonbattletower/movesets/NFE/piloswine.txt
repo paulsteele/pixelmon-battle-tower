@@ -1,0 +1,8 @@
+Piloswine @ Eviolite
+Ability: Thick Fat
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Stealth Rock
+- High Horsepower
+- Icicle Crash
+- Ice Shard

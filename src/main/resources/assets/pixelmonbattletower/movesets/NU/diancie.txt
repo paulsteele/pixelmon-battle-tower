@@ -1,0 +1,8 @@
+Diancie @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 56 SpD / 200 Spe
+Careful Nature
+- Stealth Rock
+- Diamond Storm
+- Body Press
+- Heal Bell

@@ -1,0 +1,8 @@
+Copperajah @ Assault Vest
+Ability: Heavy Metal
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Heavy Slam
+- Power Whip
+- Stone Edge
+- Superpower

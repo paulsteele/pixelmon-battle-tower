@@ -1,0 +1,9 @@
+Bidoof @ Eviolite
+Level: 5
+Ability: Simple
+EVs: 236 Atk / 116 Def / 116 SpD / 28 Spe
+Adamant Nature
+- Swords Dance
+- Return
+- Quick Attack
+- Crunch

@@ -1,0 +1,8 @@
+Loudred @ Leftovers
+Ability: Soundproof
+EVs: 100 HP / 252 Atk / 16 SpA / 140 Spe
+Naughty Nature
+- Return
+- Shadow Ball
+- Earthquake
+- Fire Blast

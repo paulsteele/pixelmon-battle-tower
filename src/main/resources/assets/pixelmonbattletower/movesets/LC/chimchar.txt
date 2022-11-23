@@ -1,0 +1,9 @@
+Chimchar @ Focus Sash
+Level: 5
+Ability: Blaze
+EVs: 4 HP / 56 Atk / 4 Def / 216 SpA / 4 SpD / 188 Spe
+Hasty Nature
+- Fake Out
+- Overheat
+- Hidden Power Grass
+- Stealth Rock

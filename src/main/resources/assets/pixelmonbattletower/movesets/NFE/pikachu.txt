@@ -1,0 +1,8 @@
+Pikachu @ Light Ball
+Ability: Static
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naughty Nature
+- Fake Out
+- Extreme Speed
+- Volt Switch
+- Knock Off

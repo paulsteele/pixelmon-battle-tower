@@ -1,0 +1,8 @@
+Magmar @ Life Orb
+Ability: Vital Spirit
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Fire Blast
+- Focus Blast
+- Hidden Power Grass
+- Mach Punch

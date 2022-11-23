@@ -1,0 +1,8 @@
+Linoone @ Figy Berry
+Ability: Gluttony
+EVs: 60 HP / 252 Atk / 196 Spe
+Adamant Nature
+- Belly Drum
+- Extreme Speed
+- Stomping Tantrum
+- Seed Bomb

@@ -1,0 +1,8 @@
+Vivillon @ Leftovers
+Ability: Compound Eyes
+EVs: 136 Def / 120 SpA / 252 Spe
+Timid Nature
+- Sleep Powder
+- Substitute
+- Quiver Dance
+- Hurricane

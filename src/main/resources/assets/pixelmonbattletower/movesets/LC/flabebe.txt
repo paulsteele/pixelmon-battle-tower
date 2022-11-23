@@ -1,0 +1,9 @@
+Flabebe @ Eviolite
+Level: 5
+Ability: Flower Veil
+EVs: 164 HP / 204 Def / 108 SpA / 20 Spe
+Bold Nature
+- Calm Mind
+- Psychic
+- Moonblast
+- Synthesis

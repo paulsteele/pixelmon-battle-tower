@@ -1,0 +1,9 @@
+Slakoth @ Choice Band
+Level: 5
+Ability: Truant
+EVs: 196 HP / 196 Atk / 36 Def / 76 SpD
+Adamant Nature
+- Return
+- Pursuit
+- Ice Punch
+- Hammer Arm

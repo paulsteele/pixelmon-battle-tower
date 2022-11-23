@@ -1,0 +1,8 @@
+Regirock @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 232 Def / 24 SpD
+Impish Nature
+- Stealth Rock
+- Rock Blast
+- Body Press
+- Toxic

@@ -1,0 +1,8 @@
+Arceus-Poison @ Toxic Plate
+Ability: Multitype
+EVs: 244 HP / 176 SpD / 88 Spe
+Calm Nature
+- Sludge Bomb
+- Ice Beam
+- Psych Up
+- Recover

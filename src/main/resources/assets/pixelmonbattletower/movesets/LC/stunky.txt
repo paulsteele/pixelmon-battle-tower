@@ -1,0 +1,9 @@
+Stunky @ Life Orb
+Level: 5
+Ability: Aftermath
+EVs: 12 HP / 252 Atk / 244 Spe
+Hasty Nature
+- Crunch
+- Sucker Punch
+- Play Rough
+- Fire Blast

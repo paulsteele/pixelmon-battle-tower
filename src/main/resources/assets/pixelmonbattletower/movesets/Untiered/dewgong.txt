@@ -1,0 +1,8 @@
+Dewgong @ Leftovers
+Ability: Hydration
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Whirlpool
+- Perish Song
+- Rain Dance
+- Rest

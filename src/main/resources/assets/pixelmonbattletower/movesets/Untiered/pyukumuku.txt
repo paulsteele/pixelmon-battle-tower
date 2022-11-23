@@ -1,0 +1,8 @@
+Pyukumuku @ Leftovers
+Ability: Unaware
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Block
+- Spite
+- Recover
+- Rest

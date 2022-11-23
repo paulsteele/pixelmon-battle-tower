@@ -1,0 +1,8 @@
+Yanma @ Focus Sash
+Ability: Compound Eyes
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Bug Buzz
+- Air Slash
+- Protect
+- Hypnosis

@@ -1,0 +1,9 @@
+Oranguru @ Leftovers
+Ability: Inner Focus
+EVs: 160 HP / 252 SpA / 96 Spe
+IVs: 0 Atk
+Modest Nature
+- Substitute
+- Nasty Plot
+- Psychic
+- Thunderbolt

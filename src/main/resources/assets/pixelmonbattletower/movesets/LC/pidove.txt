@@ -1,0 +1,9 @@
+Pidove @ Flyinium Z
+Level: 5
+Ability: Super Luck
+EVs: 240 Atk / 252 Spe
+Adamant Nature
+- Tailwind
+- Aerial Ace
+- Hidden Power Grass
+- Return

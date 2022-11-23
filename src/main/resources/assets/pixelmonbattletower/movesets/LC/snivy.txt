@@ -1,0 +1,9 @@
+Snivy @ Eviolite
+Level: 5
+Ability: Contrary
+EVs: 240 SpA / 252 Spe
+Timid Nature
+- Leaf Storm
+- Defog
+- Synthesis
+- Hidden Power Ice

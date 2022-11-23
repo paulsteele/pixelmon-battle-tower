@@ -1,0 +1,8 @@
+Stunfisk @ Leftovers
+Ability: Static
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Stealth Rock
+- Toxic
+- Earth Power
+- Discharge

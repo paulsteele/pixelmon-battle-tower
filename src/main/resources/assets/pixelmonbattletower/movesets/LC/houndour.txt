@@ -1,0 +1,10 @@
+Houndour @ Life Orb
+Level: 5
+Ability: Flash Fire
+EVs: 36 Atk / 36 Def / 196 SpA / 236 Spe
+IVs: 9 HP
+Naive Nature
+- Fire Blast
+- Dark Pulse
+- Sucker Punch
+- Flame Charge

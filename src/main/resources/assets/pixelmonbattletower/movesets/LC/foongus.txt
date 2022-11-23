@@ -1,0 +1,9 @@
+Foongus @ Eviolite
+Level: 5
+Ability: Regenerator
+EVs: 44 HP / 156 Def / 236 SpD
+Bold Nature
+- Spore
+- Sludge Bomb
+- Giga Drain
+- Synthesis

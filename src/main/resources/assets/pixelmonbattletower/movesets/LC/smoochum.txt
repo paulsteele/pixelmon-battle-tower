@@ -1,0 +1,9 @@
+Smoochum @ Icium Z
+Level: 5
+Ability: Forewarn
+EVs: 240 SpA / 240 Spe
+Timid Nature
+- Blizzard
+- Psychic
+- Hidden Power Fighting
+- Substitute

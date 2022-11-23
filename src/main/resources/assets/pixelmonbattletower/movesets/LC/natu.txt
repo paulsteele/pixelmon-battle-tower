@@ -1,0 +1,9 @@
+Natu @ Eviolite
+Level: 5
+Ability: Magic Bounce
+EVs: 36 HP / 76 Def / 36 SpA / 156 SpD / 196 Spe
+Timid Nature
+- Psychic
+- Heat Wave
+- Roost
+- U-turn

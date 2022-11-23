@@ -1,0 +1,8 @@
+Golem-Alola @ Choice Scarf
+Ability: Magnet Pull
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Wild Charge
+- Earthquake
+- Fire Punch
+- Explosion

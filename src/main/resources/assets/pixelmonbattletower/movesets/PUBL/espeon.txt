@@ -1,0 +1,8 @@
+Espeon @ Choice Specs
+Ability: Magic Bounce
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Dazzling Gleam
+- Shadow Ball
+- Trick

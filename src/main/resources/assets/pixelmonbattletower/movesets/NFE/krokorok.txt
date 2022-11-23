@@ -1,0 +1,8 @@
+Krokorok @ Eviolite
+Ability: Intimidate
+EVs: 252 HP / 152 Def / 104 Spe
+Jolly Nature
+- Stealth Rock
+- Taunt
+- Knock Off
+- Earthquake

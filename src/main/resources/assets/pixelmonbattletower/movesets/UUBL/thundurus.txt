@@ -1,0 +1,8 @@
+Thundurus @ Heavy-Duty Boots
+Ability: Prankster
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Thunderbolt
+- Knock Off
+- U-turn
+- Thunder Wave

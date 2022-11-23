@@ -1,0 +1,8 @@
+Smeargle @ Focus Sash
+Ability: Own Tempo
+EVs: 4 HP / 252 Def / 252 Spe
+Jolly Nature
+- Sticky Web
+- Taunt
+- Nuzzle
+- Rapid Spin

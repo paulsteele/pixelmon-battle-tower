@@ -1,0 +1,9 @@
+Remoraid @ Choice Scarf
+Level: 5
+Ability: Hustle
+EVs: 236 SpA / 236 Spe
+Naive Nature
+- Water Spout
+- Hydro Pump
+- Fire Blast
+- Bullet Seed

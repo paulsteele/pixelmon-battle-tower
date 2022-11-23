@@ -1,0 +1,9 @@
+Greedent @ Sitrus Berry
+Ability: Cheek Pouch
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 0 Spe
+Brave Nature
+- Belly Drum
+- Facade
+- Earthquake
+- Crunch

@@ -1,0 +1,8 @@
+Landorus-Therian @ Leftovers
+Ability: Intimidate
+EVs: 252 HP / 164 Def / 92 Spe
+Impish Nature
+- Stealth Rock
+- Earthquake
+- U-turn
+- Toxic

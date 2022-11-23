@@ -1,0 +1,9 @@
+Rattata-Alola @ Life Orb
+Level: 5
+Ability: Hustle
+EVs: 228 Atk / 76 Def / 180 Spe
+Jolly Nature
+- Double-Edge
+- Sucker Punch
+- U-turn
+- Pursuit

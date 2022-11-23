@@ -1,0 +1,10 @@
+Shuppet @ Focus Sash
+Level: 5
+Ability: Frisk
+EVs: 4 HP / 236 Atk / 156 Def / 92 SpD
+IVs: 0 Spe
+Brave Nature
+- Trick Room
+- Knock Off
+- Shadow Sneak
+- Destiny Bond

@@ -1,0 +1,9 @@
+Pumpkaboo-Small @ Ghostium Z
+Level: 5
+Ability: Frisk
+EVs: 4 HP / 36 Def / 164 SpA / 156 SpD / 148 Spe
+Modest Nature
+- Trick-or-Treat
+- Shadow Ball
+- Fire Blast
+- Giga Drain

@@ -1,0 +1,8 @@
+Aerodactyl @ Heavy-Duty Boots
+Ability: Pressure
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Stone Edge
+- Earthquake
+- Roost
+- Stealth Rock

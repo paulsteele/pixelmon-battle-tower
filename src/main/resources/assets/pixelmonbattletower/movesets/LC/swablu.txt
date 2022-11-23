@@ -1,0 +1,9 @@
+Swablu @ Eviolite
+Level: 5
+Ability: Natural Cure
+EVs: 156 HP / 196 Atk / 156 SpD
+Adamant Nature
+- Return
+- Roost
+- Cotton Guard
+- Agility

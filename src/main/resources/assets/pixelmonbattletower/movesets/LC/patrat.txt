@@ -1,0 +1,9 @@
+Patrat @ Eviolite
+Level: 5
+Ability: Analytic
+EVs: 236 Atk / 204 Def / 44 SpD / 20 Spe
+Adamant Nature
+- Swords Dance
+- Hypnosis
+- Return
+- Zen Headbutt

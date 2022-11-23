@@ -1,0 +1,8 @@
+Raticate-Alola @ Normalium Z
+Ability: Hustle
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Double-Edge
+- Knock Off
+- Sucker Punch

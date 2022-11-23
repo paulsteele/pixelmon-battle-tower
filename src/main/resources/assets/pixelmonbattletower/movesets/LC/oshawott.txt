@@ -1,0 +1,9 @@
+Oshawott @ Life Orb
+Level: 5
+Ability: Torrent
+EVs: 236 Atk / 236 Spe
+Adamant Nature
+- Swords Dance
+- Sacred Sword
+- Aqua Jet
+- Aqua Tail

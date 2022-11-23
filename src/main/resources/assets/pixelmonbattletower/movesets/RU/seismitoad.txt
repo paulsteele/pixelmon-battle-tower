@@ -1,0 +1,8 @@
+Seismitoad @ Leftovers
+Ability: Water Absorb
+EVs: 252 HP / 232 Def / 24 Spe
+Impish Nature
+- Stealth Rock
+- Earthquake
+- Knock Off
+- Toxic

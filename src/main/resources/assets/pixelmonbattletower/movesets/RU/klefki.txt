@@ -1,0 +1,9 @@
+Klefki @ Leftovers
+Ability: Prankster
+EVs: 252 HP / 240 SpD / 16 Spe
+IVs: 0 Atk
+Calm Nature
+- Spikes
+- Dazzling Gleam
+- Thunder Wave
+- Toxic

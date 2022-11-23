@@ -1,0 +1,8 @@
+Diggersby @ Life Orb
+Ability: Huge Power
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Swords Dance
+- Quick Attack
+- Earthquake
+- Fire Punch

@@ -1,0 +1,8 @@
+Silvally-Fighting @ Fighting Memory
+Ability: RKS System
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Multi-Attack
+- U-turn
+- Thunderbolt
+- Ice Beam

@@ -1,0 +1,8 @@
+Zebstrika @ Life Orb
+Ability: Sap Sipper
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Thunderbolt
+- Volt Switch
+- Overheat
+- Hidden Power Grass

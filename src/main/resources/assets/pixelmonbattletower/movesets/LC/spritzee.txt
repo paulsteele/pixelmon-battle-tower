@@ -1,0 +1,9 @@
+Spritzee @ Eviolite
+Level: 5
+Ability: Aroma Veil
+EVs: 212 HP / 196 Def / 12 SpA / 76 SpD / 12 Spe
+Bold Nature
+- Wish
+- Protect
+- Moonblast
+- Covet

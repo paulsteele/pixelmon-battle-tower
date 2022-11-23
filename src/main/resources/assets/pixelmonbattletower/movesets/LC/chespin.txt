@@ -1,0 +1,9 @@
+Chespin @ Eviolite
+Level: 5
+Ability: Bulletproof
+EVs: 68 HP / 28 Atk / 156 Def / 236 SpD
+Impish Nature
+- Seed Bomb
+- Zen Headbutt
+- Synthesis
+- Spikes

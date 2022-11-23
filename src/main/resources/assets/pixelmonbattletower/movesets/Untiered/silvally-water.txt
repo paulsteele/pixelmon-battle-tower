@@ -1,0 +1,9 @@
+Silvally-Water @ Water Memory
+Ability: RKS System
+EVs: 248 HP / 92 Def / 168 Spe
+IVs: 0 Atk
+Bold Nature
+- Defog
+- Parting Shot
+- Surf
+- Ice Beam

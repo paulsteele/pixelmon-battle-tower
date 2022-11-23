@@ -1,0 +1,8 @@
+Latios @ Latiosite
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psychic
+- Aura Sphere
+- Ice Beam
+- Roost

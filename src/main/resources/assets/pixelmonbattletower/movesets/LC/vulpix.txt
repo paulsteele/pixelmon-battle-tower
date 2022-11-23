@@ -1,0 +1,9 @@
+Vulpix @ Heat Rock
+Level: 5
+Ability: Drought
+EVs: 52 HP / 196 SpA / 236 Spe
+Timid Nature
+- Weather Ball
+- Overheat
+- Energy Ball
+- Hypnosis

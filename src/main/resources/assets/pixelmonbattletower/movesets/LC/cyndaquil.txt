@@ -1,0 +1,9 @@
+Cyndaquil @ Choice Scarf
+Level: 5
+Ability: Flash Fire
+EVs: 44 HP / 12 Def / 200 SpA / 236 Spe
+Timid Nature
+- Eruption
+- Hidden Power Grass
+- Fire Blast
+- Extrasensory

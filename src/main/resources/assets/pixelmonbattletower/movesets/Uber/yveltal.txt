@@ -1,0 +1,8 @@
+Yveltal @ Heavy-Duty Boots
+Ability: Dark Aura
+EVs: 16 HP / 240 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Taunt
+- Defog
+- Roost

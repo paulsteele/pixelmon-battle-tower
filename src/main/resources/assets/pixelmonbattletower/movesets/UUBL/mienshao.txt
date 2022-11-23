@@ -1,0 +1,8 @@
+Mienshao @ Choice Band
+Ability: Tinted Lens
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Knock Off
+- U-turn
+- High Jump Kick

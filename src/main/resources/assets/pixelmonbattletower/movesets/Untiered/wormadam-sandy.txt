@@ -1,0 +1,8 @@
+Wormadam-Sandy @ Leftovers
+Ability: Overcoat
+EVs: 252 HP / 4 Atk / 252 Def
+Impish Nature
+- Earthquake
+- Stealth Rock
+- Toxic
+- Protect

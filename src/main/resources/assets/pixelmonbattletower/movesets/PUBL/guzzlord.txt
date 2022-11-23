@@ -1,0 +1,8 @@
+Guzzlord @ Leftovers
+Ability: Beast Boost
+EVs: 104 Atk / 152 Def / 252 SpD
+Adamant Nature
+- Knock Off
+- Heavy Slam
+- Earthquake
+- Protect

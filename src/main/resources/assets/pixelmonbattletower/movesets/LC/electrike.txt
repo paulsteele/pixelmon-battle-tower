@@ -1,0 +1,10 @@
+Electrike @ Choice Scarf
+Level: 5
+Ability: Lightning Rod
+EVs: 240 SpA / 236 Spe
+IVs: 0 Atk / 30 SpA
+Timid Nature
+- Volt Switch
+- Thunderbolt
+- Flamethrower
+- Switcheroo

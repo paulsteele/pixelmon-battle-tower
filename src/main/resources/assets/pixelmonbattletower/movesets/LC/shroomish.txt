@@ -1,0 +1,9 @@
+Shroomish @ Eviolite
+Level: 5
+Ability: Effect Spore
+EVs: 36 HP / 36 Atk / 196 Def / 116 SpD / 76 Spe
+Impish Nature
+- Spore
+- Bullet Seed
+- Drain Punch
+- Synthesis

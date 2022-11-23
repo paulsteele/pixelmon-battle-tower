@@ -1,0 +1,8 @@
+Zacian @ Choice Scarf
+Ability: Intrepid Sword
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Play Rough
+- Close Combat
+- Crunch
+- Wild Charge

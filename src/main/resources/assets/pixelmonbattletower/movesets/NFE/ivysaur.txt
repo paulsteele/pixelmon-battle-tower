@@ -1,0 +1,8 @@
+Ivysaur @ Eviolite
+Ability: Chlorophyll
+EVs: 192 HP / 252 SpA / 64 Spe
+Modest Nature
+- Growth
+- Solar Beam
+- Weather Ball
+- Sludge Bomb

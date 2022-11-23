@@ -1,0 +1,8 @@
+Miltank @ Leftovers
+Ability: Thick Fat
+EVs: 252 HP / 252 SpD / 4 Spe
+Careful Nature
+- Stealth Rock
+- Milk Drink
+- Toxic
+- Seismic Toss

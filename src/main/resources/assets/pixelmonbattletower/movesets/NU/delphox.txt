@@ -1,0 +1,8 @@
+Delphox @ Grassium Z
+Ability: Blaze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Calm Mind
+- Fire Blast
+- Psychic
+- Grass Knot

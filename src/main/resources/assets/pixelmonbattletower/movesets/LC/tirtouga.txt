@@ -1,0 +1,9 @@
+Tirtouga @ Eviolite
+Level: 5
+Ability: Solid Rock
+EVs: 164 HP / 52 Atk / 92 Def / 156 SpD / 20 Spe
+Careful Nature
+- Stealth Rock
+- Stone Edge
+- Liquidation
+- Aqua Jet

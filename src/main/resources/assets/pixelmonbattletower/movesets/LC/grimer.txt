@@ -1,0 +1,9 @@
+Grimer @ Berry Juice
+Level: 5
+Ability: Sticky Hold
+EVs: 36 HP / 196 Atk / 196 Def / 36 SpA / 36 SpD
+Brave Nature
+- Gunk Shot
+- Fire Punch
+- Giga Drain
+- Thief

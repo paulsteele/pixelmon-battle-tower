@@ -1,0 +1,8 @@
+Carbink @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 252 SpD / 4 Spe
+Calm Nature
+- Iron Defense
+- Body Press
+- Rest
+- Moonblast

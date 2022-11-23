@@ -1,0 +1,9 @@
+Lileep @ Eviolite
+Level: 5
+Ability: Storm Drain
+EVs: 68 HP / 220 Def / 108 SpA / 60 SpD / 12 Spe
+Bold Nature
+- Recover
+- Giga Drain
+- Stealth Rock
+- Ancient Power

@@ -1,0 +1,8 @@
+Eelektross @ Assault Vest
+Ability: Levitate
+EVs: 252 HP / 4 Atk / 252 SpA
+Modest Nature
+- Volt Switch
+- Giga Drain
+- Flamethrower
+- Knock Off

@@ -1,0 +1,8 @@
+Articuno @ Heavy-Duty Boots
+Ability: Pressure
+EVs: 248 HP / 204 SpD / 56 Spe
+Calm Nature
+- Freeze-Dry
+- Defog
+- Heal Bell
+- Roost

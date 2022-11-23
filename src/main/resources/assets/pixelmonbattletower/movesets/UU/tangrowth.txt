@@ -1,0 +1,8 @@
+Tangrowth @ Assault Vest
+Ability: Regenerator
+EVs: 252 HP / 96 Def / 160 SpD
+Relaxed Nature
+- Power Whip
+- Knock Off
+- Sludge Bomb
+- Focus Blast

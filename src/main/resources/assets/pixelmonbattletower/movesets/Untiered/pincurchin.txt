@@ -1,0 +1,8 @@
+Pincurchin @ Terrain Extender
+Ability: Electric Surge
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Rising Voltage
+- Spikes
+- Recover
+- Memento

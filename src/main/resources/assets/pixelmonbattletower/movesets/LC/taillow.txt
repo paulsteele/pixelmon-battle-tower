@@ -1,0 +1,10 @@
+Taillow @ Life Orb
+Level: 5
+Ability: Guts
+EVs: 36 Def / 200 SpA / 36 SpD / 236 Spe
+IVs: 19 HP
+Naive Nature
+- Boomburst
+- Heat Wave
+- Hidden Power Grass
+- Brave Bird

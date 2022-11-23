@@ -1,0 +1,9 @@
+Celebi @ Heavy-Duty Boots
+Ability: Natural Cure
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid Nature
+- Nasty Plot
+- Psychic
+- Aura Sphere
+- Recover

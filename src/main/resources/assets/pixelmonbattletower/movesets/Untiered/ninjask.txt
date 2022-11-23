@@ -1,0 +1,8 @@
+Ninjask
+Ability: Speed Boost
+EVs: 252 Atk / 88 Def / 168 Spe
+Adamant Nature
+- Acrobatics
+- U-turn
+- Protect
+- Swords Dance

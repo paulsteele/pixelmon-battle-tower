@@ -1,0 +1,8 @@
+Carnivine @ Life Orb
+Ability: Levitate
+EVs: 188 HP / 252 Atk / 68 Spe
+Adamant Nature
+- Swords Dance
+- Power Whip
+- Knock Off
+- Sleep Powder

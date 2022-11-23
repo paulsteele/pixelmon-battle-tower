@@ -1,0 +1,9 @@
+Tepig @ Life Orb
+Level: 5
+Ability: Thick Fat
+EVs: 252 Atk / 236 Spe
+Jolly Nature
+- Flare Blitz
+- Head Smash
+- Sucker Punch
+- Superpower

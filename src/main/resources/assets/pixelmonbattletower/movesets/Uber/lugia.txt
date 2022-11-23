@@ -1,0 +1,8 @@
+Lugia @ Heavy-Duty Boots
+Ability: Multiscale
+EVs: 252 HP / 160 Def / 96 Spe
+Bold Nature
+- Roost
+- Ice Beam
+- Whirlwind
+- Toxic

@@ -1,0 +1,8 @@
+Muk-Alola @ Black Sludge
+Ability: Poison Touch
+EVs: 252 HP / 20 Atk / 12 Def / 224 SpD
+Careful Nature
+- Pain Split
+- Protect
+- Pursuit
+- Knock Off

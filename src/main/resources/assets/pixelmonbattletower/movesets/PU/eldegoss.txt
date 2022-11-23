@@ -1,0 +1,8 @@
+Eldegoss @ Heavy-Duty Boots
+Ability: Regenerator
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Giga Drain
+- Rapid Spin
+- Sleep Powder
+- Leech Seed

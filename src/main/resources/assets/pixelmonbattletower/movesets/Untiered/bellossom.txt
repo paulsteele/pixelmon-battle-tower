@@ -1,0 +1,8 @@
+Bellossom @ Kee Berry
+Ability: Chlorophyll
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Quiver Dance
+- Strength Sap
+- Giga Drain
+- Safeguard

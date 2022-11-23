@@ -1,0 +1,9 @@
+Shelmet @ Eviolite
+Level: 5
+Ability: Overcoat
+EVs: 116 HP / 156 Def / 236 SpD
+Bold Nature
+- Spikes
+- Infestation
+- Toxic
+- Recover

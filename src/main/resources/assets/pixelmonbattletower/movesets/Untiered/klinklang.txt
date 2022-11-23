@@ -1,0 +1,8 @@
+Klinklang @ Leftovers
+Ability: Clear Body
+EVs: 160 HP / 252 Atk / 96 Spe
+Jolly Nature
+- Shift Gear
+- Gear Grind
+- Wild Charge
+- Substitute

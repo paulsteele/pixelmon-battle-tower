@@ -1,0 +1,8 @@
+Umbreon @ Heavy-Duty Boots
+Ability: Synchronize
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Foul Play
+- Wish
+- Protect
+- Heal Bell

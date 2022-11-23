@@ -1,0 +1,8 @@
+Mandibuzz @ Heavy-Duty Boots
+Ability: Overcoat
+EVs: 248 HP / 164 Def / 96 Spe
+Impish Nature
+- Foul Play
+- Knock Off
+- U-turn
+- Roost

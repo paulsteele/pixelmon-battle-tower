@@ -1,0 +1,10 @@
+Solosis @ Electrium Z
+Level: 5
+Ability: Magic Guard
+EVs: 240 HP / 240 SpA
+IVs: 1 Atk / 30 Def / 30 SpA / 30 SpD / 0 Spe
+Quiet Nature
+- Trick Room
+- Psychic
+- Thunder
+- Hidden Power Fighting

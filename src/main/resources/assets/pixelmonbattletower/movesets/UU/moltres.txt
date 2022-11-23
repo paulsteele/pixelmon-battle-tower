@@ -1,0 +1,8 @@
+Moltres @ Heavy-Duty Boots
+Ability: Flame Body
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Flamethrower
+- Hurricane
+- U-turn
+- Roost

@@ -1,0 +1,9 @@
+Charmander @ Choice Scarf
+Level: 5
+Ability: Solar Power
+EVs: 44 HP / 12 Def / 196 SpA / 236 Spe
+Timid Nature
+- Weather Ball
+- Overheat
+- Fire Blast
+- Sleep Talk

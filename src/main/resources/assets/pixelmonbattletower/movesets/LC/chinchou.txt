@@ -1,0 +1,9 @@
+Chinchou @ Eviolite
+Level: 5
+Ability: Volt Absorb
+EVs: 132 Def / 148 SpA / 228 Spe
+Timid Nature
+- Volt Switch
+- Ice Beam
+- Thunderbolt
+- Scald

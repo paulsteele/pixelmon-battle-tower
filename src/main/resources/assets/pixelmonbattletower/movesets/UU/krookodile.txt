@@ -1,0 +1,8 @@
+Krookodile @ Leftovers
+Ability: Intimidate
+EVs: 80 HP / 204 Def / 224 Spe
+Jolly Nature
+- Earthquake
+- Knock Off
+- Stealth Rock
+- Taunt

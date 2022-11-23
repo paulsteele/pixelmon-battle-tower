@@ -1,0 +1,8 @@
+Arceus-Ground @ Earth Plate
+Ability: Multitype
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Judgment
+- Refresh
+- Recover
+- Ice Beam

@@ -1,0 +1,8 @@
+Silvally-Poison @ Poison Memory
+Ability: RKS System
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Work Up
+- Multi-Attack
+- Flamethrower
+- Grass Pledge

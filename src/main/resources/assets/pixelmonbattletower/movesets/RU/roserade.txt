@@ -1,0 +1,9 @@
+Roserade @ Rocky Helmet
+Ability: Natural Cure
+EVs: 252 HP / 240 Def / 16 Spe
+IVs: 0 Atk
+Bold Nature
+- Spikes
+- Grass Knot
+- Sludge Bomb
+- Synthesis

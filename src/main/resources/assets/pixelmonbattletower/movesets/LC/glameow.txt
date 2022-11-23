@@ -1,0 +1,10 @@
+Glameow @ Life Orb
+Level: 5
+Ability: Limber
+EVs: 236 Atk / 20 Def / 236 Spe
+IVs: 1 HP
+Jolly Nature
+- Return
+- Sucker Punch
+- Play Rough
+- Fake Out

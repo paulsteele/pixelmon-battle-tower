@@ -1,0 +1,8 @@
+Escavalier @ Leftovers
+Ability: Shell Armor
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Iron Head
+- Knock Off
+- Toxic
+- Protect

@@ -1,0 +1,8 @@
+Probopass @ Air Balloon
+Ability: Magnet Pull
+EVs: 172 HP / 252 SpA / 84 Spe
+Modest Nature
+- Stealth Rock
+- Flash Cannon
+- Hidden Power Fire
+- Taunt

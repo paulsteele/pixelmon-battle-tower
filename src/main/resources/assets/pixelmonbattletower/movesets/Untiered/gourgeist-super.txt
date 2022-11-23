@@ -1,0 +1,8 @@
+Gourgeist-Super @ Colbur Berry
+Ability: Insomnia
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Synthesis
+- Will-O-Wisp
+- Skill Swap
+- Foul Play

@@ -1,0 +1,9 @@
+Skrelp @ Eviolite
+Level: 5
+Ability: Adaptability
+EVs: 116 HP / 116 Def / 196 SpA / 36 SpD / 36 Spe
+Modest Nature
+- Sludge Wave
+- Hydro Pump
+- Toxic Spikes
+- Thunderbolt

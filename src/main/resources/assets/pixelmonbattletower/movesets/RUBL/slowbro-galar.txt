@@ -1,0 +1,8 @@
+Slowbro-Galar @ Assault Vest
+Ability: Regenerator
+EVs: 252 HP / 16 SpA / 240 SpD
+Quiet Nature
+- Future Sight
+- Psyshock
+- Shell Side Arm
+- Flamethrower

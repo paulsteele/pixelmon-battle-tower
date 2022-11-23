@@ -1,0 +1,9 @@
+Klink @ Eviolite
+Level: 5
+Ability: Clear Body
+EVs: 236 Atk / 36 Def / 116 SpD / 116 Spe
+Adamant Nature
+- Shift Gear
+- Gear Grind
+- Wild Charge
+- Return

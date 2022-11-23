@@ -1,0 +1,10 @@
+Cleffa @ Focus Sash
+Level: 5
+Ability: Magic Guard
+EVs: 196 HP / 76 SpA / 236 Spe
+IVs: 3 Def / 9 SpD
+Hasty Nature
+- Counter
+- Endeavor
+- Thunder Wave
+- Encore

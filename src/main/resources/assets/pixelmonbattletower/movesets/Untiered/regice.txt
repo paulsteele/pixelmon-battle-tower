@@ -1,0 +1,8 @@
+Regice @ Leftovers
+Ability: Clear Body
+EVs: 252 HP / 4 SpD / 252 Spe
+Calm Nature
+- Rest
+- Amnesia
+- Frost Breath
+- Charge Beam

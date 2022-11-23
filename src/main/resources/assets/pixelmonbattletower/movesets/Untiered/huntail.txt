@@ -1,0 +1,8 @@
+Huntail @ White Herb
+Ability: Water Veil
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naughty Nature
+- Shell Smash
+- Waterfall
+- Sucker Punch
+- Ice Beam

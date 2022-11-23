@@ -1,0 +1,8 @@
+Wigglytuff @ Leftovers
+Ability: Frisk
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Wish
+- Teleport
+- Knock Off
+- Protect

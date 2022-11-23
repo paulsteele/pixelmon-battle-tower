@@ -1,0 +1,8 @@
+Zapdos @ Heavy-Duty Boots
+Ability: Static
+EVs: 248 HP / 220 Def / 40 Spe
+Timid Nature
+- Discharge
+- Hurricane
+- Roost
+- Defog

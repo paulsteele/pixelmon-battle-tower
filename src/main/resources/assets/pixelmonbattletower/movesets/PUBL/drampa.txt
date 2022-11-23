@@ -1,0 +1,8 @@
+Drampa @ Leftovers
+Ability: Berserk
+EVs: 52 HP / 240 SpA / 216 Spe
+Modest Nature
+- Calm Mind
+- Roost
+- Hyper Voice
+- Flamethrower

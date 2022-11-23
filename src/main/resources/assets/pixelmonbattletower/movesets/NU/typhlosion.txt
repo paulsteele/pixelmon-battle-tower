@@ -1,0 +1,8 @@
+Typhlosion @ Choice Specs
+Ability: Blaze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Eruption
+- Flamethrower
+- Focus Blast
+- Hidden Power Grass

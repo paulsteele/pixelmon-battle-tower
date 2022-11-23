@@ -1,0 +1,8 @@
+Arceus-Fire @ Firium Z
+Ability: Multitype
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Calm Mind
+- Fire Blast
+- Thunder
+- Ice Beam

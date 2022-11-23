@@ -1,0 +1,9 @@
+Vespiquen @ Heavy-Duty Boots
+Ability: Pressure
+EVs: 252 HP / 4 Def / 252 SpD
+IVs: 0 Spe
+Sassy Nature
+- U-turn
+- Roost
+- Toxic Spikes
+- Air Slash

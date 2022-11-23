@@ -1,0 +1,8 @@
+Audino @ Heavy-Duty Boots
+Ability: Regenerator
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Wish
+- Protect
+- Knock Off
+- Heal Bell

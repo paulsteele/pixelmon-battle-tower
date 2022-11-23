@@ -1,0 +1,9 @@
+Bronzor @ Berry Juice
+Level: 5
+Ability: Levitate
+EVs: 64 HP / 4 Atk / 228 Def / 4 SpA / 148 SpD / 12 Spe
+Relaxed Nature
+- Stealth Rock
+- Recycle
+- Psychic
+- Heavy Slam

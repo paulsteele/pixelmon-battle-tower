@@ -1,0 +1,9 @@
+Scraggy @ Eviolite
+Level: 5
+Ability: Shed Skin
+EVs: 36 HP / 156 Atk / 36 Def / 36 SpD / 212 Spe
+Jolly Nature
+- Dragon Dance
+- High Jump Kick
+- Knock Off
+- Zen Headbutt

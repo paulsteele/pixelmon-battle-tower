@@ -1,0 +1,8 @@
+Bronzong @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Stealth Rock
+- Heavy Slam
+- Earthquake
+- Toxic

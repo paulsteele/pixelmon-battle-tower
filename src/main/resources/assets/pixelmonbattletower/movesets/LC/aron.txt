@@ -1,0 +1,9 @@
+Aron @ Eviolite
+Level: 5
+Ability: Rock Head
+EVs: 196 Atk / 116 SpD / 196 Spe
+Jolly Nature
+- Rock Polish
+- Head Smash
+- Heavy Slam
+- Earthquake

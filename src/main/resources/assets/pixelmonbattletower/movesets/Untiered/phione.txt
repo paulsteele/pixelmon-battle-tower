@@ -1,0 +1,9 @@
+Phione @ Damp Rock
+Ability: Hydration
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 0 Spe
+Relaxed Nature
+- Rain Dance
+- Heal Bell
+- Scald
+- U-turn

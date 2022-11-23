@@ -1,0 +1,8 @@
+Empoleon @ Leftovers
+Ability: Torrent
+EVs: 248 HP / 60 SpA / 200 SpD
+Calm Nature
+- Scald
+- Ice Beam
+- Defog
+- Roar

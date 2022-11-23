@@ -1,0 +1,8 @@
+Qwilfish @ Rocky Helmet
+Ability: Intimidate
+EVs: 252 HP / 4 Atk / 252 Spe
+Jolly Nature
+- Spikes
+- Taunt
+- Waterfall
+- Thunder Wave

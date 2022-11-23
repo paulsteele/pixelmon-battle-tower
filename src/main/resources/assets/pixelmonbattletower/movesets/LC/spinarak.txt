@@ -1,0 +1,9 @@
+Spinarak @ Focus Sash
+Level: 5
+Ability: Insomnia
+EVs: 116 HP / 196 Atk / 196 Spe
+Adamant Nature
+- Sticky Web
+- Megahorn
+- Poison Jab
+- Protect

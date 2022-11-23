@@ -1,0 +1,8 @@
+Mimikyu @ Life Orb
+Ability: Disguise
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Drain Punch
+- Shadow Sneak
+- Shadow Claw

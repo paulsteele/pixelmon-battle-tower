@@ -1,0 +1,8 @@
+Rotom-Heat @ Heavy-Duty Boots
+Ability: Levitate
+EVs: 252 HP / 104 Def / 152 Spe
+Timid Nature
+- Overheat
+- Volt Switch
+- Toxic
+- Pain Split

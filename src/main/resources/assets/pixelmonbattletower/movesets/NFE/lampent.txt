@@ -1,0 +1,8 @@
+Lampent @ Choice Scarf
+Ability: Flash Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Fire Blast
+- Shadow Ball
+- Trick
+- Calm Mind

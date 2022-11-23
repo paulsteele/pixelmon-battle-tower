@@ -1,0 +1,8 @@
+Graveler @ Weakness Policy
+Ability: Sturdy
+EVs: 92 HP / 252 Atk / 164 Spe
+Adamant Nature
+- Stealth Rock
+- Stone Edge
+- Earthquake
+- Sucker Punch

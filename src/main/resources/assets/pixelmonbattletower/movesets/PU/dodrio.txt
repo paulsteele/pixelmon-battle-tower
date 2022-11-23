@@ -1,0 +1,8 @@
+Dodrio @ Choice Scarf
+Ability: Early Bird
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Jump Kick
+- Return
+- Knock Off

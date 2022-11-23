@@ -1,0 +1,9 @@
+Slowking @ Colbur Berry
+Ability: Regenerator
+EVs: 248 HP / 252 Def / 8 SpD
+IVs: 0 Atk / 0 Spe
+Relaxed Nature
+- Scald
+- Psychic
+- Slack Off
+- Teleport

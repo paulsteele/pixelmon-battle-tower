@@ -1,0 +1,9 @@
+Poliwag @ Berry Juice
+Level: 5
+Ability: Water Absorb
+EVs: 116 HP / 196 Atk / 196 Spe
+Jolly Nature
+- Belly Drum
+- Waterfall
+- Hypnosis
+- Return

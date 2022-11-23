@@ -1,0 +1,8 @@
+Silvally-Steel @ Steel Memory
+Ability: RKS System
+EVs: 252 HP / 192 SpD / 64 Spe
+Jolly Nature
+- Defog
+- Multi-Attack
+- Flamethrower
+- Parting Shot

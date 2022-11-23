@@ -1,0 +1,9 @@
+Vulpix-Alola @ Light Clay
+Level: 5
+Ability: Snow Warning
+EVs: 52 HP / 200 SpA / 240 Spe
+Timid Nature
+- Aurora Veil
+- Blizzard
+- Freeze-Dry
+- Hidden Power Ground

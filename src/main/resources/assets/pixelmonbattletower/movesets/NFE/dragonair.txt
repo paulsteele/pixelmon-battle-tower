@@ -1,0 +1,8 @@
+Dragonair @ Eviolite
+Ability: Marvel Scale
+EVs: 252 HP / 236 SpD / 20 Spe
+Careful Nature
+- Dragon Dance
+- Outrage
+- Rest
+- Sleep Talk

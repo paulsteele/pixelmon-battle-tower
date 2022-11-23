@@ -1,0 +1,9 @@
+Voltorb @ Light Clay
+Level: 5
+Ability: Aftermath
+EVs: 196 HP / 36 Def / 76 SpD / 196 Spe
+Timid Nature
+- Reflect
+- Light Screen
+- Volt Switch
+- Taunt

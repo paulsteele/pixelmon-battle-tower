@@ -1,0 +1,8 @@
+Arceus @ Life Orb
+Ability: Multitype
+EVs: 228 Atk / 28 SpA / 252 Spe
+Naughty Nature
+- Swords Dance
+- Extreme Speed
+- Earthquake
+- Ice Beam

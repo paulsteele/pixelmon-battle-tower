@@ -1,0 +1,8 @@
+Arceus-Grass @ Meadow Plate
+Ability: Multitype
+EVs: 80 HP / 176 SpA / 252 Spe
+Timid Nature
+- Grass Knot
+- Ice Beam
+- Fire Blast
+- Recover

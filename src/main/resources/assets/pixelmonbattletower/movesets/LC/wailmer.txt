@@ -1,0 +1,9 @@
+Wailmer @ Choice Scarf
+Level: 5
+Ability: Pressure
+EVs: 36 HP / 200 SpA / 200 Spe
+Timid Nature
+- Water Spout
+- Hydro Pump
+- Ice Beam
+- Hidden Power Fire

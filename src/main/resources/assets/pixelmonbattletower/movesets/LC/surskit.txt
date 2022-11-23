@@ -1,0 +1,9 @@
+Surskit @ Focus Sash
+Level: 5
+Ability: Swift Swim
+EVs: 36 HP / 20 Def / 196 SpA / 20 SpD / 236 Spe
+Timid Nature
+- Sticky Web
+- Scald
+- Giga Drain
+- Protect

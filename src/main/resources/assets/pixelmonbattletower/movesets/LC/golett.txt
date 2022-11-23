@@ -1,0 +1,9 @@
+Golett @ Choice Scarf
+Level: 5
+Ability: No Guard
+EVs: 244 Atk / 236 Spe
+Jolly Nature
+- Poltergeist
+- Earthquake
+- Dynamic Punch
+- Rock Slide

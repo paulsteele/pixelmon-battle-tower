@@ -1,0 +1,9 @@
+Grookey @ Life Orb
+Level: 5
+Ability: Grassy Surge
+EVs: 236 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Grassy Glide
+- Knock Off
+- Drain Punch
+- Protect

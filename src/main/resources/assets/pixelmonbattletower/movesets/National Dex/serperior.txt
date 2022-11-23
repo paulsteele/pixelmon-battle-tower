@@ -1,0 +1,8 @@
+Serperior @ Leftovers
+Ability: Contrary
+EVs: 56 HP / 200 SpA / 252 Spe
+Timid Nature
+- Leaf Storm
+- Hidden Power Fire
+- Substitute
+- Glare

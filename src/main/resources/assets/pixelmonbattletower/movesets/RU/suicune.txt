@@ -1,0 +1,8 @@
+Suicune @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 40 Def / 216 Spe
+Timid Nature
+- Substitute
+- Calm Mind
+- Scald
+- Protect

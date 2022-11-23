@@ -1,0 +1,8 @@
+Tapu Lele @ Choice Specs
+Ability: Psychic Surge
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Psyshock
+- Moonblast
+- Focus Blast
+- Psychic

@@ -1,0 +1,9 @@
+Calyrex @ Weakness Policy
+Ability: Unnerve
+EVs: 4 Def / 252 SpA / 252 Spe
+IVs: 0 Atk
+Modest Nature
+- Agility
+- Calm Mind
+- Giga Drain
+- Stored Power

@@ -1,0 +1,9 @@
+Sandygast @ Berry Juice
+Level: 5
+Ability: Water Compaction
+EVs: 76 HP / 116 SpA / 76 SpD / 236 Spe
+Modest Nature
+- Rock Polish
+- Earth Power
+- Shadow Ball
+- Destiny Bond

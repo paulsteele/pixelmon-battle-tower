@@ -1,0 +1,8 @@
+Spiritomb @ Choice Band
+Ability: Infiltrator
+EVs: 252 HP / 252 Atk / 4 Def
+Adamant Nature
+- Poltergeist
+- Shadow Sneak
+- Sucker Punch
+- Trick

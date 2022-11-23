@@ -1,0 +1,8 @@
+Muk @ Leftovers
+Ability: Sticky Hold
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Curse
+- Poison Jab
+- Rest
+- Sleep Talk

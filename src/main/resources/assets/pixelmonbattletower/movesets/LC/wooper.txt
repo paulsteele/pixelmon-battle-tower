@@ -1,0 +1,9 @@
+Wooper @ Eviolite
+Level: 5
+Ability: Water Absorb
+EVs: 76 HP / 236 Def / 156 SpD
+Sassy Nature
+- Scald
+- Recover
+- Earthquake
+- Yawn

@@ -1,0 +1,8 @@
+Gumshoos @ Choice Band
+Ability: Stakeout
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Return
+- Earthquake
+- U-turn
+- Crunch

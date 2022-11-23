@@ -1,0 +1,8 @@
+Rayquaza @ Choice Band
+Ability: Air Lock
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Dragon Ascent
+- V-create
+- Extreme Speed
+- Earthquake

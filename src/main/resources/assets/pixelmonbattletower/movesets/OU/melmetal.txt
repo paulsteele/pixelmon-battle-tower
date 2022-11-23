@@ -1,0 +1,8 @@
+Melmetal @ Protective Pads
+Ability: Iron Fist
+EVs: 40 HP / 252 Atk / 104 SpD / 112 Spe
+Adamant Nature
+- Double Iron Bash
+- Superpower
+- Thunder Punch
+- Thunder Wave

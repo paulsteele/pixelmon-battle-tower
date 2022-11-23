@@ -1,0 +1,8 @@
+Sawk @ Choice Band
+Ability: Mold Breaker
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Earthquake
+- Knock Off
+- Poison Jab

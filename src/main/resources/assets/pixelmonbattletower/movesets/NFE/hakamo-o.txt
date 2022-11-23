@@ -1,0 +1,8 @@
+Hakamo-o @ Eviolite
+Ability: Bulletproof
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Dragon Dance
+- Substitute
+- Dragon Claw
+- Drain Punch

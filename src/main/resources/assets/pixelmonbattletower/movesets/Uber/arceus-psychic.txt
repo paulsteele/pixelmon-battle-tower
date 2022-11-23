@@ -1,0 +1,8 @@
+Arceus-Psychic @ Mind Plate
+Ability: Multitype
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Judgment
+- Will-O-Wisp
+- Recover
+- Ice Beam

@@ -1,0 +1,9 @@
+Jangmo-o @ Berry Juice
+Level: 5
+Ability: Bulletproof
+EVs: 236 Atk / 236 Spe
+Adamant Nature
+- Dragon Dance
+- Outrage
+- Earthquake
+- Brick Break

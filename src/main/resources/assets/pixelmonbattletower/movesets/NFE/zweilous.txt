@@ -1,0 +1,8 @@
+Zweilous @ Leftovers
+Ability: Hustle
+EVs: 144 HP / 252 Atk / 112 Spe
+Adamant Nature
+- Crunch
+- Body Slam
+- Zen Headbutt
+- Substitute

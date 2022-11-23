@@ -1,0 +1,9 @@
+Lickitung @ Eviolite
+Level: 5
+Ability: Oblivious
+EVs: 196 HP / 76 Def / 236 SpD
+Impish Nature
+- Wish
+- Protect
+- Body Slam
+- Knock Off

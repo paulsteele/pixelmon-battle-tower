@@ -1,0 +1,9 @@
+Pidgey @ Choice Scarf
+Level: 5
+Ability: Big Pecks
+EVs: 36 HP / 236 Atk / 228 Spe
+Jolly Nature
+- Brave Bird
+- Return
+- U-turn
+- Defog

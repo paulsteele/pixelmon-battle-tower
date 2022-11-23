@@ -1,0 +1,8 @@
+Delcatty @ Silk Scarf
+Ability: Normalize
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Sucker Punch
+- Return
+- Thunder Wave

@@ -1,0 +1,9 @@
+Horsea @ Life Orb
+Level: 5
+Ability: Swift Swim
+EVs: 116 HP / 196 SpA / 196 Spe
+Modest Nature
+- Hydro Pump
+- Ice Beam
+- Rain Dance
+- Hidden Power Grass

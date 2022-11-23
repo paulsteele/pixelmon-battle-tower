@@ -1,0 +1,8 @@
+Orbeetle @ Light Clay
+Ability: Frisk
+EVs: 252 HP / 4 SpD / 252 Spe
+Timid Nature
+- Reflect
+- Light Screen
+- Sticky Web
+- U-turn

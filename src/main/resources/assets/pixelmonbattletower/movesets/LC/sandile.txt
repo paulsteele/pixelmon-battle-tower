@@ -1,0 +1,9 @@
+Sandile @ Choice Scarf
+Level: 5
+Ability: Moxie
+EVs: 180 Atk / 76 Def / 236 Spe
+Adamant Nature
+- Earthquake
+- Crunch
+- Fire Fang
+- Pursuit

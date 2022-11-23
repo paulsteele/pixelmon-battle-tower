@@ -1,0 +1,8 @@
+Cloyster @ Life Orb
+Ability: Skill Link
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Shell Smash
+- Icicle Spear
+- Rock Blast
+- Spikes

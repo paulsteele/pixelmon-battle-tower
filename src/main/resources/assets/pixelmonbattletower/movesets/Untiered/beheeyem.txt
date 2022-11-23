@@ -1,0 +1,8 @@
+Beheeyem @ Colbur Berry
+Ability: Analytic
+EVs: 248 HP / 252 Def / 8 SpA
+Bold Nature
+- Psychic
+- Thunderbolt
+- Recover
+- Teleport

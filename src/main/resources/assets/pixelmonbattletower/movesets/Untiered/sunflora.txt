@@ -1,0 +1,8 @@
+Sunflora @ Life Orb
+Ability: Solar Power
+EVs: 92 HP / 252 SpA / 164 Spe
+Modest Nature
+- Solar Beam
+- Earth Power
+- Sludge Bomb
+- Giga Drain

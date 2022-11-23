@@ -1,0 +1,9 @@
+Nincada @ Eviolite
+Level: 5
+Ability: Compound Eyes
+EVs: 188 HP / 76 Atk / 36 Def / 196 Spe
+Naive Nature
+- Final Gambit
+- Leech Life
+- Giga Drain
+- Toxic

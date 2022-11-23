@@ -1,0 +1,9 @@
+Pumpkaboo-Super @ Eviolite
+Level: 5
+Ability: Frisk
+EVs: 204 HP / 36 Def / 4 SpA / 236 SpD / 28 Spe
+Calm Nature
+- Giga Drain
+- Synthesis
+- Will-O-Wisp
+- Fire Blast

@@ -1,0 +1,8 @@
+Victini @ Heavy-Duty Boots
+Ability: Victory Star
+EVs: 252 Atk / 4 SpA / 252 Spe
+Jolly Nature
+- V-create
+- Bolt Strike
+- Glaciate
+- U-turn

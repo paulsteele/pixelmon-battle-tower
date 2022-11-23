@@ -1,0 +1,9 @@
+Frillish @ Eviolite
+Level: 5
+Ability: Cursed Body
+EVs: 236 HP / 116 Def / 76 SpA / 36 Spe
+Bold Nature
+- Scald
+- Hex
+- Will-O-Wisp
+- Recover

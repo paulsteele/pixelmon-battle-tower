@@ -1,0 +1,8 @@
+Kyogre @ Leftovers
+Ability: Drizzle
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Calm Mind
+- Scald
+- Rest
+- Ice Beam

@@ -1,0 +1,9 @@
+Ninetales @ Heat Rock
+Ability: Drought
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid Nature
+- Fire Blast
+- Solar Beam
+- Nasty Plot
+- Toxic

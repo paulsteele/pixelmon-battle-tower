@@ -1,0 +1,8 @@
+Shiinotic @ Leftovers
+Ability: Effect Spore
+EVs: 248 HP / 176 Def / 84 SpD
+Calm Nature
+- Spore
+- Strength Sap
+- Giga Drain
+- Moonblast

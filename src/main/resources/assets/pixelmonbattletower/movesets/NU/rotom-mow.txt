@@ -1,0 +1,8 @@
+Rotom-Mow @ Choice Scarf
+Ability: Levitate
+EVs: 8 HP / 248 SpA / 252 Spe
+Timid Nature
+- Leaf Storm
+- Volt Switch
+- Trick
+- Defog

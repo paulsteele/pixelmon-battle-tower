@@ -1,0 +1,9 @@
+Mareep @ Eviolite
+Level: 5
+Ability: Static
+EVs: 196 Def / 76 SpA / 236 SpD
+Bold Nature
+- Reflect
+- Light Screen
+- Heal Bell
+- Thunderbolt

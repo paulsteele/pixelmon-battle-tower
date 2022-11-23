@@ -1,0 +1,8 @@
+Hitmontop @ Assault Vest
+Ability: Technician
+EVs: 248 HP / 252 Atk / 8 SpD
+Adamant Nature
+- Rapid Spin
+- Triple Axel
+- Mach Punch
+- Close Combat

@@ -1,0 +1,8 @@
+Houndoom @ Houndoominite
+Ability: Flash Fire
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Nasty Plot
+- Fire Blast
+- Dark Pulse
+- Sludge Bomb

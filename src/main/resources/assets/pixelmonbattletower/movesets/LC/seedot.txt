@@ -1,0 +1,10 @@
+Seedot @ Life Orb
+Level: 5
+Ability: Chlorophyll
+EVs: 40 Atk / 36 Def / 200 SpA / 200 Spe
+IVs: 19 HP
+Rash Nature
+- Growth
+- Solar Beam
+- Hidden Power Fire
+- Explosion

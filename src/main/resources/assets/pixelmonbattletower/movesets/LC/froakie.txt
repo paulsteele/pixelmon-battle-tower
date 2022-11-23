@@ -1,0 +1,10 @@
+Froakie @ Life Orb
+Level: 5
+Ability: Protean
+EVs: 72 Atk / 36 Def / 184 SpA / 192 Spe
+IVs: 30 Atk / 30 SpA / 30 Spe
+Naive Nature
+- Hydro Pump
+- Ice Beam
+- U-turn
+- Hidden Power Fire

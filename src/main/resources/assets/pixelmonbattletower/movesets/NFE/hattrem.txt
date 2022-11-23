@@ -1,0 +1,8 @@
+Hattrem @ Eviolite
+Ability: Magic Bounce
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Rest
+- Sleep Talk
+- Psychic
+- Mystical Fire

@@ -1,0 +1,8 @@
+Crobat @ Heavy-Duty Boots
+Ability: Inner Focus
+EVs: 252 HP / 56 Def / 200 Spe
+Jolly Nature
+- Brave Bird
+- U-turn
+- Roost
+- Defog

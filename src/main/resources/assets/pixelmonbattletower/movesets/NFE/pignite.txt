@@ -1,0 +1,8 @@
+Pignite @ Eviolite
+Ability: Thick Fat
+EVs: 40 HP / 252 Atk / 216 Spe
+Adamant Nature
+- Flare Blitz
+- Superpower
+- Sucker Punch
+- Wild Charge

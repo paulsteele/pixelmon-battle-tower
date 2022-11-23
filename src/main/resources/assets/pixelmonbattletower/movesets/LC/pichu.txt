@@ -1,0 +1,9 @@
+Pichu @ Life Orb
+Level: 5
+Ability: Lightning Rod
+EVs: 36 HP / 196 Atk / 76 SpA / 196 Spe
+Hasty Nature
+- Fake Out
+- Volt Tackle
+- Volt Switch
+- Encore

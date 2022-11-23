@@ -1,0 +1,8 @@
+Raticate @ Flame Orb
+Ability: Guts
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Facade
+- Stomping Tantrum
+- Sucker Punch
+- U-turn

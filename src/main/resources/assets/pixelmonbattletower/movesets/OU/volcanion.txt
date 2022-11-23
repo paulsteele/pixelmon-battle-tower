@@ -1,0 +1,8 @@
+Volcanion @ Heavy-Duty Boots
+Ability: Water Absorb
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Steam Eruption
+- Flamethrower
+- Earth Power
+- Sludge Wave

@@ -1,0 +1,8 @@
+Cacturne @ Life Orb
+Ability: Water Absorb
+EVs: 4 Atk / 252 SpA / 252 Spe
+Mild Nature
+- Spikes
+- Dark Pulse
+- Sucker Punch
+- Energy Ball

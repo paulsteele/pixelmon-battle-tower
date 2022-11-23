@@ -1,0 +1,8 @@
+Sableye @ Sablenite
+Ability: Prankster
+EVs: 248 HP / 8 Def / 248 SpD / 4 Spe
+Impish Nature
+- Knock Off
+- Will-O-Wisp
+- Recover
+- Protect

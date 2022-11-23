@@ -1,0 +1,8 @@
+Octillery @ Life Orb
+Ability: Suction Cups
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Hydro Pump
+- Fire Blast
+- Energy Ball
+- Ice Beam

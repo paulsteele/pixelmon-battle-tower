@@ -1,0 +1,8 @@
+Sudowoodo @ Life Orb
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Stealth Rock
+- Head Smash
+- Wood Hammer
+- Sucker Punch

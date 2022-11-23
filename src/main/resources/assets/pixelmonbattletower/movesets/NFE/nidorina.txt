@@ -1,0 +1,6 @@
+Nidorina
+Level: 50
+- Body Slam
+- Blizzard
+- Thunderbolt
+- Bubble Beam

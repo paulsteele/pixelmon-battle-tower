@@ -1,0 +1,10 @@
+Mantyke @ Life Orb
+Level: 5
+Ability: Swift Swim
+EVs: 36 Def / 200 SpA / 36 SpD / 196 Spe
+IVs: 9 HP
+Modest Nature
+- Rain Dance
+- Hydro Pump
+- Air Slash
+- Hidden Power Ground

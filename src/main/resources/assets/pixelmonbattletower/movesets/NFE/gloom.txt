@@ -1,0 +1,9 @@
+Gloom @ Eviolite
+Ability: Chlorophyll
+EVs: 248 HP / 252 Def / 8 SpD
+IVs: 0 Atk
+Bold Nature
+- Sludge Bomb
+- Giga Drain
+- Leech Seed
+- Synthesis

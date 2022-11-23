@@ -1,0 +1,8 @@
+Minior @ Rockium Z
+Ability: Shields Down
+EVs: 252 Atk / 4 Def / 252 Spe
+Naughty Nature
+- Shell Smash
+- Stone Edge
+- Earthquake
+- Hidden Power Grass

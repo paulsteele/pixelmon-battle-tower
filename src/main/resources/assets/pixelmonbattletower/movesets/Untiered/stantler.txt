@@ -1,0 +1,8 @@
+Stantler @ Life Orb
+Ability: Intimidate
+EVs: 252 Atk / 4 SpA / 252 Spe
+Lonely Nature
+- Double-Edge
+- Sucker Punch
+- Jump Kick
+- Signal Beam

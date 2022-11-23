@@ -1,0 +1,8 @@
+Dracovish @ Choice Band
+Ability: Strong Jaw
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Fishious Rend
+- Psychic Fangs
+- Crunch
+- Outrage

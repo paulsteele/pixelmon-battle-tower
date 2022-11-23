@@ -1,0 +1,8 @@
+Barbaracle @ Life Orb
+Ability: Tough Claws
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Shell Smash
+- Liquidation
+- Stone Edge
+- Grass Knot

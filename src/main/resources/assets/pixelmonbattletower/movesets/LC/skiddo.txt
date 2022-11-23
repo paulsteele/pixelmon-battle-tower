@@ -1,0 +1,9 @@
+Skiddo @ Eviolite
+Level: 5
+Ability: Sap Sipper
+EVs: 236 Atk / 52 Def / 220 SpD
+Careful Nature
+- Bulk Up
+- Horn Leech
+- Rock Slide
+- Zen Headbutt

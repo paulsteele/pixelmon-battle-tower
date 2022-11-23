@@ -1,0 +1,8 @@
+Gourgeist-Small @ Life Orb
+Ability: Frisk
+EVs: 252 Atk / 4 Def / 252 Spe
+Naive Nature
+- Power Whip
+- Poltergeist
+- Rock Slide
+- Fire Blast

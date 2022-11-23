@@ -1,0 +1,8 @@
+Swirlix @ Grassy Seed
+Ability: Unburden
+EVs: 104 Def / 252 SpA / 152 Spe
+Modest Nature
+- Calm Mind
+- Draining Kiss
+- Flamethrower
+- Thunderbolt

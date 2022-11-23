@@ -1,0 +1,8 @@
+Drapion @ Shuca Berry
+Ability: Battle Armor
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Knock Off
+- Poison Jab
+- Aqua Tail

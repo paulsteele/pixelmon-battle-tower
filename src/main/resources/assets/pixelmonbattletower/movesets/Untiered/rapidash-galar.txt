@@ -1,0 +1,8 @@
+Rapidash-Galar @ Grassy Seed
+Ability: Pastel Veil
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Morning Sun
+- Stored Power
+- Mystical Fire

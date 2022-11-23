@@ -1,0 +1,9 @@
+Lillipup @ Eviolite
+Level: 5
+Ability: Vital Spirit
+EVs: 196 Atk / 76 Def / 236 Spe
+Adamant Nature
+- Return
+- Play Rough
+- Fire Fang
+- Thunder Wave

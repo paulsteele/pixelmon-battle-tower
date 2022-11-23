@@ -1,0 +1,8 @@
+Calyrex-Ice @ Leftovers
+Ability: As One (Glastrier)
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Substitute
+- Glacial Lance
+- Swords Dance
+- Leech Seed

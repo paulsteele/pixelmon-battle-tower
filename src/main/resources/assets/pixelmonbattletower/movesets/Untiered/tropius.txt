@@ -1,0 +1,8 @@
+Tropius @ Sitrus Berry
+Ability: Harvest
+EVs: 248 HP / 252 Def / 8 SpD
+Bold Nature
+- Leech Seed
+- Substitute
+- Air Slash
+- Protect

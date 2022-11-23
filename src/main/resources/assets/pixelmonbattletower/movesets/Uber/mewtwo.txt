@@ -1,0 +1,8 @@
+Mewtwo @ Life Orb
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Psystrike
+- Ice Beam
+- Fire Blast
+- Nasty Plot

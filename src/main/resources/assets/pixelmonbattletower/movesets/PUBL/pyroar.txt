@@ -1,0 +1,8 @@
+Pyroar @ Grassium Z
+Ability: Unnerve
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Fire Blast
+- Hyper Voice
+- Solar Beam
+- Taunt

@@ -1,0 +1,9 @@
+Teddiursa @ Toxic Orb
+Level: 5
+Ability: Quick Feet
+EVs: 36 HP / 196 Atk / 36 Def / 36 SpD / 196 Spe
+Jolly Nature
+- Facade
+- Crunch
+- Close Combat
+- Protect

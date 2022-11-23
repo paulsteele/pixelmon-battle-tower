@@ -1,0 +1,10 @@
+Bagon @ Life Orb
+Level: 5
+Ability: Sheer Force
+EVs: 236 Atk / 76 Def / 196 Spe
+IVs: 0 HP
+Adamant Nature
+- Dragon Dance
+- Outrage
+- Zen Headbutt
+- Fire Fang

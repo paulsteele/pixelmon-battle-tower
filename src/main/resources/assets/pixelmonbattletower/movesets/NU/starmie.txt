@@ -1,0 +1,8 @@
+Starmie @ Life Orb
+Ability: Analytic
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hydro Pump
+- Thunderbolt
+- Ice Beam
+- Recover

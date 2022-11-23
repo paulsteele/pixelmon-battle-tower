@@ -1,0 +1,8 @@
+Trevenant @ Choice Band
+Ability: Natural Cure
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Poltergeist
+- Wood Hammer
+- Horn Leech
+- Earthquake

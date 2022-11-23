@@ -1,0 +1,8 @@
+Nihilego @ Black Sludge
+Ability: Beast Boost
+EVs: 80 Def / 176 SpA / 252 Spe
+Timid Nature
+- Stealth Rock
+- Power Gem
+- Sludge Bomb
+- Grass Knot

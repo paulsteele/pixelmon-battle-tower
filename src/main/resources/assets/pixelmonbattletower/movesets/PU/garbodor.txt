@@ -1,0 +1,8 @@
+Garbodor @ Rocky Helmet
+Ability: Aftermath
+EVs: 252 HP / 200 Def / 56 Spe
+Impish Nature
+- Spikes
+- Gunk Shot
+- Toxic Spikes
+- Stomping Tantrum

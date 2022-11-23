@@ -1,0 +1,8 @@
+Parasect @ Leftovers
+Ability: Dry Skin
+EVs: 248 HP / 8 Def / 252 SpD
+Careful Nature
+- Spore
+- Leech Life
+- Knock Off
+- Synthesis

@@ -1,0 +1,8 @@
+Genesect @ Choice Scarf
+Ability: Download
+EVs: 252 Atk / 4 SpA / 252 Spe
+Hasty Nature
+- U-turn
+- Iron Head
+- Ice Beam
+- Flamethrower

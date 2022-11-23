@@ -1,0 +1,9 @@
+Chikorita @ Eviolite
+Level: 5
+Ability: Overgrow
+EVs: 156 HP / 156 Def / 48 SpA / 76 SpD
+Bold Nature
+- Giga Drain
+- Hidden Power Fire
+- Synthesis
+- Aromatherapy

@@ -1,0 +1,9 @@
+Bounsweet @ Eviolite
+Level: 5
+Ability: Oblivious
+EVs: 180 HP / 36 Atk / 132 Def / 132 SpD / 20 Spe
+Impish Nature
+- Rapid Spin
+- Seed Bomb
+- Synthesis
+- Play Rough

@@ -1,0 +1,8 @@
+Gabite @ Eviolite
+Ability: Rough Skin
+EVs: 248 HP / 220 SpD / 40 Spe
+Jolly Nature
+- Stealth Rock
+- Earthquake
+- Toxic
+- Roar

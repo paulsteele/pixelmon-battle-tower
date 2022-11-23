@@ -1,0 +1,8 @@
+Latias @ Latiasite
+Ability: Levitate
+EVs: 248 HP / 8 Def / 252 Spe
+Timid Nature
+- Calm Mind
+- Psyshock
+- Aura Sphere
+- Roost

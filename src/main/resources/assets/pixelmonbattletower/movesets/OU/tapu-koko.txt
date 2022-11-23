@@ -1,0 +1,8 @@
+Tapu Koko @ Heavy-Duty Boots
+Ability: Electric Surge
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Dazzling Gleam
+- U-turn
+- Roost

@@ -1,0 +1,9 @@
+Slugma @ Eviolite
+Level: 5
+Ability: Flame Body
+EVs: 36 HP / 196 Def / 116 SpA / 116 SpD / 36 Spe
+Bold Nature
+- Lava Plume
+- Clear Smog
+- Memento
+- Will-O-Wisp

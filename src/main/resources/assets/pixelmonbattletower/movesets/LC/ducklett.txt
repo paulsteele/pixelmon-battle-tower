@@ -1,0 +1,9 @@
+Ducklett @ Eviolite
+Level: 5
+Ability: Hydration
+EVs: 180 HP / 116 Def / 4 SpA / 196 SpD
+Bold Nature
+- Hurricane
+- Scald
+- Defog
+- Roost

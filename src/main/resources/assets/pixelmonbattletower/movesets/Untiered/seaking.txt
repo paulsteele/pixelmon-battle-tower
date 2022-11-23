@@ -1,0 +1,8 @@
+Seaking @ Heavy-Duty Boots
+Ability: Lightning Rod
+EVs: 252 HP / 220 Def / 36 Spe
+Impish Nature
+- Flip Turn
+- Knock Off
+- Rest
+- Sleep Talk

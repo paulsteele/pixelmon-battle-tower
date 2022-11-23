@@ -1,0 +1,8 @@
+Regidrago @ Leftovers
+Ability: Dragon's Maw
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Dance
+- Outrage
+- Thunder Fang
+- Substitute

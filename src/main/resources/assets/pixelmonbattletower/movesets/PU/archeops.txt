@@ -1,0 +1,8 @@
+Archeops @ Power Herb
+Ability: Defeatist
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Meteor Beam
+- Air Slash
+- Earth Power
+- Stealth Rock

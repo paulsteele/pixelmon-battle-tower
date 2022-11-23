@@ -1,0 +1,8 @@
+Lanturn @ Leftovers
+Ability: Volt Absorb
+EVs: 88 HP / 172 Def / 248 SpD
+Calm Nature
+- Scald
+- Volt Switch
+- Toxic
+- Protect

@@ -1,0 +1,8 @@
+Monferno @ Eviolite
+Ability: Blaze
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Stealth Rock
+- Close Combat
+- Flare Blitz
+- U-turn

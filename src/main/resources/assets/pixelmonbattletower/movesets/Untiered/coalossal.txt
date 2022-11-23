@@ -1,0 +1,8 @@
+Coalossal @ Heavy-Duty Boots
+Ability: Flame Body
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+- Stealth Rock
+- Rock Blast
+- Flamethrower
+- Rapid Spin

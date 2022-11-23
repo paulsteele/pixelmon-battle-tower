@@ -1,0 +1,9 @@
+Clauncher @ Choice Scarf
+Level: 5
+Ability: Mega Launcher
+EVs: 20 Def / 212 SpA / 12 SpD / 244 Spe
+Modest Nature
+- U-turn
+- Water Pulse
+- Ice Beam
+- Hidden Power Grass

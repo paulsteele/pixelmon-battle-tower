@@ -1,0 +1,8 @@
+Exeggutor @ Choice Specs
+Ability: Chlorophyll
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Leaf Storm
+- Psychic
+- Psyshock
+- Giga Drain

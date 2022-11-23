@@ -1,0 +1,9 @@
+Paras @ Eviolite
+Level: 5
+Ability: Dry Skin
+EVs: 116 Atk / 156 Def / 156 SpD / 76 Spe
+Adamant Nature
+- Spore
+- Knock Off
+- Seed Bomb
+- Leech Life

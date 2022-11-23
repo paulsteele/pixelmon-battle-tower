@@ -1,0 +1,8 @@
+Purugly @ Life Orb
+Ability: Defiant
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Return
+- Knock Off
+- U-turn

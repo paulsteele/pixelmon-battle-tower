@@ -1,0 +1,8 @@
+Arceus-Ghost @ Spooky Plate
+Ability: Multitype
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Swords Dance
+- Shadow Force
+- Brick Break
+- Stone Edge

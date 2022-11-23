@@ -1,0 +1,9 @@
+Gardevoir @ Choice Scarf
+Ability: Trace
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid Nature
+- Moonblast
+- Psychic
+- Trick
+- Healing Wish

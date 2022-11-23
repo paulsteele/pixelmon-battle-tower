@@ -1,0 +1,8 @@
+Charjabug @ Eviolite
+Ability: Battery
+EVs: 252 HP / 4 Atk / 252 Def
+Impish Nature
+- Sticky Web
+- Skitter Smack
+- Volt Switch
+- Toxic

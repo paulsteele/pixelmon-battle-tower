@@ -1,0 +1,9 @@
+Kabuto @ Eviolite
+Level: 5
+Ability: Weak Armor
+EVs: 116 HP / 36 Atk / 36 Def / 156 SpD / 156 Spe
+Careful Nature
+- Rapid Spin
+- Stealth Rock
+- Knock Off
+- Rock Slide

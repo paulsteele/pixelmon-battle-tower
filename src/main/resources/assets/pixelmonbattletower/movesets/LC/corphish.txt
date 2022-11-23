@@ -1,0 +1,9 @@
+Corphish @ Eviolite
+Level: 5
+Ability: Adaptability
+EVs: 196 Atk / 76 Def / 236 Spe
+Adamant Nature
+- Crabhammer
+- Aqua Jet
+- Knock Off
+- Swords Dance

@@ -1,0 +1,8 @@
+Metang @ Eviolite
+Ability: Clear Body
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Stealth Rock
+- Meteor Mash
+- Toxic
+- Bullet Punch

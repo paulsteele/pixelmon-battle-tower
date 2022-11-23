@@ -1,0 +1,8 @@
+Dragalge @ Heavy-Duty Boots
+Ability: Adaptability
+EVs: 252 HP / 124 SpA / 132 Spe
+Modest Nature
+- Draco Meteor
+- Sludge Bomb
+- Flip Turn
+- Toxic Spikes

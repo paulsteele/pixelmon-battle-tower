@@ -1,0 +1,8 @@
+Mothim @ Choice Specs
+Ability: Tinted Lens
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Bug Buzz
+- Air Slash
+- U-turn
+- Energy Ball

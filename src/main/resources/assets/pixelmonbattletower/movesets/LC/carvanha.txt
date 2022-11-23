@@ -1,0 +1,10 @@
+Carvanha @ Life Orb
+Level: 5
+Ability: Speed Boost
+EVs: 196 Atk / 36 SpD / 236 Spe
+IVs: 9 HP
+Adamant Nature
+- Flip Turn
+- Crunch
+- Psychic Fangs
+- Protect

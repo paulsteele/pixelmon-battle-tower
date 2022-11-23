@@ -1,0 +1,8 @@
+Obstagoon @ Flame Orb
+Ability: Guts
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Knock Off
+- Facade
+- Ice Punch
+- Switcheroo

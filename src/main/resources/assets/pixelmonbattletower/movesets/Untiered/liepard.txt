@@ -1,0 +1,8 @@
+Liepard @ Heat Rock
+Ability: Prankster
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Sunny Day
+- U-turn
+- Knock Off
+- Encore

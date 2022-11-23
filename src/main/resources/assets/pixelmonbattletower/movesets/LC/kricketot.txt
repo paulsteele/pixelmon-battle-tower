@@ -1,0 +1,9 @@
+Kricketot @ Focus Sash
+Level: 5
+Ability: Shed Skin
+EVs: 236 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Endeavor
+- String Shot
+- Bug Bite
+- Growl

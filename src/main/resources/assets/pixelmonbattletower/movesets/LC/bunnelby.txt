@@ -1,0 +1,9 @@
+Bunnelby @ Eviolite
+Level: 5
+Ability: Huge Power
+EVs: 52 HP / 228 Atk / 228 Spe
+Adamant Nature
+- Strength
+- Earthquake
+- Quick Attack
+- Stone Edge

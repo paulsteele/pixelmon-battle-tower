@@ -1,0 +1,8 @@
+Alcremie @ Heavy-Duty Boots
+Ability: Aroma Veil
+EVs: 252 HP / 72 SpA / 184 Spe
+Timid Nature
+- Dazzling Gleam
+- Mystical Fire
+- Recover
+- Calm Mind

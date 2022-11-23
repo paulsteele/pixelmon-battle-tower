@@ -1,0 +1,8 @@
+Furret @ Choice Scarf
+Ability: Frisk
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Trick
+- Double-Edge
+- U-turn
+- Knock Off

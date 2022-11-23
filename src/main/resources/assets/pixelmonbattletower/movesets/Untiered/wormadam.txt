@@ -1,0 +1,8 @@
+Wormadam @ Leftovers
+Ability: Overcoat
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Quiver Dance
+- Bug Buzz
+- Giga Drain
+- Hidden Power Ground

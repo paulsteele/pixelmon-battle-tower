@@ -1,0 +1,8 @@
+Tangela @ Eviolite
+Ability: Regenerator
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Giga Drain
+- Knock Off
+- Sludge Bomb
+- Synthesis

@@ -1,0 +1,8 @@
+Sceptile @ Psychic Seed
+Ability: Unburden
+EVs: 248 HP / 252 Atk / 8 Def
+Adamant Nature
+- Swords Dance
+- Leaf Blade
+- Acrobatics
+- Low Kick

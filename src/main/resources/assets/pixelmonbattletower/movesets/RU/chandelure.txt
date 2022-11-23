@@ -1,0 +1,8 @@
+Chandelure @ Heavy-Duty Boots
+Ability: Flash Fire
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Fire Blast
+- Shadow Ball
+- Toxic
+- Energy Ball

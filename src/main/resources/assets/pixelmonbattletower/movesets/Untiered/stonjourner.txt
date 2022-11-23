@@ -1,0 +1,8 @@
+Stonjourner @ Choice Band
+Ability: Power Spot
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Stone Edge
+- Heat Crash
+- Earthquake
+- Superpower

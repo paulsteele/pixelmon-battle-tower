@@ -1,0 +1,8 @@
+Drakloak @ Eviolite
+Ability: Infiltrator
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Will-O-Wisp
+- Hex
+- Fire Blast
+- U-turn

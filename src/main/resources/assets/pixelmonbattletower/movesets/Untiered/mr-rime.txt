@@ -1,0 +1,8 @@
+Mr. Rime @ Heavy-Duty Boots
+Ability: Ice Body
+EVs: 240 HP / 252 SpA / 16 Spe
+Modest Nature
+- Rapid Spin
+- Slack Off
+- Freeze-Dry
+- Future Sight

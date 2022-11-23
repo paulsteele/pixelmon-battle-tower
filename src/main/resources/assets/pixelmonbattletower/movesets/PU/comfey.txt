@@ -1,0 +1,8 @@
+Comfey @ Heavy-Duty Boots
+Ability: Natural Cure
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Defog
+- Dazzling Gleam
+- U-turn
+- Synthesis

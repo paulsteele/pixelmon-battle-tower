@@ -1,0 +1,9 @@
+Porygon @ Eviolite
+Level: 5
+Ability: Trace
+EVs: 156 HP / 196 Def / 156 SpD
+Calm Nature
+- Tri Attack
+- Teleport
+- Thunder Wave
+- Recover

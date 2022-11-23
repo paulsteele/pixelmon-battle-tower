@@ -1,0 +1,8 @@
+Simisage @ Life Orb
+Ability: Overgrow
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Leaf Storm
+- Superpower
+- Rock Slide
+- Gunk Shot

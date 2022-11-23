@@ -1,0 +1,9 @@
+Psyduck @ Choice Scarf
+Level: 5
+Ability: Cloud Nine
+EVs: 240 SpA / 240 Spe
+Timid Nature
+- Hydro Pump
+- Psychic
+- Ice Beam
+- Hidden Power Fire

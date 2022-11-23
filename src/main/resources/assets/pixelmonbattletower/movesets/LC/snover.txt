@@ -1,0 +1,9 @@
+Snover @ Icy Rock
+Level: 5
+Ability: Snow Warning
+EVs: 36 HP / 20 Atk / 36 Def / 180 SpA / 36 SpD / 196 Spe
+Naive Nature
+- Blizzard
+- Giga Drain
+- Ice Shard
+- Protect

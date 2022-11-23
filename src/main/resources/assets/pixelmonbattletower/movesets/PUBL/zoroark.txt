@@ -1,0 +1,8 @@
+Zoroark @ Heavy-Duty Boots
+Ability: Illusion
+EVs: 220 Atk / 36 SpA / 252 Spe
+Naive Nature
+- Knock Off
+- U-turn
+- Flamethrower
+- Sludge Bomb

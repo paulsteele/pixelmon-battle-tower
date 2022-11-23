@@ -1,0 +1,8 @@
+Malamar @ Leftovers
+Ability: Contrary
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Superpower
+- Knock Off
+- Rest
+- Sleep Talk

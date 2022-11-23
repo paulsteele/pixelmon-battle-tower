@@ -1,0 +1,9 @@
+Gible @ Berry Juice
+Level: 5
+Ability: Rough Skin
+EVs: 52 HP / 156 Def / 116 SpA / 156 SpD / 20 Spe
+Bold Nature
+- Stealth Rock
+- Draco Meteor
+- Earth Power
+- Fire Blast

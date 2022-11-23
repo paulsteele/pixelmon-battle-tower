@@ -1,0 +1,8 @@
+Girafarig @ Choice Band
+Ability: Sap Sipper
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Return
+- Psychic Fangs
+- Earthquake
+- Trick

@@ -1,0 +1,9 @@
+Snubbull @ Berry Juice
+Level: 5
+Ability: Intimidate
+EVs: 36 HP / 116 Atk / 116 Def / 196 SpD / 36 Spe
+Impish Nature
+- Play Rough
+- Fire Punch
+- Thief
+- Earthquake

@@ -1,0 +1,8 @@
+Castform @ Waterium Z
+Ability: Forecast
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rain Dance
+- Hydro Pump
+- Ice Beam
+- Thunder

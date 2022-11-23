@@ -1,0 +1,8 @@
+Deoxys-Defense @ Rocky Helmet
+Ability: Pressure
+EVs: 252 HP / 4 Def / 252 Spe
+Impish Nature
+- Cosmic Power
+- Taunt
+- Night Shade
+- Recover

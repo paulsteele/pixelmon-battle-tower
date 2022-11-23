@@ -1,0 +1,9 @@
+Tympole @ Life Orb
+Level: 5
+Ability: Swift Swim
+EVs: 116 Def / 196 SpA / 36 SpD / 84 Spe
+Modest Nature
+- Rain Dance
+- Hydro Pump
+- Earth Power
+- Sludge Bomb

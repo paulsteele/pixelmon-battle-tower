@@ -1,0 +1,8 @@
+Vileplume @ Black Sludge
+Ability: Effect Spore
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Giga Drain
+- Sludge Bomb
+- Strength Sap
+- Corrosive Gas

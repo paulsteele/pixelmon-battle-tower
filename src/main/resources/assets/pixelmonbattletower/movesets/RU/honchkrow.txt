@@ -1,0 +1,8 @@
+Honchkrow @ Darkinium Z
+Ability: Moxie
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Brave Bird
+- Sucker Punch
+- Superpower
+- Taunt

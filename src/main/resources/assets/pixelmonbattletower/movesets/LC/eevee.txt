@@ -1,0 +1,9 @@
+Eevee @ Eevium Z
+Level: 50
+Ability: Anticipation
+EVs: 212 HP / 92 SpA / 204 Spe
+Timid Nature
+- Last Resort
+- Baton Pass
+- Substitute
+- Stored Power

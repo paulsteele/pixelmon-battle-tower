@@ -1,0 +1,9 @@
+Abra @ Shed Shell
+Level: 5
+Ability: Magic Guard
+EVs: 36 Atk / 236 SpA / 196 Spe
+Hasty Nature
+- Psychic
+- Shadow Ball
+- Focus Punch
+- Substitute

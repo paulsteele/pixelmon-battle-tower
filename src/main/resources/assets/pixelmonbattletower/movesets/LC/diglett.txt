@@ -1,0 +1,9 @@
+Diglett @ Air Balloon
+Level: 5
+Ability: Arena Trap
+EVs: 36 HP / 236 Atk / 236 Spe
+Jolly Nature
+- Earthquake
+- Final Gambit
+- Beat Up
+- Rock Slide

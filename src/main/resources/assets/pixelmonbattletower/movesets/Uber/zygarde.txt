@@ -1,0 +1,8 @@
+Zygarde @ Leftovers
+Ability: Power Construct
+EVs: 16 HP / 224 Atk / 36 Def / 232 Spe
+Impish Nature
+- Thousand Arrows
+- Dragon Dance
+- Substitute
+- Glare

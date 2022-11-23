@@ -1,0 +1,8 @@
+Jumpluff
+Ability: Infiltrator
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Strength Sap
+- Sleep Powder
+- Acrobatics

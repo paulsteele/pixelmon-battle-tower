@@ -1,0 +1,9 @@
+Fennekin @ Power Herb
+Level: 5
+Ability: Magician
+EVs: 36 HP / 36 Def / 180 SpA / 36 SpD / 196 Spe
+Timid Nature
+- Fire Blast
+- Solar Beam
+- Psychic
+- Will-O-Wisp

@@ -1,0 +1,8 @@
+Wartortle @ Eviolite
+Ability: Torrent
+EVs: 176 HP / 252 SpA / 80 Spe
+Modest Nature
+- Shell Smash
+- Hydro Pump
+- Ice Beam
+- Substitute

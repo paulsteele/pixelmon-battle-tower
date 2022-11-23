@@ -1,0 +1,10 @@
+Vanillite @ Icium Z
+Level: 5
+Ability: Weak Armor
+EVs: 240 SpA / 244 Spe
+IVs: 19 HP / 1 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Modest Nature
+- Ice Beam
+- Hidden Power Fighting
+- Explosion
+- Substitute

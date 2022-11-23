@@ -1,0 +1,8 @@
+Raboot @ Choice Band
+Ability: Libero
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Flare Blitz
+- High Jump Kick
+- Sucker Punch
+- U-turn

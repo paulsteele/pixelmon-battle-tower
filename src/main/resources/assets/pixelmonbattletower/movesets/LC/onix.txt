@@ -1,0 +1,9 @@
+Onix @ Berry Juice
+Level: 5
+Ability: Sturdy
+EVs: 76 HP / 236 Atk / 196 Spe
+Jolly Nature
+- Earthquake
+- Rock Blast
+- Stealth Rock
+- Explosion

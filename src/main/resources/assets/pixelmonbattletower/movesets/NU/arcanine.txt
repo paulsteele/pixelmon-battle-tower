@@ -1,0 +1,8 @@
+Arcanine @ Heavy-Duty Boots
+Ability: Intimidate
+EVs: 248 HP / 196 Def / 64 Spe
+Bold Nature
+- Flamethrower
+- Morning Sun
+- Teleport
+- Toxic

@@ -1,0 +1,8 @@
+Mantine @ Heavy-Duty Boots
+Ability: Water Absorb
+EVs: 252 HP / 120 Def / 136 Spe
+Bold Nature
+- Scald
+- Hurricane
+- Roost
+- Toxic

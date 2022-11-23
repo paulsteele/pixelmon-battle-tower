@@ -1,0 +1,9 @@
+Petilil @ Eviolite
+Level: 5
+Ability: Chlorophyll
+EVs: 36 Def / 200 SpA / 36 SpD / 200 Spe
+Timid Nature
+- Sunny Day
+- Solar Beam
+- Hidden Power Fire
+- Sleep Powder

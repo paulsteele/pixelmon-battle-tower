@@ -1,0 +1,8 @@
+Whiscash @ Life Orb
+Ability: Oblivious
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Hydro Pump
+- Earth Power
+- Ice Beam
+- Stone Edge

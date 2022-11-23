@@ -1,0 +1,9 @@
+Nidoqueen @ Life Orb
+Ability: Sheer Force
+EVs: 232 SpA / 24 SpD / 252 Spe
+IVs: 0 Atk
+Timid Nature
+- Stealth Rock
+- Earth Power
+- Sludge Wave
+- Ice Beam

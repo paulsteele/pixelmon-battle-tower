@@ -1,0 +1,8 @@
+Type: Null @ Eviolite
+Ability: Battle Armor
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- U-turn
+- Toxic
+- Rest
+- Sleep Talk

@@ -1,0 +1,8 @@
+Gallade @ Muscle Band
+Ability: Justified
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Psycho Cut
+- Shadow Sneak
+- Knock Off

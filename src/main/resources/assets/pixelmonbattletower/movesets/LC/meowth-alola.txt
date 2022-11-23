@@ -1,0 +1,9 @@
+Meowth-Alola @ Darkinium Z
+Level: 5
+Ability: Technician
+EVs: 36 HP / 200 SpA / 40 SpD / 200 Spe
+Timid Nature
+- Parting Shot
+- Dark Pulse
+- Hidden Power Fighting
+- Taunt

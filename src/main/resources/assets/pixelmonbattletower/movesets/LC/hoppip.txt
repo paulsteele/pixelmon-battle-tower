@@ -1,0 +1,9 @@
+Hoppip @ Eviolite
+Level: 5
+Ability: Infiltrator
+EVs: 156 HP / 196 Def / 156 SpD
+Impish Nature
+- Strength Sap
+- Sleep Powder
+- Bullet Seed
+- U-turn

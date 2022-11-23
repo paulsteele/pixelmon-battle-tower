@@ -1,0 +1,9 @@
+Mareanie @ Eviolite
+Level: 5
+Ability: Regenerator
+EVs: 116 HP / 12 Atk / 180 Def / 12 SpA / 180 SpD
+Bold Nature
+- Scald
+- Sludge Bomb
+- Knock Off
+- Recover

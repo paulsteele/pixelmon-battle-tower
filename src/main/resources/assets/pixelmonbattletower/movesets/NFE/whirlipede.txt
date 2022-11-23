@@ -1,0 +1,8 @@
+Whirlipede @ Focus Sash
+Ability: Speed Boost
+EVs: 244 HP / 12 Def / 252 Spe
+Jolly Nature
+- Spikes
+- Toxic Spikes
+- Protect
+- Endeavor

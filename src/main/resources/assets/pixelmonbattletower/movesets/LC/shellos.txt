@@ -1,0 +1,9 @@
+Shellos @ Eviolite
+Level: 5
+Ability: Sticky Hold
+EVs: 228 HP / 132 Def / 100 SpD / 4 Spe
+Impish Nature
+- Facade
+- Curse
+- Amnesia
+- Recover

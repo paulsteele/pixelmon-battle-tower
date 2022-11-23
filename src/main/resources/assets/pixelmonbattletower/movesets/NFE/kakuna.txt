@@ -1,0 +1,8 @@
+Kakuna @ Leftovers
+Ability: Shed Skin
+EVs: 252 HP / 80 Atk / 176 Def
+Impish Nature
+- Poison Sting
+- Iron Defense
+- String Shot
+- Bug Bite

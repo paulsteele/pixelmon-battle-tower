@@ -1,0 +1,9 @@
+Turtwig @ Eviolite
+Level: 5
+Ability: Overgrow
+EVs: 76 HP / 52 Atk / 244 Def / 76 SpD / 28 Spe
+Careful Nature
+- Stealth Rock
+- Synthesis
+- Bullet Seed
+- Superpower

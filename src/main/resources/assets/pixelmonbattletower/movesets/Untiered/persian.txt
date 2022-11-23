@@ -1,0 +1,8 @@
+Persian @ Silk Scarf
+Ability: Technician
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Fake Out
+- Double-Edge
+- Knock Off
+- U-turn

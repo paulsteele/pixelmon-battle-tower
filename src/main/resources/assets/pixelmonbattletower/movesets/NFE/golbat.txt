@@ -1,0 +1,8 @@
+Golbat @ Eviolite
+Ability: Infiltrator
+EVs: 248 HP / 44 Def / 216 Spe
+Jolly Nature
+- Toxic
+- Taunt
+- Super Fang
+- Roost

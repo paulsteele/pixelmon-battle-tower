@@ -1,0 +1,9 @@
+Sentret @ Choice Specs
+Level: 5
+Ability: Frisk
+EVs: 76 HP / 236 SpA / 196 Spe
+Modest Nature
+- Hyper Voice
+- Flamethrower
+- Shadow Ball
+- Trick

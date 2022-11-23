@@ -1,0 +1,8 @@
+Bouffalant @ Leftovers
+Ability: Sap Sipper
+EVs: 180 HP / 252 Atk / 76 Spe
+Adamant Nature
+- Swords Dance
+- Substitute
+- Head Charge
+- Throat Chop

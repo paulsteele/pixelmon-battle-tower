@@ -1,0 +1,10 @@
+Crabrawler @ Life Orb
+Level: 5
+Ability: Hyper Cutter
+EVs: 180 Atk / 60 Def / 252 Spe
+IVs: 0 HP
+Jolly Nature
+- Close Combat
+- Crabhammer
+- Earthquake
+- Stone Edge

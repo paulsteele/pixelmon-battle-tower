@@ -1,0 +1,9 @@
+Axew @ Eviolite
+Level: 5
+Ability: Mold Breaker
+EVs: 68 HP / 220 Atk / 220 Spe
+Jolly Nature
+- Dragon Dance
+- Outrage
+- Superpower
+- Iron Tail

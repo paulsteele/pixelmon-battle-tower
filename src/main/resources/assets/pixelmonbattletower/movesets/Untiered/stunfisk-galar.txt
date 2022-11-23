@@ -1,0 +1,8 @@
+Stunfisk-Galar @ Leftovers
+Ability: Mimicry
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Stealth Rock
+- Earthquake
+- Sludge Bomb
+- Protect

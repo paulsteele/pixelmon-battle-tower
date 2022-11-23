@@ -1,0 +1,8 @@
+Druddigon @ Rocky Helmet
+Ability: Rough Skin
+EVs: 248 HP / 8 Atk / 252 Def
+Impish Nature
+- Dragon Tail
+- Stealth Rock
+- Glare
+- Earthquake

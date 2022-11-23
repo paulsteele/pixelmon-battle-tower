@@ -1,0 +1,8 @@
+Salamence @ Heavy-Duty Boots
+Ability: Intimidate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Draco Meteor
+- Hurricane
+- Flamethrower
+- Roost

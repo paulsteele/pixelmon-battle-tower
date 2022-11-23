@@ -1,0 +1,10 @@
+Snorunt @ Choice Scarf
+Level: 5
+Ability: Inner Focus
+EVs: 40 HP / 36 Def / 200 SpA / 200 Spe
+IVs: 30 HP / 0 Atk / 30 SpA / 30 SpD / 30 Spe
+Modest Nature
+- Spikes
+- Frost Breath
+- Shadow Ball
+- Hidden Power Fighting

@@ -1,0 +1,8 @@
+Grumpig @ Colbur Berry
+Ability: Thick Fat
+EVs: 80 HP / 252 SpA / 176 Spe
+Timid Nature
+- Psychic
+- Focus Blast
+- Shadow Ball
+- Calm Mind

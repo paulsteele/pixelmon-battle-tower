@@ -1,0 +1,8 @@
+Reuniclus @ Leftovers
+Ability: Magic Guard
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Calm Mind
+- Psyshock
+- Focus Blast
+- Recover

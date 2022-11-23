@@ -1,0 +1,9 @@
+Timburr @ Eviolite
+Level: 5
+Ability: Iron Fist
+EVs: 196 Atk / 156 Def / 156 Spe
+Adamant Nature
+- Drain Punch
+- Knock Off
+- Mach Punch
+- Defog

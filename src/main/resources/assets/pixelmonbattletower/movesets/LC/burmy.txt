@@ -1,0 +1,9 @@
+Burmy @ Oran Berry
+Level: 5
+Ability: Shed Skin
+EVs: 196 HP / 208 Atk / 80 Def
+Relaxed Nature
+- Bug Bite
+- String Shot
+- Protect
+- Hidden Power Ice

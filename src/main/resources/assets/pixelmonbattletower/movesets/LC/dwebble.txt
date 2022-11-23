@@ -1,0 +1,9 @@
+Dwebble @ Eviolite
+Level: 5
+Ability: Weak Armor
+EVs: 156 Atk / 116 Def / 236 Spe
+Jolly Nature
+- Stealth Rock
+- Spikes
+- Knock Off
+- Rock Blast

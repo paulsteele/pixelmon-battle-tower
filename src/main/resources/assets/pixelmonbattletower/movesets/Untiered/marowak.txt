@@ -1,0 +1,8 @@
+Marowak @ Thick Club
+Ability: Battle Armor
+EVs: 252 HP / 252 Atk / 4 Spe
+Adamant Nature
+- Swords Dance
+- Bonemerang
+- Knock Off
+- Stone Edge

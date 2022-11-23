@@ -1,0 +1,8 @@
+Dhelmise @ Heavy-Duty Boots
+Ability: Steelworker
+EVs: 252 HP / 4 Atk / 252 Def
+Impish Nature
+- Power Whip
+- Poltergeist
+- Rapid Spin
+- Synthesis

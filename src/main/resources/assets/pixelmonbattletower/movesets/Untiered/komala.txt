@@ -1,0 +1,8 @@
+Komala @ Assault Vest
+Ability: Comatose
+EVs: 252 HP / 232 Atk / 24 Spe
+Adamant Nature
+- Rapid Spin
+- Return
+- U-turn
+- Sucker Punch

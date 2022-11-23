@@ -1,0 +1,8 @@
+Cryogonal @ Heavy-Duty Boots
+Ability: Levitate
+EVs: 248 HP / 8 SpD / 252 Spe
+Timid Nature
+- Recover
+- Freeze-Dry
+- Knock Off
+- Rapid Spin

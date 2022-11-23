@@ -1,0 +1,9 @@
+Wimpod @ Focus Sash
+Level: 5
+Ability: Wimp Out
+EVs: 76 Atk / 196 Def / 36 SpA / 196 Spe
+Naive Nature
+- Spikes
+- Taunt
+- Scald
+- Aqua Jet

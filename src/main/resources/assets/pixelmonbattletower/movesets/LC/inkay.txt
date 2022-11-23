@@ -1,0 +1,9 @@
+Inkay @ Choice Scarf
+Level: 5
+Ability: Contrary
+EVs: 12 HP / 244 Atk / 12 Def / 236 Spe
+Jolly Nature
+- Superpower
+- Knock Off
+- Psycho Cut
+- Switcheroo

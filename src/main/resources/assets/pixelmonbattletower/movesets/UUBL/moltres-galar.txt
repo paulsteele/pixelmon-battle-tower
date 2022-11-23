@@ -1,0 +1,8 @@
+Moltres-Galar @ Weakness Policy
+Ability: Berserk
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Nasty Plot
+- Agility
+- Fiery Wrath
+- Hurricane

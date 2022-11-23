@@ -1,0 +1,10 @@
+Igglybuff @ Eviolite
+Level: 5
+Ability: Competitive
+EVs: 196 HP / 116 SpA / 196 SpD
+IVs: 0 Atk
+Calm Nature
+- Wish
+- Protect
+- Hyper Voice
+- Fire Blast

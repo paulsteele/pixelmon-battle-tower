@@ -1,0 +1,9 @@
+Growlithe @ Eviolite
+Level: 5
+Ability: Intimidate
+EVs: 76 HP / 36 Atk / 156 Def / 196 SpD / 36 Spe
+Impish Nature
+- Will-O-Wisp
+- Morning Sun
+- Flare Blitz
+- Wild Charge

@@ -1,0 +1,9 @@
+Bellsprout @ Poisonium Z
+Level: 5
+Ability: Chlorophyll
+EVs: 76 Def / 196 SpA / 36 SpD / 196 Spe
+Modest Nature
+- Solar Beam
+- Sludge Bomb
+- Weather Ball
+- Sleep Powder

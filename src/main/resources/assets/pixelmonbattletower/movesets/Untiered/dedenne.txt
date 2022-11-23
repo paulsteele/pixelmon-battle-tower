@@ -1,0 +1,9 @@
+Dedenne @ Heavy-Duty Boots
+Ability: Pickup
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Adamant Nature
+- Volt Switch
+- Dazzling Gleam
+- Super Fang
+- Grass Knot

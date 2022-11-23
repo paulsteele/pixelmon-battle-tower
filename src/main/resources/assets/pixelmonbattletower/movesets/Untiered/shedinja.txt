@@ -1,0 +1,9 @@
+Shedinja @ Heavy-Duty Boots
+Ability: Wonder Guard
+EVs: 252 Atk / 252 Spe
+IVs: 0 Def / 0 SpD
+Lonely Nature
+- Toxic
+- Will-O-Wisp
+- Baton Pass
+- Shadow Sneak

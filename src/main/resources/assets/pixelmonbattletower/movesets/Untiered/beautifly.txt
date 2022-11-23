@@ -1,0 +1,8 @@
+Beautifly @ Buginium Z
+Ability: Swarm
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Quiver Dance
+- Bug Buzz
+- Hidden Power Fighting
+- Roost

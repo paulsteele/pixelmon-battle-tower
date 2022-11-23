@@ -1,0 +1,8 @@
+Dugtrio @ Choice Scarf
+Ability: Arena Trap
+EVs: 244 Atk / 140 SpD / 124 Spe
+Adamant Nature
+- Earthquake
+- Stone Edge
+- Memento
+- Toxic

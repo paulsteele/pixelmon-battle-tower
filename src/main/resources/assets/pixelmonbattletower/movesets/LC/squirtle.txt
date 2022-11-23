@@ -1,0 +1,9 @@
+Squirtle @ Eviolite
+Level: 5
+Ability: Torrent
+EVs: 84 HP / 52 Atk / 156 Def / 84 SpD / 92 Spe
+Impish Nature
+- Rapid Spin
+- Fake Out
+- Waterfall
+- Aqua Jet

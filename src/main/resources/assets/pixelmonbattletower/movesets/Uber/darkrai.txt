@@ -1,0 +1,8 @@
+Darkrai @ Life Orb
+Ability: Bad Dreams
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Hypnosis
+- Nasty Plot
+- Dark Pulse
+- Thunder

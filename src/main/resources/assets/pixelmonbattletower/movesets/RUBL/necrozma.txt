@@ -1,0 +1,8 @@
+Necrozma @ Lum Berry
+Ability: Prism Armor
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naughty Nature
+- Dragon Dance
+- Photon Geyser
+- X-Scissor
+- Heat Wave

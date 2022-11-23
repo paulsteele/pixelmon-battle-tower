@@ -1,0 +1,9 @@
+Pikipek @ Choice Scarf
+Level: 5
+Ability: Skill Link
+EVs: 236 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Brave Bird
+- Bullet Seed
+- Brick Break
+- U-turn

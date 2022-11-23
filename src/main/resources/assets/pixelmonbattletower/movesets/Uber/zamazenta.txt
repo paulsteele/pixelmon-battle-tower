@@ -1,0 +1,8 @@
+Zamazenta @ Choice Band
+Ability: Dauntless Shield
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Crunch
+- Psychic Fangs
+- Wild Charge

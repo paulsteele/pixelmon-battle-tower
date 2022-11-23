@@ -1,0 +1,8 @@
+Vibrava @ Eviolite
+Ability: Levitate
+EVs: 248 HP / 8 Atk / 252 SpD
+Careful Nature
+- Earthquake
+- U-turn
+- Roost
+- Defog

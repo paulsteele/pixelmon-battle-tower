@@ -1,0 +1,8 @@
+Ho-Oh @ Heavy-Duty Boots
+Ability: Regenerator
+EVs: 248 HP / 208 Def / 52 SpD
+Impish Nature
+- Sacred Fire
+- Defog
+- Toxic
+- Whirlwind

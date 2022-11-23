@@ -1,0 +1,8 @@
+Porygon2 @ Eviolite
+Ability: Trace
+EVs: 248 HP / 8 Def / 252 SpD
+Calm Nature
+- Teleport
+- Recover
+- Ice Beam
+- Toxic

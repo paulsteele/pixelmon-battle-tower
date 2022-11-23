@@ -1,0 +1,10 @@
+Meowth @ Life Orb
+Level: 5
+Ability: Technician
+EVs: 236 Atk / 36 SpA / 36 SpD / 196 Spe
+IVs: 19 HP
+Naughty Nature
+- Fake Out
+- Feint
+- Double-Edge
+- Water Pulse

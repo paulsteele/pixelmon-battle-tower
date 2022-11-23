@@ -1,0 +1,9 @@
+Phantump @ Grassium Z
+Level: 5
+Ability: Frisk
+EVs: 12 HP / 196 Atk / 52 Def / 36 SpD / 212 Spe
+Jolly Nature
+- Forest's Curse
+- Shadow Claw
+- Horn Leech
+- Rock Slide

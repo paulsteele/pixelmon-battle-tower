@@ -1,0 +1,8 @@
+Shaymin-Sky @ Life Orb
+Ability: Serene Grace
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Seed Flare
+- Air Slash
+- Earth Power
+- Healing Wish

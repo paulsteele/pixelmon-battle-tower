@@ -1,0 +1,8 @@
+Boltund @ Life Orb
+Ability: Strong Jaw
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Thunder Fang
+- Volt Switch
+- Fire Fang
+- Crunch
