@@ -1,4 +1,4 @@
-package com.pixelmon.battletower;
+package com.pixelmon.battletower.persistence;
 
 import net.minecraft.nbt.CompoundNBT;
 

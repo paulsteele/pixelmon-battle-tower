@@ -1,4 +1,4 @@
-package com.pixelmon.battletower.playerSpot;
+package com.pixelmon.battletower.blocks.playerSpot;
 
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;

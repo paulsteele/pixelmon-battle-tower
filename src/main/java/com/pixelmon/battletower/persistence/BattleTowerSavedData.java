@@ -1,5 +1,6 @@
-package com.pixelmon.battletower;
+package com.pixelmon.battletower.persistence;
 
+import com.pixelmon.battletower.persistence.BattleTowerRun;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.world.storage.WorldSavedData;

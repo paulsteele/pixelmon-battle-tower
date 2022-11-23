@@ -1,4 +1,4 @@
-package com.pixelmon.battletower.computer;
+package com.pixelmon.battletower.blocks.computer;
 
 import com.pixelmon.battletower.BattleTowerController;
 import net.minecraft.block.Block;

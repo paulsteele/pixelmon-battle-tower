@@ -1,11 +1,11 @@
 package com.pixelmon.battletower;
 
-import com.pixelmon.battletower.computer.BattleTowerComputerBlock;
-import com.pixelmon.battletower.computer.BattleTowerComputerItem;
-import com.pixelmon.battletower.opponentSpot.BattleTowerOpponentSpotBlock;
-import com.pixelmon.battletower.opponentSpot.BattleTowerOpponentSpotItem;
-import com.pixelmon.battletower.playerSpot.BattleTowerPlayerSpotBlock;
-import com.pixelmon.battletower.playerSpot.BattleTowerPlayerSpotItem;
+import com.pixelmon.battletower.blocks.computer.BattleTowerComputerBlock;
+import com.pixelmon.battletower.blocks.computer.BattleTowerComputerItem;
+import com.pixelmon.battletower.blocks.opponentSpot.BattleTowerOpponentSpotBlock;
+import com.pixelmon.battletower.blocks.opponentSpot.BattleTowerOpponentSpotItem;
+import com.pixelmon.battletower.blocks.playerSpot.BattleTowerPlayerSpotBlock;
+import com.pixelmon.battletower.blocks.playerSpot.BattleTowerPlayerSpotItem;
 import com.pixelmonmod.pixelmon.Pixelmon;
 import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
 import net.minecraft.block.Block;
