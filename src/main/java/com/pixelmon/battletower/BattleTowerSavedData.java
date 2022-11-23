@@ -1,4 +1,4 @@
-package com.pts.pixelmon.battletower;
+package com.pixelmon.battletower;
 
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.nbt.CompoundNBT;

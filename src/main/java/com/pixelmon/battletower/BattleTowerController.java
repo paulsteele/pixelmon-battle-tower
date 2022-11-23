@@ -1,4 +1,4 @@
-package com.pts.pixelmon.battletower;
+package com.pixelmon.battletower;
 
 import com.google.common.collect.Lists;
 import com.pixelmonmod.pixelmon.api.battles.BattleResults;
@@ -57,7 +57,7 @@ public class BattleTowerController {
         cancel.setHandle(dialogueChoiceEvent -> {});
 
         builder
-                .setName("Choice")
+                .setName("Battle Tower")
                 .setText("You have a streak of " + savedData.GetStreak(player) + " in format " + savedData.GetType(player))
                 .addChoice(continueChoice.build(1))
                 .addChoice(quit.build(2))
@@ -85,7 +85,7 @@ public class BattleTowerController {
         cancel.setHandle(dialogueChoiceEvent -> {});
 
         builder
-                .setName("Choice")
+                .setName("Battle Tower")
                 .setText("Select Format")
                 .addChoice(singles.build(1))
                 .addChoice(doubles.build(2))

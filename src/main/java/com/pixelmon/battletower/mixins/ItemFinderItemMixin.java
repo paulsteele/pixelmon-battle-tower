@@ -1,8 +1,10 @@
-package com.pts.pixelmon.battletower.BetterItemFinder;
+package com.pixelmon.battletower.mixins;
 
 import com.pixelmonmod.pixelmon.api.util.helpers.BlockHelper;
 import com.pixelmonmod.pixelmon.blocks.tileentity.PokeChestTileEntity;
 import com.pixelmonmod.pixelmon.items.ItemFinderItem;
+import com.pixelmonmod.pixelmon.items.PixelmonItem;
+import com.pixelmonmod.pixelmon.items.group.PixelmonItemGroups;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -10,17 +12,16 @@ import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.World;
-import net.minecraftforge.registries.DeferredRegister;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Overwrite;
 
-public class BetterItemFinderItem extends ItemFinderItem {
+@Mixin(ItemFinderItem.class)
+public abstract class ItemFinderItemMixin extends PixelmonItem{
     private static final double RADIUS = 100.0;
-
-    public BetterItemFinderItem(DeferredRegister<Item> itemDeferredRegister) {
-        super();
-        itemDeferredRegister.register("better_item_finder_item", () -> this);
+    public ItemFinderItemMixin() {
+        super((new Item.Properties()).stacksTo(1).tab(PixelmonItemGroups.TAB_POKE_LOOT));
     }
-
-    @Override
+    @Overwrite
     public ActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
         ItemStack itemStack = player.getItemInHand(hand);
         player.getCooldowns().addCooldown(this, 20);

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.pixelmon.battletower.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "battlettower.refmap.json",
+  "mixins": [
+    "ItemFinderItemMixin"
+  ],
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

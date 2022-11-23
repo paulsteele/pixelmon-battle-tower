@@ -1,6 +1,6 @@
-package com.pts.pixelmon.battletower.BattleTowerComputer;
+package com.pixelmon.battletower.battleTowerComputer;
 
-import com.pts.pixelmon.battletower.BattleTowerController;
+import com.pixelmon.battletower.BattleTowerController;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.material.Material;

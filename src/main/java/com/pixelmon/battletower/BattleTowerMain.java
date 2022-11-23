@@ -1,10 +1,9 @@
-package com.pts.pixelmon.battletower;
+package com.pixelmon.battletower;
 
+import com.pixelmon.battletower.battleTowerComputer.BattleTowerComputerBlock;
+import com.pixelmon.battletower.battleTowerComputer.BattleTowerComputerItem;
 import com.pixelmonmod.pixelmon.Pixelmon;
 import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
-import com.pts.pixelmon.battletower.BattleTowerComputer.BattleTowerComputerBlock;
-import com.pts.pixelmon.battletower.BattleTowerComputer.BattleTowerComputerItem;
-import com.pts.pixelmon.battletower.BetterItemFinder.BetterItemFinderItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.MinecraftForge;
@@ -14,7 +13,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import static com.pts.pixelmon.battletower.BattleTowerMain.ModId;
+import static com.pixelmon.battletower.BattleTowerMain.ModId;
 
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -34,7 +33,7 @@ public class BattleTowerMain
 
         BattleTowerComputerBlock battleTowerComputerBlock = new BattleTowerComputerBlock(BlockRegister, controller);
         new BattleTowerComputerItem(ItemRegister, battleTowerComputerBlock);
-        new BetterItemFinderItem(ItemRegister);
+        //new BetterItemFinderItem(ItemRegister);
 
         BlockRegister.register(FMLJavaModLoadingContext.get().getModEventBus());
         ItemRegister.register(FMLJavaModLoadingContext.get().getModEventBus());
