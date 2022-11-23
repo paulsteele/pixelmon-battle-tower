@@ -4,6 +4,7 @@ import net.minecraft.nbt.CompoundNBT;
 
 public class BattleTowerRun {
     private int streak;
+    private final RunType type;
 
     public void IncrementStreak(){
         streak++;
@@ -17,17 +18,32 @@ public class BattleTowerRun {
         return streak;
     }
 
+    public RunType GetType(){
+        return type;
+    }
+
+    public BattleTowerRun(RunType type){
+        this.type = type;
+    }
+
     public CompoundNBT ToNbt(){
         CompoundNBT nbt = new CompoundNBT();
         nbt.putInt("streak", streak);
+        nbt.putString("type", type.name());
 
         return nbt;
     }
 
    public static BattleTowerRun FromNbt(CompoundNBT nbt){
-        BattleTowerRun run = new BattleTowerRun();
+        RunType type = RunType.valueOf(nbt.getString("type"));
+        BattleTowerRun run = new BattleTowerRun(type);
         run.SetStreak(nbt.getInt("streak"));
 
         return run;
+   }
+
+   public enum RunType {
+       SINGLES,
+       DOUBLES;
    }
 }

@@ -2,6 +2,8 @@ package com.pts.pixelmon.battletower;
 
 import com.google.common.collect.Lists;
 import com.pixelmonmod.pixelmon.api.battles.BattleResults;
+import com.pixelmonmod.pixelmon.api.dialogue.Choice;
+import com.pixelmonmod.pixelmon.api.dialogue.Dialogue;
 import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
 import com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory;
 import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
@@ -24,8 +26,74 @@ public class BattleTowerController {
 
     private BattleTowerSavedData savedData;
 
-    public void StartRun(World world, ServerPlayerEntity serverPlayerEntity){
+    public void PresentChoices(World world, ServerPlayerEntity serverPlayerEntity){
         BattleTowerSavedData data = GetOrCreateSavedData((ServerWorld) world);
+
+        if (data.HasRun(serverPlayerEntity)){
+            PresentContinueRun(world, serverPlayerEntity);
+        }
+        else {
+            PresentStartRun(world, serverPlayerEntity);
+        }
+    }
+
+    private void PresentContinueRun(World world, ServerPlayerEntity player){
+        Dialogue.DialogueBuilder builder = new Dialogue.DialogueBuilder();
+        Choice.ChoiceBuilder continueChoice = new Choice.ChoiceBuilder();
+
+        continueChoice.setText("Continue");
+        continueChoice.setHandle(dialogueChoiceEvent -> {
+            StartRun(world, player, savedData.GetType(player));
+        });
+
+        Choice.ChoiceBuilder quit = new Choice.ChoiceBuilder();
+        quit.setText("Quit");
+        quit.setHandle(dialogueChoiceEvent -> {
+            savedData.EndRun(player);
+        });
+
+        Choice.ChoiceBuilder cancel = new Choice.ChoiceBuilder();
+        cancel.setText("Cancel");
+        cancel.setHandle(dialogueChoiceEvent -> {});
+
+        builder
+                .setName("Choice")
+                .setText("You have a streak of " + savedData.GetStreak(player) + " in format " + savedData.GetType(player))
+                .addChoice(continueChoice.build(1))
+                .addChoice(quit.build(2))
+                .addChoice(cancel.build(3))
+                .open(player);
+    }
+
+    private void PresentStartRun(World world, ServerPlayerEntity player){
+        Dialogue.DialogueBuilder builder = new Dialogue.DialogueBuilder();
+        Choice.ChoiceBuilder singles = new Choice.ChoiceBuilder();
+
+        singles.setText("Singles");
+        singles.setHandle(dialogueChoiceEvent -> {
+            StartRun(world, player, BattleTowerRun.RunType.SINGLES);
+        });
+
+        Choice.ChoiceBuilder doubles = new Choice.ChoiceBuilder();
+        doubles.setText("Doubles");
+        doubles.setHandle(dialogueChoiceEvent -> {
+            StartRun(world, player, BattleTowerRun.RunType.DOUBLES);
+        });
+
+        Choice.ChoiceBuilder cancel = new Choice.ChoiceBuilder();
+        cancel.setText("Cancel");
+        cancel.setHandle(dialogueChoiceEvent -> {});
+
+        builder
+                .setName("Choice")
+                .setText("Select Format")
+                .addChoice(singles.build(1))
+                .addChoice(doubles.build(2))
+                .addChoice(cancel.build(3))
+                .open(player);
+    }
+
+    private void StartRun(World world, ServerPlayerEntity serverPlayerEntity, BattleTowerRun.RunType type){
 
         NPCTrainer trainerNPC = new NPCTrainer(world);
         trainerNPC.setPos(serverPlayerEntity.getX(), serverPlayerEntity.getY(), serverPlayerEntity.getZ());
@@ -38,7 +106,7 @@ public class BattleTowerController {
 
         world.addFreshEntity(trainerNPC);
 
-        data.StartRun(serverPlayerEntity);
+        savedData.StartRun(serverPlayerEntity, type);
 
         TeamSelectionRegistry.builder()
                 .closeable(false)

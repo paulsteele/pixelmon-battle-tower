@@ -39,12 +39,12 @@ public class BattleTowerSavedData extends WorldSavedData {
         return RunMap.containsKey(player.getUUID());
     }
 
-    public void StartRun(ServerPlayerEntity player){
+    public void StartRun(ServerPlayerEntity player, BattleTowerRun.RunType type){
         if (HasRun(player)){
             return;
         }
 
-        RunMap.put(player.getUUID(), new BattleTowerRun());
+        RunMap.put(player.getUUID(), new BattleTowerRun(type));
         setDirty();
     }
 
@@ -63,6 +63,14 @@ public class BattleTowerSavedData extends WorldSavedData {
         }
 
         return RunMap.get(player.getUUID()).GetStreak();
+    }
+
+    public BattleTowerRun.RunType GetType(ServerPlayerEntity player){
+        if (!HasRun(player)){
+            return BattleTowerRun.RunType.SINGLES;
+        }
+
+        return RunMap.get(player.getUUID()).GetType();
     }
 
     public void IncrementStreak(ServerPlayerEntity player){

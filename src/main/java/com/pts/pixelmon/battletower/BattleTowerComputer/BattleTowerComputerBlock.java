@@ -41,7 +41,7 @@ public class BattleTowerComputerBlock extends Block {
 
         ServerPlayerEntity serverPlayer = (ServerPlayerEntity) player;
 
-        controller.StartRun(world, serverPlayer);
+        controller.PresentChoices(world, serverPlayer);
 
         return ActionResultType.SUCCESS;
     }
