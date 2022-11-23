@@ -6,22 +6,27 @@ import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
 import com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory;
 import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
 import com.pixelmonmod.pixelmon.battles.api.rules.teamselection.TeamSelectionRegistry;
+import com.pixelmonmod.pixelmon.battles.controller.participants.BattleParticipant;
 import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 public class BattleTowerController {
 
-    BattleTowerSavedData savedData;
+    private BattleTowerSavedData savedData;
 
     public void StartRun(World world, ServerPlayerEntity serverPlayerEntity){
+        BattleTowerSavedData data = GetOrCreateSavedData((ServerWorld) world);
+
         NPCTrainer trainerNPC = new NPCTrainer(world);
         trainerNPC.setPos(serverPlayerEntity.getX(), serverPlayerEntity.getY(), serverPlayerEntity.getZ());
         trainerNPC.setUUID(UUID.randomUUID());
@@ -33,7 +38,7 @@ public class BattleTowerController {
 
         world.addFreshEntity(trainerNPC);
 
-        savedData.StartRun(serverPlayerEntity);
+        data.StartRun(serverPlayerEntity);
 
         TeamSelectionRegistry.builder()
                 .closeable(false)
@@ -42,12 +47,19 @@ public class BattleTowerController {
                 .start();
     }
 
+    private BattleTowerSavedData GetOrCreateSavedData(ServerWorld world){
+        if (savedData == null){
+            savedData = world.getDataStorage().computeIfAbsent(BattleTowerSavedData::new, BattleTowerSavedData.Id);
+        }
+
+        return savedData;
+    }
+
     public void OnBattleEnded(final BattleEndEvent endEvent){
         List<ServerPlayerEntity> players = endEvent.getPlayers();
         if (players.size() != 1){
             return;
         }
-        endEvent.getBattleController();
 
         ServerPlayerEntity player = players.get(0);
 
@@ -66,6 +78,11 @@ public class BattleTowerController {
         }
         else {
             savedData.EndRun(player);
+            List<BattleParticipant> entities = endEvent.getBattleController().participants.stream().filter(battleParticipant -> battleParticipant.getEntity() != player).collect(Collectors.toList());
+
+            if (entities.size() == 1){
+                entities.get(0).getEntity().remove();
+            }
         }
     }
 }

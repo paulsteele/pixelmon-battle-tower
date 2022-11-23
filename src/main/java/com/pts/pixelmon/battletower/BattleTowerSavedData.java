@@ -9,8 +9,9 @@ import java.util.UUID;
 
 public class BattleTowerSavedData extends WorldSavedData {
 
+    public static final String Id = "BattleTowerSavedData";
     public BattleTowerSavedData() {
-        super("BattleTowerSavedData");
+        super(Id);
         RunMap = new HashMap<>();
     }
 
@@ -31,7 +32,6 @@ public class BattleTowerSavedData extends WorldSavedData {
         RunMap.forEach((uuid, battleTowerRun) -> {
             nbt.put(uuid.toString(), battleTowerRun.ToNbt());
         });
-        setDirty(false);
         return nbt;
     }
 
