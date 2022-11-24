@@ -1,3 +1,11 @@
 {
-  "parent": "block/lectern"
+  "parent": "block/lectern",
+  "textures": {
+    "particle": "pixelmonbattletower:block/battle_tower_computer_sides",
+    "bottom": "pixelmonbattletower:block/battle_tower_computer_bottom",
+    "base": "pixelmonbattletower:block/battle_tower_computer_base",
+    "front": "pixelmonbattletower:block/battle_tower_computer_front",
+    "sides": "pixelmonbattletower:block/battle_tower_computer_sides",
+    "top": "pixelmonbattletower:block/battle_tower_computer_top"
+  }
 }
