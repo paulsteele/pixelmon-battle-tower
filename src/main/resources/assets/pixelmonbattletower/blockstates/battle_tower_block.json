@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "pixelmonbattletower:block/battle_tower_block" }
+    "facing=north": { "model": "pixelmonbattletower:block/battle_tower_block" },
+    "facing=south": { "model": "pixelmonbattletower:block/battle_tower_block", "y": 180 },
+    "facing=west": { "model": "pixelmonbattletower:block/battle_tower_block", "y": 270 },
+    "facing=east": { "model": "pixelmonbattletower:block/battle_tower_block", "y": 90 }
   }
 }

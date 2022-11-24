@@ -3,6 +3,7 @@ package com.pixelmon.battletower.blocks.computer;
 import com.pixelmon.battletower.BattleTowerController;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.LecternBlock;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -13,7 +14,7 @@ import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.World;
 import net.minecraftforge.registries.DeferredRegister;
 
-public class BattleTowerComputerBlock extends Block {
+public class BattleTowerComputerBlock extends LecternBlock {
 
     private static final Properties BlockProperties = Properties
             .of(Material.STONE)

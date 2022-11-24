@@ -11,7 +11,9 @@ import com.pixelmonmod.pixelmon.Pixelmon;
 import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.AddReloadListenerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -33,6 +35,7 @@ public class BattleTowerMain
 
     public BattleTowerMain() {
         MinecraftForge.EVENT_BUS.register(this);
+        MinecraftForge.EVENT_BUS.addListener(this::addSelectiveReloadListeners);
         Pixelmon.EVENT_BUS.register(this);
 
         BattleTowerPlayerSpotBlock battleTowerPlayerSpotBlock = new BattleTowerPlayerSpotBlock(BlockRegister);
@@ -53,5 +56,9 @@ public class BattleTowerMain
     @SubscribeEvent
     public void onBattleEndEvent(final BattleEndEvent event){
         controller.OnBattleEnded(event);
+    }
+
+    private void addSelectiveReloadListeners(AddReloadListenerEvent event){
+        event.addListener(new MovesetSelectiveResourceReloadListener());
     }
 }
