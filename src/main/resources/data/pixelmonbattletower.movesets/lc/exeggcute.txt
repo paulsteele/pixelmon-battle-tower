@@ -1,0 +1,9 @@
+Exeggcute @ Oran Berry
+Level: 5
+Ability: Harvest
+EVs: 36 HP / 200 Def / 40 SpA / 80 SpD / 120 Spe
+Timid Nature
+- Substitute
+- Sleep Powder
+- Giga Drain
+- Psychic

@@ -1,0 +1,9 @@
+Treecko @ Grassy Seed
+Level: 5
+Ability: Unburden
+EVs: 36 HP / 236 Atk / 156 Def / 36 Spe
+Adamant Nature
+- Swords Dance
+- Bullet Seed
+- Drain Punch
+- Acrobatics

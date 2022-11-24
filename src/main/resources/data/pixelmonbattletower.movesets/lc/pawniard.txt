@@ -1,0 +1,9 @@
+Pawniard @ Berry Juice
+Level: 5
+Ability: Defiant
+EVs: 156 Atk / 36 Def / 196 SpD / 116 Spe
+Careful Nature
+- Knock Off
+- Iron Head
+- Sucker Punch
+- Stealth Rock

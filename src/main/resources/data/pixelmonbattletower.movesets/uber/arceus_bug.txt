@@ -1,0 +1,8 @@
+Arceus-Bug @ Insect Plate
+Ability: Multitype
+EVs: 248 HP / 16 Def / 144 SpA / 96 Spe
+Timid Nature
+- Stealth Rock
+- Judgment
+- Recover
+- Toxic

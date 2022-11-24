@@ -1,0 +1,8 @@
+Arceus-Electric @ Zap Plate
+Ability: Multitype
+EVs: 252 HP / 4 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Judgment
+- Ice Beam
+- Recover

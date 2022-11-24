@@ -1,0 +1,9 @@
+Koffing @ Eviolite
+Level: 5
+Ability: Neutralizing Gas
+EVs: 76 Def / 196 SpA / 76 SpD / 156 Spe
+Bold Nature
+- Sludge Bomb
+- Fire Blast
+- Will-O-Wisp
+- Pain Split

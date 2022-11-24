@@ -1,0 +1,8 @@
+Durant @ Life Orb
+Ability: Hustle
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- First Impression
+- Iron Head
+- Rock Slide
+- Superpower

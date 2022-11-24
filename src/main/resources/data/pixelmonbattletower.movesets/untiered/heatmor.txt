@@ -1,0 +1,8 @@
+Heatmor @ Heavy-Duty Boots
+Ability: Flash Fire
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Fire Lash
+- Knock Off
+- Sucker Punch
+- Superpower

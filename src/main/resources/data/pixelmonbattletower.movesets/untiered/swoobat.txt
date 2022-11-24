@@ -1,0 +1,8 @@
+Swoobat @ Grassy Seed
+Ability: Simple
+EVs: 36 HP / 164 Def / 56 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Roost
+- Stored Power
+- Substitute

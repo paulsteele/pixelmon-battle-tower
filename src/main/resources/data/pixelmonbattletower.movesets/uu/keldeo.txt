@@ -1,0 +1,8 @@
+Keldeo @ Choice Specs
+Ability: Justified
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hydro Pump
+- Secret Sword
+- Scald
+- Icy Wind

@@ -1,0 +1,9 @@
+Totodile @ Eviolite
+Level: 5
+Ability: Sheer Force
+EVs: 236 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Dragon Dance
+- Waterfall
+- Ice Punch
+- Superpower

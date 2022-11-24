@@ -1,0 +1,9 @@
+Spoink @ Eviolite
+Level: 5
+Ability: Thick Fat
+EVs: 80 Def / 200 SpA / 200 Spe
+Timid Nature
+- Calm Mind
+- Psychic
+- Power Gem
+- Hidden Power Fighting

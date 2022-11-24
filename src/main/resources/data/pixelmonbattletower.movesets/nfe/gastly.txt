@@ -1,0 +1,8 @@
+Gastly @ Choice Specs
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Shadow Ball
+- Sludge Bomb
+- Dazzling Gleam
+- Trick

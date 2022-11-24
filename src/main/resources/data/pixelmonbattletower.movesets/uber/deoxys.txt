@@ -1,0 +1,8 @@
+Deoxys @ Kasib Berry
+Ability: Pressure
+EVs: 228 Atk / 120 Def / 48 SpD / 112 Spe
+Jolly Nature
+- Psycho Boost
+- Taunt
+- Pursuit
+- Spikes

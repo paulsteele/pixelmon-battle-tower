@@ -1,0 +1,8 @@
+Seviper @ Life Orb
+Ability: Shed Skin
+EVs: 8 HP / 56 Atk / 224 SpA / 220 Spe
+Naughty Nature
+- Sludge Wave
+- Giga Drain
+- Earthquake
+- Sucker Punch

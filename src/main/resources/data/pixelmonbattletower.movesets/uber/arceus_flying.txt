@@ -1,0 +1,8 @@
+Arceus-Flying @ Sky Plate
+Ability: Multitype
+EVs: 248 HP / 8 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Refresh
+- Recover
+- Judgment

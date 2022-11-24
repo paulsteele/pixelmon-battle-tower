@@ -1,0 +1,8 @@
+Virizion @ Life Orb
+Ability: Justified
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Close Combat
+- Leaf Blade
+- Stone Edge

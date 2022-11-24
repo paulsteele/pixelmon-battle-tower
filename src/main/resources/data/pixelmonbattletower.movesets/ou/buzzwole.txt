@@ -1,0 +1,8 @@
+Buzzwole @ Rocky Helmet
+Ability: Beast Boost
+EVs: 152 HP / 168 Atk / 188 Spe
+Adamant Nature
+- Close Combat
+- Ice Punch
+- Roost
+- Leech Life

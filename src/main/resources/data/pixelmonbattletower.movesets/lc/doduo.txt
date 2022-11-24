@@ -1,0 +1,9 @@
+Doduo @ Berry Juice
+Level: 5
+Ability: Early Bird
+EVs: 236 Atk / 236 Spe
+Jolly Nature
+- Brave Bird
+- Knock Off
+- Jump Kick
+- Quick Attack

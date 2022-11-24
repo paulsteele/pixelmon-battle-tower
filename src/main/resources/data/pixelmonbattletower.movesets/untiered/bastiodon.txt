@@ -1,0 +1,8 @@
+Bastiodon @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Stealth Rock
+- Rock Slide
+- Metal Burst
+- Toxic

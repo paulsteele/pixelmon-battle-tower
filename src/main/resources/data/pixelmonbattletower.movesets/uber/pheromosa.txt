@@ -1,0 +1,8 @@
+Pheromosa @ Choice Band
+Ability: Beast Boost
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- U-turn
+- Close Combat
+- Throat Chop
+- Triple Axel

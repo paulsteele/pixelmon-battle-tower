@@ -1,0 +1,8 @@
+Mismagius @ Leftovers
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Nasty Plot
+- Shadow Ball
+- Mystical Fire
+- Substitute

@@ -1,0 +1,8 @@
+Magmortar @ Heavy-Duty Boots
+Ability: Flame Body
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Fire Blast
+- Thunderbolt
+- Focus Blast
+- Scorching Sands

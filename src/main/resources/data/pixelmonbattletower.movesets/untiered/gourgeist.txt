@@ -1,0 +1,8 @@
+Gourgeist @ Weakness Policy
+Ability: Frisk
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Flame Charge
+- Poltergeist
+- Power Whip
+- Shadow Sneak

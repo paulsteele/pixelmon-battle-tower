@@ -1,0 +1,8 @@
+Vigoroth @ Eviolite
+Ability: Vital Spirit
+EVs: 252 HP / 164 SpD / 92 Spe
+Jolly Nature
+- Bulk Up
+- Facade
+- Slack Off
+- Taunt

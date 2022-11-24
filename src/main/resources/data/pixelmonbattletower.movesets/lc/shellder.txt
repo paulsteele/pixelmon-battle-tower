@@ -1,0 +1,9 @@
+Shellder @ Eviolite
+Level: 5
+Ability: Skill Link
+EVs: 36 HP / 236 Atk / 36 Def / 196 Spe
+Adamant Nature
+- Shell Smash
+- Icicle Spear
+- Rock Blast
+- Ice Shard

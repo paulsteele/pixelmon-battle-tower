@@ -1,0 +1,9 @@
+Goodra @ Expert Belt
+Ability: Sap Sipper
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid Nature
+- Draco Meteor
+- Fire Blast
+- Thunderbolt
+- Hydro Pump

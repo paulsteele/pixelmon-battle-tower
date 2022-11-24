@@ -1,0 +1,8 @@
+Electabuzz @ Eviolite
+Ability: Static
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Volt Switch
+- Psychic
+- Focus Blast

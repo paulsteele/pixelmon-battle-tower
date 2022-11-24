@@ -1,0 +1,8 @@
+Morgrem @ Light Clay
+Ability: Prankster
+EVs: 188 HP / 192 SpA / 128 Spe
+Modest Nature
+- Light Screen
+- Reflect
+- Thunder Wave
+- Dazzling Gleam

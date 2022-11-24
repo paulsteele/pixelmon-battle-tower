@@ -1,0 +1,8 @@
+Sandslash-Alola @ Wide Lens
+Ability: Slush Rush
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Triple Axel
+- Earthquake
+- Knock Off

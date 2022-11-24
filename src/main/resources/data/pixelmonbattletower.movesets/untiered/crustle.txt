@@ -1,0 +1,8 @@
+Crustle @ Heavy-Duty Boots
+Ability: Sturdy
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Shell Smash
+- Stone Edge
+- X-Scissor
+- Earthquake

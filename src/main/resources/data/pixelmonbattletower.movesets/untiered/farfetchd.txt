@@ -1,0 +1,8 @@
+Farfetch'd @ Leek
+Ability: Defiant
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Brave Bird
+- Close Combat
+- Knock Off
+- First Impression

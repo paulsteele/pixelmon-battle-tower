@@ -1,0 +1,9 @@
+Diglett-Alola @ Life Orb
+Level: 5
+Ability: Sand Force
+EVs: 36 HP / 236 Atk / 36 Def / 196 Spe
+Jolly Nature
+- Iron Head
+- Earthquake
+- Rock Slide
+- Substitute

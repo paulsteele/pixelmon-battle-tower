@@ -1,0 +1,8 @@
+Primeape @ Choice Scarf
+Ability: Defiant
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- U-turn
+- Stone Edge
+- Gunk Shot

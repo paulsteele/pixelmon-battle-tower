@@ -1,0 +1,8 @@
+Uxie @ Colbur Berry
+Ability: Levitate
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Stealth Rock
+- Psychic
+- Knock Off
+- U-turn

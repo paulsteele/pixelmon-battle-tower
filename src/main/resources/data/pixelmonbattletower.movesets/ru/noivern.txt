@@ -1,0 +1,8 @@
+Noivern @ Heavy-Duty Boots
+Ability: Infiltrator
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Draco Meteor
+- Flamethrower
+- Roost
+- U-turn

@@ -1,0 +1,8 @@
+Oricorio @ Flyinium Z
+Ability: Dancer
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Calm Mind
+- Hurricane
+- Revelation Dance
+- Roost

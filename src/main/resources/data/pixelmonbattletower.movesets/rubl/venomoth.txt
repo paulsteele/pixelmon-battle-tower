@@ -1,0 +1,8 @@
+Venomoth @ Buginium Z
+Ability: Tinted Lens
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Quiver Dance
+- Sleep Powder
+- Bug Buzz
+- Sludge Bomb

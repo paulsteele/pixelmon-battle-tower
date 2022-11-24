@@ -1,0 +1,8 @@
+Clefairy @ Eviolite
+Ability: Magic Guard
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Moonblast
+- Soft-Boiled
+- Knock Off
+- Thunder Wave

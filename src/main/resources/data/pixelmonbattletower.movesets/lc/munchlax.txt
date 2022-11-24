@@ -1,0 +1,9 @@
+Munchlax @ Berry Juice
+Level: 5
+Ability: Thick Fat
+EVs: 236 Atk / 36 Def / 236 SpD
+Adamant Nature
+- Curse
+- Body Slam
+- Fire Punch
+- Recycle

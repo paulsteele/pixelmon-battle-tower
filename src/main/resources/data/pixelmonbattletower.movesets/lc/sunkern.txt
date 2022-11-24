@@ -1,0 +1,10 @@
+Sunkern @ Life Orb
+Level: 5
+Ability: Solar Power
+EVs: 200 Atk / 40 Def / 200 SpA / 36 SpD
+IVs: 2 Spe
+Brave Nature
+- Seed Bomb
+- Return
+- Hidden Power Fire
+- Swords Dance

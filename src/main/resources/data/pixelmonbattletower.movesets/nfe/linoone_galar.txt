@@ -1,0 +1,8 @@
+Linoone-Galar @ Eviolite
+Ability: Quick Feet
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Knock Off
+- Double-Edge
+- Taunt
+- Parting Shot

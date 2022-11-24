@@ -1,0 +1,8 @@
+Throh @ Leftovers
+Ability: Guts
+EVs: 252 HP / 212 SpD / 44 Spe
+Careful Nature
+- Circle Throw
+- Knock Off
+- Rest
+- Sleep Talk

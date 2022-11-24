@@ -1,0 +1,8 @@
+Marowak-Alola @ Thick Club
+Ability: Lightning Rod
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Poltergeist
+- Fire Punch
+- Low Kick
+- Shadow Bone

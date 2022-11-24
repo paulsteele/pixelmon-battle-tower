@@ -1,0 +1,10 @@
+Elgyem @ Eviolite
+Level: 5
+Ability: Analytic
+EVs: 236 HP / 240 SpA
+IVs: 0 Spe
+Quiet Nature
+- Trick Room
+- Nasty Plot
+- Psychic
+- Hidden Power Fighting

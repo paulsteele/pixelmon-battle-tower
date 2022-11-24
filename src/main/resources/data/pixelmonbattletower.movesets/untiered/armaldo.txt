@@ -1,0 +1,8 @@
+Armaldo @ Heavy-Duty Boots
+Ability: Battle Armor
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Stealth Rock
+- Rapid Spin
+- Stone Edge
+- Knock Off

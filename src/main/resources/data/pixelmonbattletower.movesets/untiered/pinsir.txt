@@ -1,0 +1,8 @@
+Pinsir @ Pinsirite
+Ability: Hyper Cutter
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Return
+- Quick Attack
+- Close Combat

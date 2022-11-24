@@ -1,0 +1,8 @@
+Hippowdon @ Leftovers
+Ability: Sand Stream
+EVs: 252 HP / 8 Atk / 32 Def / 216 SpD
+Impish Nature
+- Stealth Rock
+- Earthquake
+- Toxic
+- Slack Off

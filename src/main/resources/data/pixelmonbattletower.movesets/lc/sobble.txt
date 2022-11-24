@@ -1,0 +1,9 @@
+Sobble @ Light Clay
+Level: 5
+Ability: Torrent
+EVs: 36 HP / 116 Def / 36 SpA / 116 SpD / 196 Spe
+Timid Nature
+- Reflect
+- Light Screen
+- Surf
+- U-turn

@@ -1,0 +1,8 @@
+Dubwool @ Leftovers
+Ability: Fluffy
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Cotton Guard
+- Body Press
+- Rest
+- Sleep Talk

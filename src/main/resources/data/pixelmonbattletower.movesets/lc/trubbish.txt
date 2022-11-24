@@ -1,0 +1,9 @@
+Trubbish @ Eject Button
+Level: 5
+Ability: Sticky Hold
+EVs: 36 HP / 116 Atk / 120 SpA / 236 Spe
+Naive Nature
+- Spikes
+- Drain Punch
+- Explosion
+- Giga Drain

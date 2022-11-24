@@ -1,0 +1,8 @@
+Tentacruel @ Black Sludge
+Ability: Liquid Ooze
+EVs: 252 HP / 96 Def / 160 Spe
+Timid Nature
+- Scald
+- Sludge Bomb
+- Knock Off
+- Rapid Spin

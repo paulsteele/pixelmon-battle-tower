@@ -1,0 +1,8 @@
+Electivire @ Life Orb
+Ability: Motor Drive
+EVs: 4 Atk / 252 SpA / 252 Spe
+Hasty Nature
+- Thunderbolt
+- Flamethrower
+- Focus Blast
+- Earthquake

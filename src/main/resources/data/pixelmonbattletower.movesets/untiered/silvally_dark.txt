@@ -1,0 +1,8 @@
+Silvally-Dark @ Dark Memory
+Ability: RKS System
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Multi-Attack
+- Iron Head
+- Flame Charge

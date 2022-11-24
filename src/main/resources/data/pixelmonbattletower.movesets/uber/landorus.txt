@@ -1,0 +1,8 @@
+Landorus @ Life Orb
+Ability: Sheer Force
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Earth Power
+- Rock Slide
+- Knock Off
+- Superpower

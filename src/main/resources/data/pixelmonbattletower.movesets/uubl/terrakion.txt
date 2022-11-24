@@ -1,0 +1,8 @@
+Terrakion @ Choice Band
+Ability: Justified
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Close Combat
+- Stone Edge
+- Earthquake
+- Megahorn

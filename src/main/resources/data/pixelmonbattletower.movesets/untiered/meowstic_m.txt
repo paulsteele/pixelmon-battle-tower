@@ -1,0 +1,8 @@
+Meowstic-M @ Eject Button
+Ability: Prankster
+EVs: 252 HP / 4 SpA / 252 SpD
+Timid Nature
+- Reflect
+- Light Screen
+- Yawn
+- Psychic

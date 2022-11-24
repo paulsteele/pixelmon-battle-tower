@@ -1,0 +1,8 @@
+Gligar @ Eviolite
+Ability: Immunity
+EVs: 252 HP / 156 Def / 100 SpD
+Impish Nature
+- Earthquake
+- Roost
+- Defog
+- U-turn

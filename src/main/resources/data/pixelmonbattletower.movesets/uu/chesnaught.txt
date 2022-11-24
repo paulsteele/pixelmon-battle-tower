@@ -1,0 +1,8 @@
+Chesnaught @ Leftovers
+Ability: Bulletproof
+EVs: 244 HP / 252 Def / 12 Spe
+Impish Nature
+- Spikes
+- Wood Hammer
+- Drain Punch
+- Synthesis

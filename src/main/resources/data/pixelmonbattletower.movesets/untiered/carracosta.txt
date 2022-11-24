@@ -1,0 +1,8 @@
+Carracosta @ Heavy-Duty Boots
+Ability: Sturdy
+EVs: 252 Atk / 4 Def / 252 Spe
+Naughty Nature
+- Shell Smash
+- Stone Edge
+- Aqua Jet
+- Hydro Pump

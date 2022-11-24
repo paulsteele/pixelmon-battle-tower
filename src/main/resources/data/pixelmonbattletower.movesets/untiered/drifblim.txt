@@ -1,0 +1,8 @@
+Drifblim @ Sitrus Berry
+Ability: Unburden
+EVs: 12 HP / 244 SpA / 252 Spe
+Modest Nature
+- Calm Mind
+- Substitute
+- Shadow Ball
+- Thunder

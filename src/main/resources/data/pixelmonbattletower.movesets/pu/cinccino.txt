@@ -1,0 +1,8 @@
+Cinccino @ Protective Pads
+Ability: Skill Link
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Tail Slap
+- Triple Axel
+- Knock Off
+- U-turn

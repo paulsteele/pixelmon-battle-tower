@@ -1,0 +1,8 @@
+Walrein @ Heavy-Duty Boots
+Ability: Thick Fat
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Swords Dance
+- Icicle Spear
+- Earthquake
+- Liquidation

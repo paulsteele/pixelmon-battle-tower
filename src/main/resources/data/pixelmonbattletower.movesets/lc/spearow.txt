@@ -1,0 +1,10 @@
+Spearow @ Life Orb
+Level: 5
+Ability: Sniper
+EVs: 196 Atk / 36 Def / 28 SpD / 196 Spe
+IVs: 0 HP
+Jolly Nature
+- Double-Edge
+- Drill Peck
+- Drill Run
+- U-turn

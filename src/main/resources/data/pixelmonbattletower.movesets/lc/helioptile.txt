@@ -1,0 +1,10 @@
+Helioptile @ Life Orb
+Level: 5
+Ability: Dry Skin
+EVs: 92 Def / 192 SpA / 16 SpD / 196 Spe
+IVs: 11 HP
+Timid Nature
+- Thunderbolt
+- Surf
+- Glare
+- U-turn

@@ -1,0 +1,8 @@
+Beedrill @ Beedrillite
+Ability: Swarm
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- U-turn
+- Poison Jab
+- Drill Run
+- Knock Off

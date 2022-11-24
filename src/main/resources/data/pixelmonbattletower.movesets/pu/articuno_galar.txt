@@ -1,0 +1,8 @@
+Articuno-Galar @ Heavy-Duty Boots
+Ability: Competitive
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Future Sight
+- Hurricane
+- Recover
+- U-turn

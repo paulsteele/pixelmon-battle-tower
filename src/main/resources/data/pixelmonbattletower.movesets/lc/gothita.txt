@@ -1,0 +1,9 @@
+Gothita @ Choice Scarf
+Level: 5
+Ability: Shadow Tag
+EVs: 36 Def / 236 SpA / 236 Spe
+Modest Nature
+- Psychic
+- Thunderbolt
+- Energy Ball
+- Trick

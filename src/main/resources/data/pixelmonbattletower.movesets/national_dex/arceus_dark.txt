@@ -1,0 +1,8 @@
+Arceus-Dark @ Dread Plate
+Ability: Multitype
+EVs: 248 HP / 136 Def / 124 Spe
+Bold Nature
+- Calm Mind
+- Judgment
+- Refresh
+- Recover

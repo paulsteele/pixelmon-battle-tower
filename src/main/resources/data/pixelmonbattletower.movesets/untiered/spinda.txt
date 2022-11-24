@@ -1,0 +1,9 @@
+Spinda @ Life Orb
+Ability: Contrary
+EVs: 252 HP / 252 Atk / 4 Def
+IVs: 0 Spe
+Brave Nature
+- Trick Room
+- Superpower
+- Return
+- Sucker Punch

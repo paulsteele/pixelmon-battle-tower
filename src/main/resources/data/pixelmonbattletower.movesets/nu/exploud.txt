@@ -1,0 +1,8 @@
+Exploud @ Choice Specs
+Ability: Scrappy
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Boomburst
+- Overheat
+- Surf
+- Focus Blast

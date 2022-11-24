@@ -1,0 +1,9 @@
+Deerling @ Life Orb
+Level: 5
+Ability: Sap Sipper
+EVs: 36 HP / 196 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Return
+- Seed Bomb
+- Jump Kick
+- Substitute

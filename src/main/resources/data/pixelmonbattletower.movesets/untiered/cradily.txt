@@ -1,0 +1,8 @@
+Cradily @ Leftovers
+Ability: Storm Drain
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Rock Blast
+- Stealth Rock
+- Toxic
+- Recover

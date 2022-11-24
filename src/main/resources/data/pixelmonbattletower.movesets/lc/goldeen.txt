@@ -1,0 +1,9 @@
+Goldeen @ Flyinium Z
+Level: 5
+Ability: Lightning Rod
+EVs: 220 Atk / 36 SpD / 252 Spe
+Jolly Nature
+- Bounce
+- Waterfall
+- Drill Run
+- Knock Off

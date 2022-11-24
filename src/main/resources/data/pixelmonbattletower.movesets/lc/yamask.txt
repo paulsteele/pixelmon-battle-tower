@@ -1,0 +1,9 @@
+Yamask @ Eviolite
+Level: 5
+Ability: Mummy
+EVs: 52 HP / 36 Atk / 156 Def / 236 SpD
+Relaxed Nature
+- Will-O-Wisp
+- Hex
+- Knock Off
+- Toxic Spikes

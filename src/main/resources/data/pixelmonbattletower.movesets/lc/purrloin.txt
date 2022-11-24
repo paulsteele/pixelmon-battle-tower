@@ -1,0 +1,9 @@
+Purrloin @ Eviolite
+Level: 5
+Ability: Prankster
+EVs: 188 HP / 36 Atk / 140 Def / 60 SpD / 68 Spe
+Careful Nature
+- Encore
+- U-turn
+- Knock Off
+- Thunder Wave

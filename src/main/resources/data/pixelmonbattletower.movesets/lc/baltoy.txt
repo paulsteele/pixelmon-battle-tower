@@ -1,0 +1,9 @@
+Baltoy @ Berry Juice
+Level: 5
+Ability: Levitate
+EVs: 36 HP / 236 Def / 36 SpA / 196 SpD
+Bold Nature
+- Rapid Spin
+- Stealth Rock
+- Earth Power
+- Psychic

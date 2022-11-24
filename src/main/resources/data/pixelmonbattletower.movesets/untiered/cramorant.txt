@@ -1,0 +1,8 @@
+Cramorant @ Heavy-Duty Boots
+Ability: Gulp Missile
+EVs: 248 HP / 216 Def / 28 SpD / 16 Spe
+Bold Nature
+- Defog
+- Roost
+- Surf
+- Hurricane

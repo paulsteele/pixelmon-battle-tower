@@ -1,0 +1,9 @@
+Spectrier @ Leftovers
+Ability: Grim Neigh
+EVs: 88 HP / 248 Def / 44 SpA / 128 Spe
+IVs: 0 Atk
+Timid Nature
+- Hex
+- Will-O-Wisp
+- Substitute
+- Nasty Plot

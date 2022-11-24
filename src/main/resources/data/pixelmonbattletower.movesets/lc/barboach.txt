@@ -1,0 +1,9 @@
+Barboach @ Flyinium Z
+Level: 5
+Ability: Oblivious
+EVs: 36 HP / 212 Atk / 12 Def / 28 SpD / 196 Spe
+Adamant Nature
+- Dragon Dance
+- Earthquake
+- Waterfall
+- Bounce

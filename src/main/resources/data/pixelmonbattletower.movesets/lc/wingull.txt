@@ -1,0 +1,10 @@
+Wingull @ Life Orb
+Level: 5
+Ability: Rain Dish
+EVs: 36 Def / 236 SpA / 236 Spe
+IVs: 18 HP / 30 SpD
+Timid Nature
+- Scald
+- Hurricane
+- Knock Off
+- U-turn

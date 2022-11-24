@@ -1,0 +1,8 @@
+Centiskorch @ Heavy-Duty Boots
+Ability: Flash Fire
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Fire Lash
+- Leech Life
+- Power Whip
+- Knock Off

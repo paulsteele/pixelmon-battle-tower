@@ -1,0 +1,9 @@
+Joltik @ Life Orb
+Level: 5
+Ability: Swarm
+EVs: 36 Def / 220 SpA / 236 Spe
+Timid Nature
+- Volt Switch
+- Thunderbolt
+- Giga Drain
+- Bug Buzz

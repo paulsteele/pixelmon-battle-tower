@@ -1,0 +1,8 @@
+Quagsire @ Heavy-Duty Boots
+Ability: Unaware
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Scald
+- Earthquake
+- Recover
+- Toxic

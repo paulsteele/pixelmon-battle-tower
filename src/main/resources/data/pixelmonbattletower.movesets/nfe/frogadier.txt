@@ -1,0 +1,8 @@
+Frogadier @ Life Orb
+Ability: Protean
+EVs: 4 Def / 252 SpA / 252 Spe
+Naive Nature
+- Hydro Pump
+- Ice Beam
+- Gunk Shot
+- Toxic Spikes

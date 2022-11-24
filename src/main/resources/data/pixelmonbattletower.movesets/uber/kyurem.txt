@@ -1,0 +1,8 @@
+Kyurem @ Leftovers
+Ability: Pressure
+EVs: 56 HP / 236 Def / 216 Spe
+Jolly Nature
+- Substitute
+- Roost
+- Icicle Spear
+- Dragon Dance

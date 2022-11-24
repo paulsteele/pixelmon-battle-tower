@@ -1,0 +1,8 @@
+Grotle @ Eviolite
+Ability: Overgrow
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Stealth Rock
+- Bullet Seed
+- Synthesis
+- Toxic

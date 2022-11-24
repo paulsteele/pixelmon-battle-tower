@@ -1,0 +1,9 @@
+Mudbray @ Eviolite
+Level: 5
+Ability: Stamina
+EVs: 36 HP / 196 Atk / 36 Def / 236 Spe
+Adamant Nature
+- Stealth Rock
+- Earthquake
+- Close Combat
+- Heavy Slam

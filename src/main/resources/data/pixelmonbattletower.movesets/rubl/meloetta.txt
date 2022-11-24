@@ -1,0 +1,8 @@
+Meloetta @ Normalium Z
+Ability: Serene Grace
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Celebrate
+- Psychic
+- Focus Blast
+- Hyper Voice

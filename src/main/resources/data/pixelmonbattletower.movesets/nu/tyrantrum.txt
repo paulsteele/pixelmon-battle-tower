@@ -1,0 +1,8 @@
+Tyrantrum @ Choice Band
+Ability: Rock Head
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Head Smash
+- Outrage
+- Close Combat
+- Dragon Claw

@@ -1,0 +1,8 @@
+Polteageist @ White Herb
+Ability: Cursed Body
+EVs: 28 HP / 32 Def / 252 SpA / 196 Spe
+Timid Nature
+- Shell Smash
+- Shadow Ball
+- Strength Sap
+- Giga Drain

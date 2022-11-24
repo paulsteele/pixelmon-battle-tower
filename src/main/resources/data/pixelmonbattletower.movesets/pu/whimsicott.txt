@@ -1,0 +1,8 @@
+Whimsicott @ Choice Specs
+Ability: Infiltrator
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Moonblast
+- Energy Ball
+- U-turn
+- Switcheroo

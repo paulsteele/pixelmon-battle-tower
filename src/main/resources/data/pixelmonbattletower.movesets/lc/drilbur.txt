@@ -1,0 +1,9 @@
+Drilbur @ Eviolite
+Level: 5
+Ability: Mold Breaker
+EVs: 36 HP / 236 Atk / 212 Spe
+Jolly Nature
+- Earthquake
+- Rock Slide
+- Rapid Spin
+- Stealth Rock

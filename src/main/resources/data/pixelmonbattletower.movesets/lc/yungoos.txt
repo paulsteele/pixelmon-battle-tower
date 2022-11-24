@@ -1,0 +1,9 @@
+Yungoos @ Choice Scarf
+Level: 5
+Ability: Adaptability
+EVs: 196 Atk / 36 Def / 36 SpD / 236 Spe
+Adamant Nature
+- Return
+- Earthquake
+- U-turn
+- Pursuit

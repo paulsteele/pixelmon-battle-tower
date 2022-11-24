@@ -1,0 +1,9 @@
+Pineco @ Berry Juice
+Level: 5
+Ability: Sturdy
+EVs: 236 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Stealth Rock
+- Spikes
+- Rapid Spin
+- Explosion

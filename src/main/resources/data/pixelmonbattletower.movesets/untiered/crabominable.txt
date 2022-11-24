@@ -1,0 +1,8 @@
+Crabominable @ Assault Vest
+Ability: Iron Fist
+EVs: 252 HP / 4 Atk / 252 SpD
+Adamant Nature
+- Drain Punch
+- Ice Hammer
+- Earthquake
+- Thunder Punch

@@ -1,0 +1,8 @@
+Flapple @ Choice Band
+Ability: Hustle
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Grav Apple
+- Outrage
+- U-turn
+- Sucker Punch

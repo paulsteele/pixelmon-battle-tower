@@ -1,0 +1,8 @@
+Morpeko @ Heavy-Duty Boots
+Ability: Hunger Switch
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Aura Wheel
+- Parting Shot
+- Super Fang
+- Protect

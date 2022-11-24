@@ -1,0 +1,8 @@
+Solgaleo @ Leftovers
+Ability: Full Metal Body
+EVs: 252 HP / 4 SpA / 252 SpD
+Sassy Nature
+- Future Sight
+- Teleport
+- Sunsteel Strike
+- Morning Sun

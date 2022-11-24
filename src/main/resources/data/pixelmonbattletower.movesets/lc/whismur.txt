@@ -1,0 +1,9 @@
+Whismur @ Life Orb
+Level: 5
+Ability: Soundproof
+EVs: 244 HP / 36 Def / 188 SpA / 36 SpD
+Quiet Nature
+- Hyper Voice
+- Shadow Ball
+- Ice Beam
+- Fire Blast

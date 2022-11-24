@@ -1,0 +1,8 @@
+Zekrom @ Life Orb
+Ability: Teravolt
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Dance
+- Bolt Strike
+- Dragon Claw
+- Roost

@@ -1,0 +1,8 @@
+Arceus-Rock @ Stone Plate
+Ability: Multitype
+EVs: 252 HP / 16 Def / 144 SpA / 96 Spe
+Timid Nature
+- Judgment
+- Will-O-Wisp
+- Recover
+- Stealth Rock

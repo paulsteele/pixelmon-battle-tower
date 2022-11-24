@@ -1,0 +1,8 @@
+Kecleon @ Assault Vest
+Ability: Protean
+EVs: 172 HP / 252 Atk / 84 Spe
+Adamant Nature
+- Knock Off
+- Drain Punch
+- Shadow Sneak
+- Sucker Punch

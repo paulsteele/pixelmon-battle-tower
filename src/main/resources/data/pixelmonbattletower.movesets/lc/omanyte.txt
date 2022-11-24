@@ -1,0 +1,9 @@
+Omanyte @ Eviolite
+Level: 5
+Ability: Shell Armor
+EVs: 76 HP / 196 SpA / 236 Spe
+Modest Nature
+- Shell Smash
+- Hydro Pump
+- Ice Beam
+- Earth Power

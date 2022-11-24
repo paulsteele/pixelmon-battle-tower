@@ -1,0 +1,8 @@
+Breloom @ Focus Sash
+Ability: Technician
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Spore
+- Swords Dance
+- Mach Punch
+- Bullet Seed

@@ -1,0 +1,8 @@
+Gothorita @ Eviolite
+Ability: Competitive
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Nasty Plot
+- Psychic
+- Dark Pulse
+- Thunderbolt

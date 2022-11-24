@@ -1,0 +1,8 @@
+Haunter @ Life Orb
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Substitute
+- Shadow Ball
+- Sludge Bomb
+- Dazzling Gleam

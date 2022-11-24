@@ -1,0 +1,9 @@
+Ferroseed @ Eviolite
+Ability: Iron Barbs
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 0 Spe
+Relaxed Nature
+- Spikes
+- Gyro Ball
+- Leech Seed
+- Protect

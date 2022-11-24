@@ -1,0 +1,9 @@
+Grubbin @ Eviolite
+Level: 5
+Ability: Swarm
+EVs: 140 HP / 20 Atk / 156 Def / 156 SpD
+Relaxed Nature
+- Electroweb
+- Volt Switch
+- X-Scissor
+- Acrobatics

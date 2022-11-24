@@ -1,0 +1,9 @@
+Croagunk @ Eviolite
+Level: 5
+Ability: Dry Skin
+EVs: 116 Def / 188 SpA / 196 Spe
+Modest Nature
+- Nasty Plot
+- Vacuum Wave
+- Sludge Wave
+- Focus Blast

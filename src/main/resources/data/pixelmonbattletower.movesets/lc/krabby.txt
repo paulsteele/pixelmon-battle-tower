@@ -1,0 +1,9 @@
+Krabby @ Choice Scarf
+Level: 5
+Ability: Sheer Force
+EVs: 36 HP / 236 Atk / 36 Def / 196 Spe
+Adamant Nature
+- Liquidation
+- Superpower
+- Knock Off
+- Body Slam

@@ -1,0 +1,8 @@
+Gothitelle @ Leftovers
+Ability: Shadow Tag
+EVs: 252 HP / 156 Def / 100 Spe
+Bold Nature
+- Charm
+- Cosmic Power
+- Taunt
+- Rest

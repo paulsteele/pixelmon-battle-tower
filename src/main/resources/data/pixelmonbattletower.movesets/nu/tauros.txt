@@ -1,0 +1,8 @@
+Tauros @ Life Orb
+Ability: Sheer Force
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Body Slam
+- Close Combat
+- Throat Chop
+- Iron Head

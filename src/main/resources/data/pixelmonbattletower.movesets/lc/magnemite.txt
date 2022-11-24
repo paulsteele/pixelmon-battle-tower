@@ -1,0 +1,9 @@
+Magnemite @ Choice Scarf
+Level: 5
+Ability: Analytic
+EVs: 36 Def / 236 SpA / 236 Spe
+Timid Nature
+- Volt Switch
+- Flash Cannon
+- Thunderbolt
+- Steel Beam

@@ -1,0 +1,9 @@
+Makuhita @ Berry Juice
+Level: 5
+Ability: Thick Fat
+EVs: 20 HP / 196 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Belly Drum
+- Close Combat
+- Knock Off
+- Bullet Punch

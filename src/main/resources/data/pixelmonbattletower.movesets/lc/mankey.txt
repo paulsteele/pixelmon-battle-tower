@@ -1,0 +1,9 @@
+Mankey @ Choice Scarf
+Level: 5
+Ability: Defiant
+EVs: 36 HP / 196 Atk / 76 Def / 196 Spe
+Jolly Nature
+- Close Combat
+- Gunk Shot
+- U-turn
+- Earthquake

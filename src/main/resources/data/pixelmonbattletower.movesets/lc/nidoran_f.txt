@@ -1,0 +1,9 @@
+Nidoran-F @ Berry Juice
+Level: 5
+Ability: Poison Point
+EVs: 60 Atk / 180 Def / 196 SpD / 28 Spe
+Impish Nature
+- Toxic Spikes
+- Super Fang
+- Poison Jab
+- Thief

@@ -1,0 +1,8 @@
+Lycanroc-Midnight @ Life Orb
+Ability: No Guard
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Stone Edge
+- Close Combat
+- Sucker Punch

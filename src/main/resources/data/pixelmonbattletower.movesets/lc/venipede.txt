@@ -1,0 +1,9 @@
+Venipede @ Eviolite
+Level: 5
+Ability: Speed Boost
+EVs: 116 HP / 44 Def / 204 SpD / 140 Spe
+Careful Nature
+- Spikes
+- Pin Missile
+- Protect
+- Endeavor

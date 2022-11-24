@@ -1,0 +1,9 @@
+Aurorus @ Focus Sash
+Ability: Snow Warning
+EVs: 252 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Modest Nature
+- Stealth Rock
+- Blizzard
+- Encore
+- Earth Power

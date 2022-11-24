@@ -1,0 +1,9 @@
+Chingling @ Eviolite
+Level: 5
+Ability: Levitate
+EVs: 156 HP / 116 Def / 196 SpD
+Bold Nature
+- Psychic
+- Recover
+- Grass Knot
+- Hypnosis

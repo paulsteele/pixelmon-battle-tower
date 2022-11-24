@@ -1,0 +1,8 @@
+Flygon @ Life Orb
+Ability: Levitate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Dragon Dance
+- Earthquake
+- Outrage
+- Stone Edge

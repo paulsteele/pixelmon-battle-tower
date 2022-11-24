@@ -1,0 +1,9 @@
+Pansage @ Life Orb
+Level: 5
+Ability: Overgrow
+EVs: 252 Atk / 244 Spe
+Jolly Nature
+- Bullet Seed
+- Knock Off
+- Low Sweep
+- Gunk Shot

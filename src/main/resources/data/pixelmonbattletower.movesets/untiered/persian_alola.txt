@@ -1,0 +1,8 @@
+Persian-Alola @ Heavy-Duty Boots
+Ability: Fur Coat
+EVs: 252 HP / 4 Def / 252 Spe
+Jolly Nature
+- Knock Off
+- Parting Shot
+- Toxic
+- Foul Play

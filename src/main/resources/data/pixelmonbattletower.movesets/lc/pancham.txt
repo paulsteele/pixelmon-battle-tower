@@ -1,0 +1,9 @@
+Pancham @ Eviolite
+Level: 5
+Ability: Iron Fist
+EVs: 180 Atk / 100 Def / 52 SpD / 172 Spe
+Adamant Nature
+- Drain Punch
+- Knock Off
+- Zen Headbutt
+- Swords Dance

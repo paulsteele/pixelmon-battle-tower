@@ -1,0 +1,8 @@
+Arceus-Dragon @ Draco Plate
+Ability: Multitype
+EVs: 252 HP / 40 Def / 24 SpD / 192 Spe
+Timid Nature
+- Defog
+- Recover
+- Judgment
+- Will-O-Wisp

@@ -1,0 +1,8 @@
+Heliolisk @ Choice Specs
+Ability: Dry Skin
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Thunderbolt
+- Hyper Voice
+- Volt Switch
+- Dark Pulse

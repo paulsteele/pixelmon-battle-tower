@@ -1,0 +1,8 @@
+Thwackey @ Eviolite
+Ability: Grassy Surge
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Swords Dance
+- U-turn
+- Grassy Glide
+- Knock Off

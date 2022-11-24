@@ -1,0 +1,9 @@
+Scorbunny @ Berry Juice
+Level: 5
+Ability: Libero
+EVs: 36 HP / 188 Atk / 36 Def / 36 SpD / 204 Spe
+Jolly Nature
+- Blaze Kick
+- Gunk Shot
+- U-turn
+- High Jump Kick

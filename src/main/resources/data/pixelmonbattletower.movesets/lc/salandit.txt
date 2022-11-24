@@ -1,0 +1,9 @@
+Salandit @ Poisonium Z
+Level: 5
+Ability: Corrosion
+EVs: 36 Def / 192 SpA / 36 SpD / 220 Spe
+Timid Nature
+- Sludge Bomb
+- Fire Blast
+- Hidden Power Grass
+- Flame Charge

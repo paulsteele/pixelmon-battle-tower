@@ -1,0 +1,9 @@
+Illumise @ Heat Rock
+Ability: Prankster
+EVs: 252 HP / 4 Atk / 252 Def
+IVs: 0 Spe
+Relaxed Nature
+- Sunny Day
+- U-turn
+- Thunder Wave
+- Encore

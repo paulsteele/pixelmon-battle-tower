@@ -1,0 +1,8 @@
+Corsola-Galar @ Eviolite
+Ability: Cursed Body
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Night Shade
+- Strength Sap
+- Whirlpool
+- Stealth Rock

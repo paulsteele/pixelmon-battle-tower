@@ -1,0 +1,9 @@
+Sandshrew @ Eviolite
+Level: 5
+Ability: Sand Rush
+EVs: 36 HP / 156 Atk / 76 Def / 36 SpD / 196 Spe
+Adamant Nature
+- Rapid Spin
+- Stealth Rock
+- Earthquake
+- Knock Off

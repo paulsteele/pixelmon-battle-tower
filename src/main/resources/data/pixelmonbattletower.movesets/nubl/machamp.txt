@@ -1,0 +1,8 @@
+Machamp @ Flame Orb
+Ability: Guts
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Close Combat
+- Knock Off
+- Facade
+- Bullet Punch

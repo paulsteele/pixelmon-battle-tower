@@ -1,0 +1,9 @@
+Cherubi @ Eviolite
+Level: 5
+Ability: Chlorophyll
+EVs: 76 Def / 180 SpA / 236 Spe
+Modest Nature
+- Solar Beam
+- Weather Ball
+- Sunny Day
+- Healing Wish

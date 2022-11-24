@@ -1,0 +1,8 @@
+Magearna @ Leftovers
+Ability: Soul-Heart
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Fleur Cannon
+- Volt Switch
+- Pain Split
+- Heal Bell

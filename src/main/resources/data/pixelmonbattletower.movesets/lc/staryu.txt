@@ -1,0 +1,9 @@
+Staryu @ Eviolite
+Level: 5
+Ability: Analytic
+EVs: 156 Def / 116 SpA / 236 Spe
+Timid Nature
+- Hydro Pump
+- Thunderbolt
+- Ice Beam
+- Recover

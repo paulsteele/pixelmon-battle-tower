@@ -1,0 +1,9 @@
+Rattata @ Life Orb
+Level: 5
+Ability: Hustle
+EVs: 232 Atk / 76 Def / 180 Spe
+Jolly Nature
+- Double-Edge
+- Flame Wheel
+- Sucker Punch
+- Zen Headbutt

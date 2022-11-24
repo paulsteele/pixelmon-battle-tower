@@ -1,0 +1,9 @@
+Cubchoo @ Eviolite
+Level: 5
+Ability: Slush Rush
+EVs: 76 HP / 196 Atk / 36 SpA / 196 Spe
+Naive Nature
+- Ice Punch
+- Superpower
+- Play Rough
+- Surf

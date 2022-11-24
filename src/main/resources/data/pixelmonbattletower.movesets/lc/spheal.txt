@@ -1,0 +1,10 @@
+Spheal @ Berry Juice
+Level: 5
+Ability: Thick Fat
+EVs: 36 HP / 36 Def / 240 SpA / 36 SpD / 156 Spe
+IVs: 0 Atk / 30 SpA
+Modest Nature
+- Yawn
+- Ice Beam
+- Surf
+- Hidden Power Grass

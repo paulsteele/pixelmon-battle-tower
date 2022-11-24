@@ -1,0 +1,9 @@
+Trapinch @ Eviolite
+Level: 5
+Ability: Arena Trap
+EVs: 36 Atk / 236 Def / 76 SpD / 116 Spe
+Adamant Nature
+- Earthquake
+- First Impression
+- Superpower
+- Feint

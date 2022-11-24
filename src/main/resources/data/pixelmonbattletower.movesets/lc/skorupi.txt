@@ -1,0 +1,9 @@
+Skorupi @ Eviolite
+Level: 5
+Ability: Battle Armor
+EVs: 196 HP / 36 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Toxic Spikes
+- Taunt
+- Knock Off
+- Poison Jab

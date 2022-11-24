@@ -1,0 +1,8 @@
+Arceus-Fairy @ Pixie Plate
+Ability: Multitype
+EVs: 248 HP / 172 SpD / 88 Spe
+Calm Nature
+- Judgment
+- Recover
+- Will-O-Wisp
+- Defog

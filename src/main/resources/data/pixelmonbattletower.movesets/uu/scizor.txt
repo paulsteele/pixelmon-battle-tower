@@ -1,0 +1,8 @@
+Scizor @ Heavy-Duty Boots
+Ability: Technician
+EVs: 248 HP / 16 Atk / 244 Def
+Adamant Nature
+- Swords Dance
+- Bullet Punch
+- Knock Off
+- Roost

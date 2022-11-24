@@ -1,0 +1,8 @@
+Eternatus @ Heavy-Duty Boots
+Ability: Pressure
+EVs: 164 HP / 252 SpD / 92 Spe
+Timid Nature
+- Recover
+- Toxic
+- Flamethrower
+- Dynamax Cannon

@@ -1,0 +1,9 @@
+Piplup @ Eviolite
+Level: 5
+Ability: Torrent
+EVs: 92 HP / 252 Def / 148 SpD
+Bold Nature
+- Stealth Rock
+- Defog
+- Scald
+- Ice Beam

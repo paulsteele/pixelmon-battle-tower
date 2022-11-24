@@ -1,0 +1,8 @@
+Jellicent @ Colbur Berry
+Ability: Cursed Body
+EVs: 252 HP / 224 Def / 32 Spe
+Bold Nature
+- Recover
+- Taunt
+- Will-O-Wisp
+- Hex

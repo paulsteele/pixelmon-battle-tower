@@ -1,0 +1,8 @@
+Watchog @ Life Orb
+Ability: Analytic
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Return
+- Low Kick
+- Knock Off
+- Seed Bomb

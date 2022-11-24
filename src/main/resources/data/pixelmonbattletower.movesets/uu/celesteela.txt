@@ -1,0 +1,8 @@
+Celesteela @ Leftovers
+Ability: Beast Boost
+EVs: 252 HP / 4 Def / 252 SpD
+Sassy Nature
+- Heavy Slam
+- Flamethrower
+- Leech Seed
+- Toxic

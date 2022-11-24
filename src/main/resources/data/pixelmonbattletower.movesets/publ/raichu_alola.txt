@@ -1,0 +1,8 @@
+Raichu-Alola @ Life Orb
+Ability: Surge Surfer
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Rising Voltage
+- Psychic
+- Focus Blast
+- Knock Off

@@ -1,0 +1,9 @@
+Bonsly @ Berry Juice
+Level: 5
+Ability: Sturdy
+EVs: 36 HP / 196 Atk / 76 Def / 196 Spe
+Jolly Nature
+- Stealth Rock
+- Rock Slide
+- Stomping Tantrum
+- Sucker Punch

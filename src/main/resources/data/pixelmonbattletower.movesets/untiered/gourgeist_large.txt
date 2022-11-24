@@ -1,0 +1,8 @@
+Gourgeist-Large
+Ability: Frisk
+EVs: 104 HP / 252 Atk / 152 Spe
+Adamant Nature
+- Synthesis
+- Poltergeist
+- Power Whip
+- Shadow Sneak

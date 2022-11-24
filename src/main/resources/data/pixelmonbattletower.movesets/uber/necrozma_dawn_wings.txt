@@ -1,0 +1,9 @@
+Necrozma-Dawn Wings @ Power Herb
+Ability: Prism Armor
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 0 Spe
+Quiet Nature
+- Trick Room
+- Moongeist Beam
+- Heat Wave
+- Meteor Beam

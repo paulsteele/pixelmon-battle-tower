@@ -1,0 +1,8 @@
+Bayleef @ Leftovers
+Ability: Overgrow
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Light Screen
+- Hidden Power Grass
+- Synthesis
+- Reflect

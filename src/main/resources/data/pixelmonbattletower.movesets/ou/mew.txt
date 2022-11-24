@@ -1,0 +1,8 @@
+Mew @ Heavy-Duty Boots
+Ability: Synchronize
+EVs: 248 HP / 148 SpD / 112 Spe
+Jolly Nature
+- Spikes
+- Knock Off
+- Taunt
+- Roost

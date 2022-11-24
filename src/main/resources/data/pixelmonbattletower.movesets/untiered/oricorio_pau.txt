@@ -1,0 +1,8 @@
+Oricorio-Pa'u @ Flyinium Z
+Ability: Dancer
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Calm Mind
+- Hurricane
+- Taunt
+- Roost

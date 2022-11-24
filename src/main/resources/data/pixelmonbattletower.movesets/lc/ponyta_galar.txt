@@ -1,0 +1,9 @@
+Ponyta-Galar @ Eviolite
+Level: 5
+Ability: Pastel Veil
+EVs: 236 SpA / 76 SpD / 196 Spe
+Timid Nature
+- Calm Mind
+- Psychic
+- Mystical Fire
+- Morning Sun

@@ -1,0 +1,8 @@
+Kyurem-White @ Choice Specs
+Ability: Turboblaze
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Draco Meteor
+- Ice Beam
+- Freeze-Dry
+- Fusion Flare

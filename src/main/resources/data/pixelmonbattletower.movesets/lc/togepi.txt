@@ -1,0 +1,9 @@
+Togepi @ Eviolite
+Level: 5
+Ability: Serene Grace
+EVs: 236 HP / 156 Def / 76 SpD / 36 Spe
+Bold Nature
+- Dazzling Gleam
+- Fire Blast
+- Morning Sun
+- Nasty Plot

@@ -1,0 +1,8 @@
+Tapu Fini @ Choice Scarf
+Ability: Misty Surge
+EVs: 248 HP / 44 SpD / 216 Spe
+Timid Nature
+- Scald
+- Moonblast
+- Trick
+- Taunt

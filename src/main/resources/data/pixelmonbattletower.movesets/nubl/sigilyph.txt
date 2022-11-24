@@ -1,0 +1,8 @@
+Sigilyph @ Life Orb
+Ability: Magic Guard
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Psyshock
+- Heat Wave
+- Roost
+- Defog

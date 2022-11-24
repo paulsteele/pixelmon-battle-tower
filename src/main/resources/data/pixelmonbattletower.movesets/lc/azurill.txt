@@ -1,0 +1,10 @@
+Azurill @ Life Orb
+Level: 5
+Ability: Huge Power
+EVs: 196 HP / 196 Atk / 116 Def
+IVs: 0 Spe
+Brave Nature
+- Double-Edge
+- Knock Off
+- Waterfall
+- Return

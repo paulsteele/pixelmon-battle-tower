@@ -1,0 +1,9 @@
+Morelull @ Eviolite
+Level: 5
+Ability: Effect Spore
+EVs: 196 HP / 236 Def / 76 SpD
+Bold Nature
+- Spore
+- Giga Drain
+- Moonblast
+- Synthesis

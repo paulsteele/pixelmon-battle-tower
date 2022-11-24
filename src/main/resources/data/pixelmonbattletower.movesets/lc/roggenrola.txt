@@ -1,0 +1,9 @@
+Roggenrola @ Eviolite
+Level: 5
+Ability: Weak Armor
+EVs: 156 Atk / 76 Def / 76 SpD / 156 Spe
+Jolly Nature
+- Stealth Rock
+- Rock Blast
+- Earthquake
+- Explosion

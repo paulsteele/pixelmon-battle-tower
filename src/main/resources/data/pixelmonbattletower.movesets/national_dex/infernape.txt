@@ -1,0 +1,8 @@
+Infernape @ Choice Band
+Ability: Iron Fist
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Close Combat
+- Flare Blitz
+- U-turn
+- Mach Punch

@@ -1,0 +1,8 @@
+Palpitoad @ Eviolite
+Ability: Water Absorb
+EVs: 252 HP / 252 Def / 4 SpA
+Bold Nature
+- Stealth Rock
+- Earth Power
+- Scald
+- Toxic

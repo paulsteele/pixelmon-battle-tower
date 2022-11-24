@@ -1,0 +1,9 @@
+Nosepass @ Berry Juice
+Level: 5
+Ability: Sturdy
+EVs: 76 Atk / 236 Def / 196 SpD
+Relaxed Nature
+- Stealth Rock
+- Rock Blast
+- Thunder Wave
+- Volt Switch

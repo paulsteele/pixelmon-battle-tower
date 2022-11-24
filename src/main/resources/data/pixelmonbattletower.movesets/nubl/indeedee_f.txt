@@ -1,0 +1,8 @@
+Indeedee-F @ Choice Scarf
+Ability: Psychic Surge
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Expanding Force
+- Mystical Fire
+- Dazzling Gleam
+- Healing Wish

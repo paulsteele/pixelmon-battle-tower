@@ -1,0 +1,8 @@
+Pangoro @ Choice Band
+Ability: Scrappy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Close Combat
+- Knock Off
+- Iron Head
+- Bullet Punch

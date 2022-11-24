@@ -1,0 +1,8 @@
+Skuntank @ Black Sludge
+Ability: Aftermath
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Nasty Plot
+- Sludge Bomb
+- Dark Pulse
+- Taunt

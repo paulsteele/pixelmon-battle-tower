@@ -1,0 +1,9 @@
+Buneary @ Eviolite
+Level: 5
+Ability: Limber
+EVs: 228 Atk / 4 Def / 236 Spe
+Jolly Nature
+- Healing Wish
+- Return
+- Drain Punch
+- Thunder Wave

@@ -1,0 +1,8 @@
+Charmeleon @ Leftovers
+Ability: Blaze
+EVs: 4 HP / 252 SpA / 252 Spe
+Modest Nature
+- Fire Blast
+- Overheat
+- Hidden Power Grass
+- Dragon Claw

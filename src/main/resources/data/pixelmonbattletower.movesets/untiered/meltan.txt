@@ -1,0 +1,9 @@
+Meltan @ Leftovers
+Ability: Magnet Pull
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 0 Atk
+Bold Nature
+- Acid Armor
+- Rest
+- Flash Cannon
+- Thunderbolt

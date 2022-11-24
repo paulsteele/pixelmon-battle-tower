@@ -1,0 +1,10 @@
+Arrokuda @ Life Orb
+Level: 5
+Ability: Swift Swim
+EVs: 252 Atk / 228 Spe
+IVs: 17 HP
+Jolly Nature
+- Liquidation
+- Close Combat
+- Psychic Fangs
+- Aqua Jet

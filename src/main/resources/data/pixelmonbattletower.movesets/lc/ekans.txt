@@ -1,0 +1,9 @@
+Ekans @ Berry Juice
+Level: 5
+Ability: Intimidate
+EVs: 156 HP / 84 Def / 244 SpD
+Careful Nature
+- Coil
+- Gunk Shot
+- Earthquake
+- Sucker Punch

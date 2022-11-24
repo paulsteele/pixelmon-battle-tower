@@ -1,0 +1,9 @@
+Woobat @ Eviolite
+Level: 5
+Ability: Simple
+EVs: 76 HP / 12 Def / 236 SpA / 180 Spe
+Timid Nature
+- Calm Mind
+- Stored Power
+- Heat Wave
+- Roost

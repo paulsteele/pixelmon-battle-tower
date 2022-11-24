@@ -1,0 +1,8 @@
+Omastar @ Power Herb
+Ability: Weak Armor
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Shell Smash
+- Meteor Beam
+- Surf
+- Ice Beam

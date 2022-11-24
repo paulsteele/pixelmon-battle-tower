@@ -1,0 +1,8 @@
+Tornadus-Therian @ Heavy-Duty Boots
+Ability: Regenerator
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Nasty Plot
+- Hurricane
+- Focus Blast
+- Knock Off

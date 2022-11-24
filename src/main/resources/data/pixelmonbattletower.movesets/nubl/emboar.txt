@@ -1,0 +1,8 @@
+Emboar @ Choice Band
+Ability: Reckless
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Flare Blitz
+- Superpower
+- Wild Charge
+- Earthquake

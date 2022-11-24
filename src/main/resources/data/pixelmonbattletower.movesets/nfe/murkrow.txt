@@ -1,0 +1,8 @@
+Murkrow @ Life Orb
+Ability: Super Luck
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Brave Bird
+- Sucker Punch
+- Heat Wave
+- Pursuit

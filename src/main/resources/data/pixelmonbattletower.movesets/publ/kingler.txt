@@ -1,0 +1,8 @@
+Kingler @ Life Orb
+Ability: Sheer Force
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Agility
+- Swords Dance
+- Liquidation
+- Knock Off

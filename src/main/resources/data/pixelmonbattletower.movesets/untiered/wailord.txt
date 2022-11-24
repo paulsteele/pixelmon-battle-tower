@@ -1,0 +1,8 @@
+Wailord @ Leftovers
+Ability: Pressure
+EVs: 252 Def / 252 SpD / 4 Spe
+Calm Nature
+- Block
+- Rest
+- Noble Roar
+- Toxic

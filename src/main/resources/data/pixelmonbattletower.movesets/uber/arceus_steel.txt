@@ -1,0 +1,8 @@
+Arceus-Steel @ Steelium Z
+Ability: Multitype
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Iron Head
+- Earthquake
+- Stone Edge

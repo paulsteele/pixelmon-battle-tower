@@ -1,0 +1,8 @@
+Banette @ Banettite
+Ability: Frisk
+EVs: 40 HP / 252 Atk / 216 Spe
+Adamant Nature
+- Destiny Bond
+- Shadow Claw
+- Gunk Shot
+- Taunt

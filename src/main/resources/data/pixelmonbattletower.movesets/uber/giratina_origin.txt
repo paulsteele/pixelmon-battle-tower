@@ -1,0 +1,8 @@
+Giratina-Origin @ Griseous Orb
+Ability: Levitate
+EVs: 12 Atk / 216 Def / 252 SpA / 28 Spe
+Quiet Nature
+- Hex
+- Draco Meteor
+- Shadow Sneak
+- Will-O-Wisp

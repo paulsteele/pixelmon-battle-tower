@@ -1,0 +1,8 @@
+Palossand @ Colbur Berry
+Ability: Water Compaction
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Stealth Rock
+- Shadow Ball
+- Earth Power
+- Shore Up

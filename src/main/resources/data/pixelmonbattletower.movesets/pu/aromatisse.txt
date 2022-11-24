@@ -1,0 +1,8 @@
+Aromatisse @ Leftovers
+Ability: Aroma Veil
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Moonblast
+- Wish
+- Protect
+- Heal Bell

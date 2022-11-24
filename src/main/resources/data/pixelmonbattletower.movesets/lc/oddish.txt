@@ -1,0 +1,9 @@
+Oddish @ Eviolite
+Level: 5
+Ability: Chlorophyll
+EVs: 156 HP / 236 Def / 76 SpD / 36 Spe
+Bold Nature
+- Sleep Powder
+- Strength Sap
+- Sludge Bomb
+- Giga Drain

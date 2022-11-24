@@ -1,0 +1,9 @@
+Stakataka @ Leftovers
+Ability: Beast Boost
+EVs: 252 HP / 4 Atk / 252 SpD
+IVs: 0 Spe
+Sassy Nature
+- Stealth Rock
+- Gyro Ball
+- Body Press
+- Toxic

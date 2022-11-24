@@ -1,0 +1,8 @@
+Ledian @ Life Orb
+Ability: Iron Fist
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Power-Up Punch
+- Drain Punch
+- Ice Punch
+- Thunder Punch

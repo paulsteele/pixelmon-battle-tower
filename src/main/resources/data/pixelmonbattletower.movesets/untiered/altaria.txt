@@ -1,0 +1,8 @@
+Altaria @ Altarianite
+Ability: Natural Cure
+EVs: 252 HP / 16 Atk / 76 Def / 100 SpD / 64 Spe
+Adamant Nature
+- Frustration
+- Earthquake
+- Roost
+- Dragon Dance

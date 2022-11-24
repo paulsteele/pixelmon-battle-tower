@@ -1,0 +1,8 @@
+Exeggutor-Alola @ Sitrus Berry
+Ability: Harvest
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Draco Meteor
+- Leaf Storm
+- Flamethrower
+- Teleport

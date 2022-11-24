@@ -1,0 +1,9 @@
+Buizel @ Icium Z
+Level: 5
+Ability: Water Veil
+EVs: 200 SpA / 36 SpD / 240 Spe
+Naive Nature
+- Blizzard
+- Scald
+- Hidden Power Fire
+- Aqua Jet

@@ -1,0 +1,8 @@
+Reshiram @ Life Orb
+Ability: Turboblaze
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Blue Flare
+- Draco Meteor
+- Roost
+- Stone Edge

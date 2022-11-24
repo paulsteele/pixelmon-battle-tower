@@ -1,0 +1,8 @@
+Claydol @ Colbur Berry
+Ability: Levitate
+EVs: 252 HP / 240 Def / 16 Spe
+Bold Nature
+- Stealth Rock
+- Toxic
+- Psychic
+- Teleport

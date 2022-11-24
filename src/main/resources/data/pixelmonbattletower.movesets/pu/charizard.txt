@@ -1,0 +1,8 @@
+Charizard @ Heavy-Duty Boots
+Ability: Blaze
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Roost
+- Flamethrower
+- Hurricane
+- Toxic

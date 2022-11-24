@@ -1,0 +1,9 @@
+Swinub @ Focus Sash
+Level: 5
+Ability: Oblivious
+EVs: 116 HP / 196 Atk / 196 Spe
+Jolly Nature
+- Stealth Rock
+- Earthquake
+- Ice Shard
+- Endeavor

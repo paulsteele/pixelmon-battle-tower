@@ -1,0 +1,8 @@
+Oricorio-Sensu @ Flyinium Z
+Ability: Dancer
+EVs: 248 HP / 68 Def / 192 Spe
+Timid Nature
+- Calm Mind
+- Roost
+- Taunt
+- Hurricane

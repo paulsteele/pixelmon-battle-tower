@@ -1,0 +1,8 @@
+Zygarde-10% @ Choice Band
+Ability: Aura Break
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Thousand Arrows
+- Extreme Speed
+- Outrage
+- Superpower

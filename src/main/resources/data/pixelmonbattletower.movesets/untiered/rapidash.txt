@@ -1,0 +1,8 @@
+Rapidash @ Heavy-Duty Boots
+Ability: Flash Fire
+EVs: 252 HP / 4 SpD / 252 Spe
+Jolly Nature
+- Flare Blitz
+- High Horsepower
+- Toxic
+- Morning Sun

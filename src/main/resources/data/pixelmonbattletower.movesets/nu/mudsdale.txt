@@ -1,0 +1,9 @@
+Mudsdale @ Leftovers
+Ability: Stamina
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 0 Spe
+Relaxed Nature
+- Stealth Rock
+- Earthquake
+- Toxic
+- Protect

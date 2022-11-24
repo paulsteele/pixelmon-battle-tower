@@ -1,0 +1,8 @@
+Hariyama @ Assault Vest
+Ability: Thick Fat
+EVs: 252 Atk / 4 Def / 252 SpD
+Adamant Nature
+- Close Combat
+- Knock Off
+- Heavy Slam
+- Stone Edge

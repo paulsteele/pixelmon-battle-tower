@@ -1,0 +1,8 @@
+Arceus-Ice @ Icicle Plate
+Ability: Multitype
+EVs: 172 HP / 84 SpA / 252 Spe
+Timid Nature
+- Calm Mind
+- Recover
+- Judgment
+- Thunder

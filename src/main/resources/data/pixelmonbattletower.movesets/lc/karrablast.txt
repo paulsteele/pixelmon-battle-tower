@@ -1,0 +1,9 @@
+Karrablast @ Choice Scarf
+Level: 5
+Ability: No Guard
+EVs: 236 Atk / 76 Def / 196 Spe
+Jolly Nature
+- Megahorn
+- Knock Off
+- Drill Run
+- Poison Jab

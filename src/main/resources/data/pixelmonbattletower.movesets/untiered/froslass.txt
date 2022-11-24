@@ -1,0 +1,9 @@
+Froslass @ Focus Sash
+Ability: Cursed Body
+EVs: 4 Def / 252 SpA / 252 Spe
+IVs: 0 Atk
+Timid Nature
+- Icy Wind
+- Spikes
+- Taunt
+- Destiny Bond

@@ -1,0 +1,8 @@
+Arctovish @ Life Orb
+Ability: Slush Rush
+EVs: 236 Atk / 40 SpA / 232 Spe
+Naive Nature
+- Fishious Rend
+- Freeze-Dry
+- Icicle Crash
+- Substitute

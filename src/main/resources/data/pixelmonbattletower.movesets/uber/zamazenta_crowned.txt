@@ -1,0 +1,8 @@
+Zamazenta-Crowned @ Rusted Shield
+Ability: Dauntless Shield
+EVs: 252 HP / 64 Def / 192 SpD
+Careful Nature
+- Behemoth Bash
+- Close Combat
+- Rest
+- Howl

@@ -1,0 +1,8 @@
+Flareon @ Toxic Orb
+Ability: Guts
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Flare Blitz
+- Facade
+- Superpower
+- Quick Attack

@@ -1,0 +1,8 @@
+Darmanitan @ Choice Scarf
+Ability: Sheer Force
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Flare Blitz
+- U-turn
+- Rock Slide
+- Earthquake

@@ -1,0 +1,8 @@
+Dialga @ Choice Specs
+Ability: Pressure
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Draco Meteor
+- Fire Blast
+- Thunder
+- Power Gem

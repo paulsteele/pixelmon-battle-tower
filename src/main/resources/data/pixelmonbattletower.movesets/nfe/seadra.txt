@@ -1,0 +1,8 @@
+Seadra @ Life Orb
+Ability: Sniper
+EVs: 4 Def / 252 SpA / 252 Spe
+Modest Nature
+- Agility
+- Hydro Pump
+- Ice Beam
+- Hidden Power Grass

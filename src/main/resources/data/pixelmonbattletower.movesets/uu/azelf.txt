@@ -1,0 +1,8 @@
+Azelf @ Expert Belt
+Ability: Levitate
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Psychic
+- Flamethrower
+- U-turn
+- Energy Ball

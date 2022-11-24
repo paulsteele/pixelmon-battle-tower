@@ -1,0 +1,8 @@
+Incineroar @ Heavy-Duty Boots
+Ability: Intimidate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Swords Dance
+- Knock Off
+- Flare Blitz
+- U-turn

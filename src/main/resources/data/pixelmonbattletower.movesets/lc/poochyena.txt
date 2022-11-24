@@ -1,0 +1,9 @@
+Poochyena @ Normalium Z
+Level: 5
+Ability: Rattled
+EVs: 236 Atk / 36 SpD / 236 Spe
+Jolly Nature
+- Howl
+- Crunch
+- Play Rough
+- Fire Fang

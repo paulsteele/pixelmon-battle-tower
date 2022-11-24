@@ -1,0 +1,9 @@
+Amaura @ Choice Scarf
+Level: 5
+Ability: Snow Warning
+EVs: 60 HP / 220 SpA / 228 Spe
+Timid Nature
+- Blizzard
+- Freeze-Dry
+- Thunderbolt
+- Earth Power

@@ -1,0 +1,8 @@
+Torterra @ Leftovers
+Ability: Overgrow
+EVs: 248 HP / 252 Def / 8 SpD
+Impish Nature
+- Stealth Rock
+- Wood Hammer
+- Earthquake
+- Synthesis

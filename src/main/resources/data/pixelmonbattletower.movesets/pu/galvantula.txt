@@ -1,0 +1,8 @@
+Galvantula @ Heavy-Duty Boots
+Ability: Compound Eyes
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Sticky Web
+- Volt Switch
+- Bug Buzz
+- Thunder

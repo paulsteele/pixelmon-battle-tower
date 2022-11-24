@@ -1,0 +1,9 @@
+Slurpuff @ Focus Sash
+Ability: Unburden
+EVs: 252 SpA / 252 Spe
+IVs: 0 HP / 0 Def / 0 SpD
+Naive Nature
+- Sticky Web
+- Magic Coat
+- Misty Explosion
+- Yawn

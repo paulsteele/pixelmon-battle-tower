@@ -1,0 +1,8 @@
+Thievul @ Choice Specs
+Ability: Stakeout
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Dark Pulse
+- Grass Knot
+- Psychic
+- U-turn

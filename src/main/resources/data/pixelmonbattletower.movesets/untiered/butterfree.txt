@@ -1,0 +1,8 @@
+Butterfree @ Leftovers
+Ability: Compound Eyes
+EVs: 200 HP / 28 Def / 52 SpA / 228 Spe
+Timid Nature
+- Quiver Dance
+- Hurricane
+- Sleep Powder
+- Substitute

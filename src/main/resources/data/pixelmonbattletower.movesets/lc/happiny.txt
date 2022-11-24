@@ -1,0 +1,9 @@
+Happiny @ Eviolite
+Level: 5
+Ability: Natural Cure
+EVs: 236 HP / 236 SpD
+Calm Nature
+- Thunder Wave
+- Heal Bell
+- Light Screen
+- Flamethrower

@@ -1,0 +1,9 @@
+Beldum @ Oran Berry
+Level: 5
+Ability: Clear Body
+EVs: 236 Atk / 236 Def / 38 Spe
+Adamant Nature
+- Iron Head
+- Zen Headbutt
+- Headbutt
+- Iron Defense

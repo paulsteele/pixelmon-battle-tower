@@ -1,0 +1,9 @@
+Grimer-Alola @ Eviolite
+Level: 5
+Ability: Poison Touch
+EVs: 36 HP / 196 Atk / 196 Def / 36 SpD
+Adamant Nature
+- Pursuit
+- Knock Off
+- Poison Jab
+- Shadow Sneak

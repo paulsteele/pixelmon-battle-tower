@@ -1,0 +1,8 @@
+Quilladin @ Eviolite
+Ability: Bulletproof
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Spikes
+- Taunt
+- Wood Hammer
+- Zen Headbutt

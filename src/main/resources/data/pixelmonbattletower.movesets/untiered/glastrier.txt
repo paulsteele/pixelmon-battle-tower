@@ -1,0 +1,8 @@
+Glastrier @ Heavy-Duty Boots
+Ability: Chilling Neigh
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Icicle Crash
+- High Horsepower
+- Close Combat

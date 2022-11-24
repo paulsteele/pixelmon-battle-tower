@@ -1,0 +1,8 @@
+Marill @ Choice Band
+Ability: Huge Power
+EVs: 52 HP / 252 Atk / 204 Spe
+Adamant Nature
+- Play Rough
+- Waterfall
+- Aqua Jet
+- Ice Punch

@@ -1,0 +1,8 @@
+Rufflet @ Eviolite
+Ability: Hustle
+EVs: 248 HP / 156 SpD / 104 Spe
+Jolly Nature
+- Bulk Up
+- Aerial Ace
+- Roost
+- Substitute

@@ -1,0 +1,9 @@
+Cranidos @ Choice Scarf
+Level: 5
+Ability: Sheer Force
+EVs: 236 Atk / 36 Def / 212 Spe
+Jolly Nature
+- Rock Slide
+- Zen Headbutt
+- Superpower
+- Earthquake

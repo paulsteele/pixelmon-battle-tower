@@ -1,0 +1,9 @@
+Venonat @ Eviolite
+Level: 5
+Ability: Compound Eyes
+EVs: 36 HP / 36 Def / 116 SpA / 76 SpD / 236 Spe
+Bold Nature
+- Sleep Powder
+- Morning Sun
+- Sludge Bomb
+- Psychic

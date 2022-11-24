@@ -1,0 +1,8 @@
+Mr. Mime @ Choice Scarf
+Ability: Filter
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Psychic
+- Dazzling Gleam
+- Trick
+- Healing Wish

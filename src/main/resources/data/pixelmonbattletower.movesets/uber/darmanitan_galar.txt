@@ -1,0 +1,8 @@
+Darmanitan-Galar @ Choice Scarf
+Ability: Gorilla Tactics
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- U-turn
+- Icicle Crash
+- Flare Blitz
+- Rock Slide

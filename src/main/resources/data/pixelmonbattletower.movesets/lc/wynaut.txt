@@ -1,0 +1,9 @@
+Wynaut @ Berry Juice
+Level: 5
+Ability: Shadow Tag
+EVs: 156 HP / 132 Def / 132 SpD / 12 Spe
+Bold Nature
+- Counter
+- Mirror Coat
+- Encore
+- Tickle

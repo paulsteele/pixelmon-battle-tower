@@ -1,0 +1,9 @@
+Tyrogue @ Toxic Orb
+Level: 5
+Ability: Guts
+EVs: 236 Atk / 236 Spe
+Adamant Nature
+- High Jump Kick
+- Fake Out
+- Mach Punch
+- Bullet Punch

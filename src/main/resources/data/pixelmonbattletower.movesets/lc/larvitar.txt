@@ -1,0 +1,9 @@
+Larvitar @ Eviolite
+Level: 5
+Ability: Guts
+EVs: 244 Atk / 36 Def / 36 SpD / 188 Spe
+Jolly Nature
+- Dragon Dance
+- Earthquake
+- Rock Slide
+- Superpower

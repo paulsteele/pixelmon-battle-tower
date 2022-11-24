@@ -1,0 +1,9 @@
+Shinx @ Berry Juice
+Level: 5
+Ability: Intimidate
+EVs: 76 HP / 76 Atk / 244 Def / 36 SpA / 4 SpD
+Adamant Nature
+- Volt Switch
+- Wild Charge
+- Thief
+- Fire Fang

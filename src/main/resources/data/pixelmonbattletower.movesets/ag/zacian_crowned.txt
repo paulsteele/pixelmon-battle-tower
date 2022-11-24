@@ -1,0 +1,8 @@
+Zacian-Crowned @ Rusted Sword
+Ability: Intrepid Sword
+EVs: 96 HP / 216 Atk / 84 SpD / 112 Spe
+Adamant Nature
+- Behemoth Blade
+- Wild Charge
+- Close Combat
+- Assurance

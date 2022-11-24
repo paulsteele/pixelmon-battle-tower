@@ -1,0 +1,8 @@
+Weezing-Galar @ Black Sludge
+Ability: Levitate
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Sludge Bomb
+- Strange Steam
+- Defog
+- Will-O-Wisp

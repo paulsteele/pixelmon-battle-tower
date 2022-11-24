@@ -1,0 +1,8 @@
+Manaphy @ Waterium Z
+Ability: Hydration
+EVs: 248 HP / 240 SpA / 20 Spe
+Modest Nature
+- Tail Glow
+- Surf
+- Energy Ball
+- Rest

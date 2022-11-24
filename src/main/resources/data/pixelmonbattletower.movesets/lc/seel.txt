@@ -1,0 +1,9 @@
+Seel @ Eviolite
+Level: 5
+Ability: Thick Fat
+EVs: 236 HP / 236 Def / 36 SpD
+Bold Nature
+- Whirlpool
+- Perish Song
+- Protect
+- Rest

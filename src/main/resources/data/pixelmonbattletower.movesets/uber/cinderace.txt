@@ -1,0 +1,8 @@
+Cinderace @ Heavy-Duty Boots
+Ability: Libero
+EVs: 80 HP / 164 Atk / 48 SpD / 216 Spe
+Jolly Nature
+- Pyro Ball
+- U-turn
+- Court Change
+- Gunk Shot

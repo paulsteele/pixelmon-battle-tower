@@ -1,0 +1,9 @@
+Litleo @ Firium Z
+Level: 5
+Ability: Moxie
+EVs: 20 HP / 196 Atk / 52 Def / 4 SpD / 180 Spe
+Jolly Nature
+- Flare Blitz
+- Return
+- Flame Charge
+- Wild Charge

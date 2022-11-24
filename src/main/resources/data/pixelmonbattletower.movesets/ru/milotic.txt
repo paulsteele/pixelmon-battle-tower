@@ -1,0 +1,9 @@
+Milotic @ Leftovers
+Ability: Marvel Scale
+EVs: 252 HP / 168 Def / 88 Spe
+IVs: 0 Atk
+Bold Nature
+- Scald
+- Recover
+- Flip Turn
+- Toxic

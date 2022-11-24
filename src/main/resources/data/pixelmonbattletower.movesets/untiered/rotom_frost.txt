@@ -1,0 +1,8 @@
+Rotom-Frost @ Heavy-Duty Boots
+Ability: Levitate
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Nasty Plot
+- Blizzard
+- Volt Switch
+- Pain Split

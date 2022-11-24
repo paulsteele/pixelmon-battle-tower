@@ -1,0 +1,8 @@
+Basculin @ Life Orb
+Ability: Adaptability
+EVs: 252 Atk / 4 SpA / 252 Spe
+Jolly Nature
+- Liquidation
+- Flip Turn
+- Superpower
+- Psychic Fangs

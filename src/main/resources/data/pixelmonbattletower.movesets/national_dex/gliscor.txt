@@ -1,0 +1,8 @@
+Gliscor @ Toxic Orb
+Ability: Poison Heal
+EVs: 244 HP / 52 Def / 100 SpD / 112 Spe
+Jolly Nature
+- Earthquake
+- Defog
+- U-turn
+- Roost

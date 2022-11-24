@@ -1,0 +1,8 @@
+Accelgor @ Heavy-Duty Boots
+Ability: Sticky Hold
+EVs: 4 HP / 252 SpA / 252 Spe
+Timid Nature
+- Spikes
+- Bug Buzz
+- Knock Off
+- Focus Blast

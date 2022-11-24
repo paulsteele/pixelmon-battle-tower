@@ -1,0 +1,8 @@
+Swampert @ Leftovers
+Ability: Torrent
+EVs: 252 HP / 144 Def / 112 SpD
+Sassy Nature
+- Earthquake
+- Flip Turn
+- Toxic
+- Stealth Rock

@@ -1,0 +1,8 @@
+Beartic @ Choice Band
+Ability: Swift Swim
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Icicle Crash
+- Superpower
+- Aqua Jet
+- Stone Edge

@@ -1,0 +1,8 @@
+Toucannon @ Life Orb
+Ability: Skill Link
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Boomburst
+- Brave Bird
+- Bullet Seed
+- Overheat

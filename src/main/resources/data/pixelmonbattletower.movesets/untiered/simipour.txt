@@ -1,0 +1,8 @@
+Simipour @ Waterium Z
+Ability: Torrent
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Nasty Plot
+- Hydro Pump
+- Ice Beam
+- Grass Knot

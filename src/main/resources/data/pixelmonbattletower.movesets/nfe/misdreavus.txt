@@ -1,0 +1,8 @@
+Misdreavus @ Eviolite
+Ability: Levitate
+EVs: 252 HP / 4 Def / 252 Spe
+Timid Nature
+- Hex
+- Will-O-Wisp
+- Taunt
+- Pain Split

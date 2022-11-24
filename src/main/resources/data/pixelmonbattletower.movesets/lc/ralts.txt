@@ -1,0 +1,9 @@
+Ralts @ Choice Scarf
+Level: 5
+Ability: Trace
+EVs: 52 HP / 236 SpA / 196 Spe
+Timid Nature
+- Psychic
+- Dazzling Gleam
+- Thunderbolt
+- Memento

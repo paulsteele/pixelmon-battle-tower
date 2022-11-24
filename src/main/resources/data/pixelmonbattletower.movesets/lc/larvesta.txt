@@ -1,0 +1,9 @@
+Larvesta @ Eviolite
+Level: 5
+Ability: Flame Body
+EVs: 76 HP / 236 Def / 156 SpD / 36 Spe
+Impish Nature
+- Flare Blitz
+- U-turn
+- Will-O-Wisp
+- Morning Sun

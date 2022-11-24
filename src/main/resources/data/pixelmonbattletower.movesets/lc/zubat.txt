@@ -1,0 +1,9 @@
+Zubat @ Choice Scarf
+Level: 5
+Ability: Inner Focus
+EVs: 36 HP / 236 Atk / 236 Spe
+Jolly Nature
+- Brave Bird
+- U-turn
+- Defog
+- Pursuit

@@ -1,0 +1,8 @@
+Marshtomp @ Eviolite
+Ability: Damp
+EVs: 248 HP / 128 Def / 136 SpD
+Careful Nature
+- Earthquake
+- Stealth Rock
+- Rest
+- Sleep Talk

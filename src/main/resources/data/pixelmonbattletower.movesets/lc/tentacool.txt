@@ -1,0 +1,9 @@
+Tentacool @ Eviolite
+Level: 5
+Ability: Liquid Ooze
+EVs: 196 HP / 236 Def / 36 SpA / 36 Spe
+Calm Nature
+- Rapid Spin
+- Scald
+- Sludge Bomb
+- Knock Off

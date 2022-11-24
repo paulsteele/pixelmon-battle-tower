@@ -1,0 +1,8 @@
+Ariados @ Focus Sash
+Ability: Swarm
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Sticky Web
+- Toxic Spikes
+- Megahorn
+- Toxic Thread

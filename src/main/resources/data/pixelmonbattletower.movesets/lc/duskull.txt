@@ -1,0 +1,9 @@
+Duskull @ Eviolite
+Level: 5
+Ability: Levitate
+EVs: 196 HP / 196 Def / 116 SpD
+Relaxed Nature
+- Pain Split
+- Will-O-Wisp
+- Substitute
+- Shadow Sneak

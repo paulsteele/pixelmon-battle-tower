@@ -1,0 +1,8 @@
+Staraptor @ Choice Band
+Ability: Reckless
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Double-Edge
+- Close Combat
+- U-turn

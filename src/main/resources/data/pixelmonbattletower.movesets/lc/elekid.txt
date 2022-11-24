@@ -1,0 +1,9 @@
+Elekid @ Life Orb
+Level: 5
+Ability: Vital Spirit
+EVs: 12 Atk / 236 SpA / 236 Spe
+Naive Nature
+- Volt Switch
+- Thunderbolt
+- Psychic
+- Ice Punch

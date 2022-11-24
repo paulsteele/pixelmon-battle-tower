@@ -1,0 +1,9 @@
+Ursaring @ Flame Orb
+Ability: Guts
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 0 Spe
+Brave Nature
+- Swords Dance
+- Facade
+- Crunch
+- Close Combat

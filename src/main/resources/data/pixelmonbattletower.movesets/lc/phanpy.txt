@@ -1,0 +1,9 @@
+Phanpy @ Eviolite
+Level: 5
+Ability: Pickup
+EVs: 116 HP / 116 Atk / 116 Def / 116 SpD / 36 Spe
+Careful Nature
+- Stealth Rock
+- Earthquake
+- Knock Off
+- Ice Shard

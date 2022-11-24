@@ -1,0 +1,9 @@
+Aipom @ Life Orb
+Level: 5
+Ability: Skill Link
+EVs: 76 HP / 116 Atk / 76 Def / 236 Spe
+Jolly Nature
+- Fury Swipes
+- Knock Off
+- Brick Break
+- Fake Out

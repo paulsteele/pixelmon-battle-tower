@@ -1,0 +1,9 @@
+Cacnea @ Eviolite
+Level: 5
+Ability: Water Absorb
+EVs: 236 Atk / 116 Def / 156 Spe
+Jolly Nature
+- Swords Dance
+- Sucker Punch
+- Seed Bomb
+- Drain Punch

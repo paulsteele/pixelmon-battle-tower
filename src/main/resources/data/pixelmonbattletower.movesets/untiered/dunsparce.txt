@@ -1,0 +1,8 @@
+Dunsparce @ Leftovers
+Ability: Serene Grace
+EVs: 252 Atk / 252 SpD / 4 Spe
+Careful Nature
+- Coil
+- Roost
+- Body Slam
+- Bite

@@ -1,0 +1,8 @@
+Wishiwashi @ Leftovers
+Ability: Schooling
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Rest
+- Sleep Talk
+- Scald
+- U-turn

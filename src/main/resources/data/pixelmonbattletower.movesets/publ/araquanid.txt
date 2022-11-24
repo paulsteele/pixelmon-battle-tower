@@ -1,0 +1,8 @@
+Araquanid @ Heavy-Duty Boots
+Ability: Water Bubble
+EVs: 68 HP / 252 Atk / 188 Spe
+Adamant Nature
+- Substitute
+- Liquidation
+- Toxic
+- Leech Life

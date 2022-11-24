@@ -1,0 +1,8 @@
+Doublade @ Eviolite
+Ability: No Guard
+EVs: 248 HP / 252 Atk / 8 Spe
+Adamant Nature
+- Swords Dance
+- Shadow Sneak
+- Shadow Claw
+- Close Combat

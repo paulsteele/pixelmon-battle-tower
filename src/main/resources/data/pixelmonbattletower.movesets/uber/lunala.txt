@@ -1,0 +1,8 @@
+Lunala @ Heavy-Duty Boots
+Ability: Shadow Shield
+EVs: 252 HP / 16 Def / 240 Spe
+Timid Nature
+- Roost
+- Will-O-Wisp
+- Ice Beam
+- Hex

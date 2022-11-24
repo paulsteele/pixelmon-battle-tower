@@ -1,0 +1,8 @@
+Chatot @ Choice Scarf
+Ability: Tangled Feet
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Boomburst
+- Heat Wave
+- Hidden Power Fighting
+- U-turn

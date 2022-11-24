@@ -1,0 +1,8 @@
+Furfrou @ Leftovers
+Ability: Fur Coat
+EVs: 32 HP / 252 Atk / 224 Spe
+Jolly Nature
+- Return
+- U-turn
+- Toxic
+- Sucker Punch

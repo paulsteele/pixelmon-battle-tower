@@ -1,0 +1,8 @@
+Eiscue @ Salac Berry
+Ability: Ice Face
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Belly Drum
+- Substitute
+- Icicle Spear
+- Zen Headbutt

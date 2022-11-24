@@ -1,0 +1,8 @@
+Groudon @ Leftovers
+Ability: Drought
+EVs: 240 HP / 252 Atk / 16 Spe
+Adamant Nature
+- Precipice Blades
+- Stone Edge
+- Bulk Up
+- Heat Crash

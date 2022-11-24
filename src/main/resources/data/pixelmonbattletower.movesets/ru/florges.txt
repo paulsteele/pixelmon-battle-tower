@@ -1,0 +1,8 @@
+Florges @ Leftovers
+Ability: Symbiosis
+EVs: 252 HP / 120 Def / 136 Spe
+Timid Nature
+- Moonblast
+- Synthesis
+- Aromatherapy
+- Wish

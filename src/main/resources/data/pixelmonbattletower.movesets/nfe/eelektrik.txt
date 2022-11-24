@@ -1,0 +1,9 @@
+Eelektrik @ Eviolite
+Ability: Levitate
+EVs: 248 HP / 252 Def / 8 SpD
+IVs: 0 Spe
+Relaxed Nature
+- U-turn
+- Knock Off
+- Giga Drain
+- Super Fang

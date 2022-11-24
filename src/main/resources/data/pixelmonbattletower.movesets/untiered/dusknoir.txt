@@ -1,0 +1,8 @@
+Dusknoir @ Leftovers
+Ability: Pressure
+EVs: 132 HP / 252 Atk / 124 Spe
+Adamant Nature
+- Substitute
+- Poltergeist
+- Shadow Sneak
+- Focus Punch

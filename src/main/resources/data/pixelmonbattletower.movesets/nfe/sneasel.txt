@@ -1,0 +1,8 @@
+Sneasel @ Heavy-Duty Boots
+Ability: Inner Focus
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Swords Dance
+- Triple Axel
+- Knock Off
+- Ice Shard

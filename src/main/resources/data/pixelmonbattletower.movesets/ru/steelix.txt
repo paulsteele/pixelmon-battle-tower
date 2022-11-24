@@ -1,0 +1,8 @@
+Steelix @ Leftovers
+Ability: Sturdy
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Stealth Rock
+- Earthquake
+- Heavy Slam
+- Toxic

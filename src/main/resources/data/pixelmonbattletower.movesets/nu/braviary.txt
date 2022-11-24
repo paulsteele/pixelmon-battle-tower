@@ -1,0 +1,8 @@
+Braviary @ Heavy-Duty Boots
+Ability: Defiant
+EVs: 252 HP / 200 SpD / 56 Spe
+Jolly Nature
+- Substitute
+- Bulk Up
+- Brave Bird
+- Roost

@@ -1,0 +1,9 @@
+Forretress @ Leftovers
+Ability: Overcoat
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 0 Spe
+Relaxed Nature
+- Gyro Ball
+- Spikes
+- Volt Switch
+- Rapid Spin

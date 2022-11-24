@@ -1,0 +1,8 @@
+Dusclops @ Eviolite
+Ability: Pressure
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant Nature
+- Poltergeist
+- Shadow Sneak
+- Power-Up Punch
+- Will-O-Wisp

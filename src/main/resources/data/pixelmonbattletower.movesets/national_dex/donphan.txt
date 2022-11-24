@@ -1,0 +1,8 @@
+Donphan @ Custap Berry
+Ability: Sturdy
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Earthquake
+- Rapid Spin
+- Knock Off
+- Ice Shard

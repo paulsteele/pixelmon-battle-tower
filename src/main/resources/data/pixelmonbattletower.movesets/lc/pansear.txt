@@ -1,0 +1,9 @@
+Pansear @ Berry Juice
+Level: 5
+Ability: Blaze
+EVs: 36 HP / 12 Atk / 212 Def / 212 SpD / 4 Spe
+Jolly Nature
+- Recycle
+- Will-O-Wisp
+- Substitute
+- Flame Charge

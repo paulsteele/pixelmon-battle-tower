@@ -1,0 +1,8 @@
+Pupitar @ Leftovers
+Ability: Shed Skin
+EVs: 4 HP / 252 Atk / 252 Spe
+Jolly Nature
+- Dragon Dance
+- Earthquake
+- Rock Slide
+- Hidden Power Bug

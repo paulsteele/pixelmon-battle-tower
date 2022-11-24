@@ -1,0 +1,8 @@
+Falinks @ Choice Band
+Ability: Defiant
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Close Combat
+- First Impression
+- Throat Chop
+- Rock Slide

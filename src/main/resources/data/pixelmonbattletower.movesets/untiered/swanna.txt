@@ -1,0 +1,8 @@
+Swanna @ Flyinium Z
+Ability: Hydration
+EVs: 4 Def / 252 SpA / 252 Spe
+Timid Nature
+- Hurricane
+- Scald
+- Defog
+- Roost

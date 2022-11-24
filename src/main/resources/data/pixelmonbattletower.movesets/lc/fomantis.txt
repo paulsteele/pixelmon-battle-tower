@@ -1,0 +1,9 @@
+Fomantis @ Eviolite
+Level: 5
+Ability: Contrary
+EVs: 116 HP / 236 Def / 120 SpA
+Bold Nature
+- Leaf Storm
+- Defog
+- Synthesis
+- Hidden Power Fire

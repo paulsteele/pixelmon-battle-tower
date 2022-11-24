@@ -1,0 +1,10 @@
+Rockruff @ Life Orb
+Level: 5
+Ability: Vital Spirit
+EVs: 236 Atk / 76 Def / 196 Spe
+IVs: 9 HP
+Jolly Nature
+- Stone Edge
+- Stomping Tantrum
+- Zen Headbutt
+- Sucker Punch

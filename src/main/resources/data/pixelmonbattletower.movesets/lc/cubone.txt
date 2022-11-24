@@ -1,0 +1,9 @@
+Cubone @ Thick Club
+Level: 5
+Ability: Battle Armor
+EVs: 196 Atk / 76 Def / 236 Spe
+Jolly Nature
+- Bonemerang
+- Knock Off
+- Rock Slide
+- Fire Punch

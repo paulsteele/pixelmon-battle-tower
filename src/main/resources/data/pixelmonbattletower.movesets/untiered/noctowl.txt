@@ -1,0 +1,9 @@
+Noctowl @ Blunder Policy
+Ability: Tinted Lens
+EVs: 4 Def / 252 SpA / 252 Spe
+IVs: 0 Atk
+Modest Nature
+- Nasty Plot
+- Hypnosis
+- Hurricane
+- Roost

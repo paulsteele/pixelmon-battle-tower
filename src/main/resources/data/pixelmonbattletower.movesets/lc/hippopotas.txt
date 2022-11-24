@@ -1,0 +1,9 @@
+Hippopotas @ Eviolite
+Level: 5
+Ability: Sand Stream
+EVs: 132 HP / 20 Atk / 132 Def / 180 SpD / 20 Spe
+Careful Nature
+- Slack Off
+- Stealth Rock
+- Earthquake
+- Whirlwind

@@ -1,0 +1,9 @@
+Gulpin @ Eviolite
+Level: 5
+Ability: Liquid Ooze
+EVs: 116 HP / 172 Def / 12 SpA / 172 SpD
+Modest Nature
+- Stockpile
+- Pain Split
+- Encore
+- Ice Beam

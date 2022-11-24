@@ -1,0 +1,5 @@
+Unown @ Choice Specs
+Ability: Levitate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Hidden Power Psychic

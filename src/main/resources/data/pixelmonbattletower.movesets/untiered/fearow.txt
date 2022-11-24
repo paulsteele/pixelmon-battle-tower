@@ -1,0 +1,8 @@
+Fearow @ Scope Lens
+Ability: Sniper
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Frustration
+- Drill Peck
+- Drill Run
+- U-turn

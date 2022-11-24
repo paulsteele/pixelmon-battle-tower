@@ -1,0 +1,8 @@
+Mawile @ Mawilite
+Ability: Intimidate
+EVs: 92 HP / 252 Atk / 164 Spe
+Adamant Nature
+- Swords Dance
+- Play Rough
+- Sucker Punch
+- Knock Off

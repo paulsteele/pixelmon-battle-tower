@@ -1,0 +1,9 @@
+Shieldon @ Berry Juice
+Level: 5
+Ability: Sturdy
+EVs: 116 HP / 100 Atk / 52 Def / 212 SpD
+Adamant Nature
+- Metal Burst
+- Stealth Rock
+- Rock Blast
+- Endure

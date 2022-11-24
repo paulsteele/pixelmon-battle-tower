@@ -1,0 +1,8 @@
+Gurdurr @ Eviolite
+Ability: Guts
+EVs: 172 HP / 252 Atk / 84 Spe
+Adamant Nature
+- Bulk Up
+- Drain Punch
+- Knock Off
+- Mach Punch

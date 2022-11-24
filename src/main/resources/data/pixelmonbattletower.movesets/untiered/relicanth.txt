@@ -1,0 +1,8 @@
+Relicanth @ Choice Band
+Ability: Rock Head
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Head Smash
+- Waterfall
+- Earthquake
+- Zen Headbutt

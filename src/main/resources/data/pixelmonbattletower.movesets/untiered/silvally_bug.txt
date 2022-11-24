@@ -1,0 +1,8 @@
+Silvally-Bug @ Bug Memory
+Ability: RKS System
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Swords Dance
+- Multi-Attack
+- Rock Slide
+- Crunch

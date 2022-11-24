@@ -1,0 +1,9 @@
+Skitty @ Life Orb
+Level: 5
+Ability: Normalize
+EVs: 236 Atk / 76 SpD / 196 Spe
+Jolly Nature
+- Fake Out
+- Sucker Punch
+- Double-Edge
+- Thunder Wave

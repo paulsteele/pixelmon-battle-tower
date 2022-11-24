@@ -1,0 +1,8 @@
+Solrock @ Leftovers
+Ability: Levitate
+EVs: 252 HP / 4 Atk / 252 Def
+Impish Nature
+- Stealth Rock
+- Morning Sun
+- Will-O-Wisp
+- Rock Slide

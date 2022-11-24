@@ -1,0 +1,8 @@
+Turtonator @ Heavy-Duty Boots
+Ability: Shell Armor
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Shell Smash
+- Fire Blast
+- Draco Meteor
+- Flash Cannon

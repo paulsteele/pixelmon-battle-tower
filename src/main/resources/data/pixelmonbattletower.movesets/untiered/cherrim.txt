@@ -1,0 +1,8 @@
+Cherrim @ Life Orb
+Ability: Flower Gift
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Growth
+- Solar Blade
+- Play Rough
+- Weather Ball

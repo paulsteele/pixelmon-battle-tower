@@ -1,0 +1,8 @@
+Scrafty @ Leftovers
+Ability: Shed Skin
+EVs: 252 HP / 4 Atk / 252 SpD
+Careful Nature
+- Bulk Up
+- Knock Off
+- Drain Punch
+- Rest

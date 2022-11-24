@@ -1,0 +1,8 @@
+Camerupt @ Cameruptite
+Ability: Solid Rock
+EVs: 252 HP / 172 SpD / 84 Spe
+Calm Nature
+- Fire Blast
+- Earth Power
+- Rest
+- Sleep Talk

@@ -1,0 +1,9 @@
+Litten @ Berry Juice
+Level: 5
+Ability: Intimidate
+EVs: 156 Atk / 116 Def / 36 SpD / 196 Spe
+Jolly Nature
+- U-turn
+- Flare Blitz
+- Will-O-Wisp
+- Fake Out

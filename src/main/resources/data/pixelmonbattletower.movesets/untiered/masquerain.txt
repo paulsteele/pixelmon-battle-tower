@@ -1,0 +1,8 @@
+Masquerain @ Focus Sash
+Ability: Intimidate
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Sticky Web
+- Bug Buzz
+- Hydro Pump
+- Quiver Dance

@@ -1,0 +1,8 @@
+Wobbuffet @ Leftovers
+Ability: Telepathy
+EVs: 252 HP / 4 Def / 252 SpD
+Calm Nature
+- Encore
+- Counter
+- Mirror Coat
+- Destiny Bond

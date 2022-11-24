@@ -1,0 +1,8 @@
+Tornadus @ Choice Specs
+Ability: Defiant
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Hurricane
+- Knock Off
+- U-turn
+- Focus Blast

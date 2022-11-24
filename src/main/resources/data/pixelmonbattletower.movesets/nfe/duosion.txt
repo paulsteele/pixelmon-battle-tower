@@ -1,0 +1,8 @@
+Duosion @ Eviolite
+Ability: Magic Guard
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Acid Armor
+- Calm Mind
+- Recover
+- Stored Power

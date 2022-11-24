@@ -1,0 +1,9 @@
+Mime Jr. @ Berry Juice
+Level: 5
+Ability: Soundproof
+EVs: 196 HP / 236 Def / 36 SpD / 36 Spe
+Bold Nature
+- Barrier
+- Calm Mind
+- Taunt
+- Baton Pass

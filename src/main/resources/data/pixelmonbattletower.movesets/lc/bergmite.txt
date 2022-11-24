@@ -1,0 +1,9 @@
+Bergmite @ Eviolite
+Level: 5
+Ability: Sturdy
+EVs: 44 Atk / 156 Def / 236 SpD / 52 Spe
+Impish Nature
+- Rapid Spin
+- Recover
+- Avalanche
+- Toxic

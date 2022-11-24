@@ -1,0 +1,8 @@
+Machoke @ Eviolite
+Ability: No Guard
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Dynamic Punch
+- Knock Off
+- Rest
+- Sleep Talk

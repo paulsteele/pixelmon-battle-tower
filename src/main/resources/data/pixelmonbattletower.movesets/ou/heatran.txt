@@ -1,0 +1,8 @@
+Heatran @ Leftovers
+Ability: Flash Fire
+EVs: 252 HP / 232 SpD / 24 Spe
+Calm Nature
+- Magma Storm
+- Earth Power
+- Taunt
+- Toxic

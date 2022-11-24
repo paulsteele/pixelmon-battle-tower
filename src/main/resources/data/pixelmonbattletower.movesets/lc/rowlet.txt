@@ -1,0 +1,9 @@
+Rowlet @ Life Orb
+Level: 5
+Ability: Overgrow
+EVs: 236 Atk / 36 SpD / 180 Spe
+Jolly Nature
+- Swords Dance
+- Brave Bird
+- Leaf Blade
+- Sucker Punch

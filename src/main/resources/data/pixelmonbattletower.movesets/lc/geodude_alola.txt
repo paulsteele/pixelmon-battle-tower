@@ -1,0 +1,9 @@
+Geodude-Alola @ Eviolite
+Level: 5
+Ability: Magnet Pull
+EVs: 36 HP / 116 Atk / 116 Def / 196 SpD / 36 Spe
+Adamant Nature
+- Rock Blast
+- Fire Punch
+- Superpower
+- Stealth Rock

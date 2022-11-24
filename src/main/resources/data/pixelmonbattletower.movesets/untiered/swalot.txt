@@ -1,0 +1,8 @@
+Swalot @ Assault Vest
+Ability: Sticky Hold
+EVs: 248 HP / 200 SpA / 60 SpD
+Quiet Nature
+- Sludge Bomb
+- Giga Drain
+- Ice Beam
+- Earthquake

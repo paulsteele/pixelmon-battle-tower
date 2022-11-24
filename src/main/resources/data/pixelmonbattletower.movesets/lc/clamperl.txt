@@ -1,0 +1,9 @@
+Clamperl @ Deep Sea Tooth
+Level: 5
+Ability: Rattled
+EVs: 76 HP / 248 SpA / 184 Spe
+Timid Nature
+- Shell Smash
+- Surf
+- Ice Beam
+- Hidden Power Grass

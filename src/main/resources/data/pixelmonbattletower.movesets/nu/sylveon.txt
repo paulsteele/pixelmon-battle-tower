@@ -1,0 +1,8 @@
+Sylveon @ Leftovers
+Ability: Pixilate
+EVs: 252 HP / 188 Def / 68 SpD
+Calm Nature
+- Hyper Voice
+- Wish
+- Protect
+- Heal Bell

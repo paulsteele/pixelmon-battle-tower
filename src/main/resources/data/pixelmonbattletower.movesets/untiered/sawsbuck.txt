@@ -1,0 +1,8 @@
+Sawsbuck @ Normalium Z
+Ability: Chlorophyll
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Swords Dance
+- Double-Edge
+- Horn Leech
+- Jump Kick

@@ -1,0 +1,9 @@
+Tyrunt @ Eviolite
+Level: 5
+Ability: Strong Jaw
+EVs: 204 Atk / 76 SpD / 212 Spe
+Jolly Nature
+- Dragon Dance
+- Rock Blast
+- Psychic Fangs
+- Close Combat

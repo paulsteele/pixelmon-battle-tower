@@ -1,0 +1,9 @@
+Nidoran-M @ Eviolite
+Level: 5
+Ability: Hustle
+EVs: 220 Atk / 36 Def / 196 Spe
+Adamant Nature
+- Poison Jab
+- Drill Run
+- Sucker Punch
+- Hone Claws

@@ -1,0 +1,8 @@
+Hitmonlee @ Electric Seed
+Ability: Unburden
+EVs: 48 HP / 252 Atk / 208 Spe
+Adamant Nature
+- Bulk Up
+- Close Combat
+- Knock Off
+- Stone Edge

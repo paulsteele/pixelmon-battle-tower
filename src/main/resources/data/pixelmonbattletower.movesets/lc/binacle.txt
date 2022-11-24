@@ -1,0 +1,9 @@
+Binacle @ Eviolite
+Level: 5
+Ability: Tough Claws
+EVs: 20 HP / 180 Atk / 60 Def / 148 SpD / 36 Spe
+Adamant Nature
+- Shell Smash
+- Liquidation
+- Stone Edge
+- Cross Chop

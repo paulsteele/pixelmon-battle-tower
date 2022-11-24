@@ -1,0 +1,8 @@
+Glalie @ Focus Sash
+Ability: Inner Focus
+EVs: 4 Atk / 252 SpA / 252 Spe
+Naive Nature
+- Spikes
+- Taunt
+- Freeze-Dry
+- Explosion

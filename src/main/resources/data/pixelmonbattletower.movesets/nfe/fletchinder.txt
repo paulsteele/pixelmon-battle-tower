@@ -1,0 +1,8 @@
+Fletchinder @ Heavy-Duty Boots
+Ability: Flame Body
+EVs: 248 HP / 128 Def / 132 Spe
+Timid Nature
+- Flamethrower
+- Roost
+- Taunt
+- Will-O-Wisp

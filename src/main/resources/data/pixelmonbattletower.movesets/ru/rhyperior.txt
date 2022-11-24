@@ -1,0 +1,8 @@
+Rhyperior @ Leftovers
+Ability: Solid Rock
+EVs: 252 HP / 16 Atk / 240 SpD
+Adamant Nature
+- Earthquake
+- Stone Edge
+- Stealth Rock
+- Toxic

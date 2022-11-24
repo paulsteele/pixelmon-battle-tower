@@ -1,0 +1,8 @@
+Jynx @ Heavy-Duty Boots
+Ability: Dry Skin
+EVs: 252 SpA / 4 SpD / 252 Spe
+Timid Nature
+- Nasty Plot
+- Lovely Kiss
+- Ice Beam
+- Psyshock

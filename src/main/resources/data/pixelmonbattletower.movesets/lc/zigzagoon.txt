@@ -1,0 +1,9 @@
+Zigzagoon @ Berry Juice
+Level: 5
+Ability: Pickup
+EVs: 132 HP / 196 Atk / 108 Def / 28 SpD / 36 Spe
+Adamant Nature
+- Belly Drum
+- Extreme Speed
+- Thief
+- Seed Bomb

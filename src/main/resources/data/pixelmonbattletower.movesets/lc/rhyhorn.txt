@@ -1,0 +1,9 @@
+Rhyhorn @ Eviolite
+Level: 5
+Ability: Rock Head
+EVs: 36 HP / 156 Atk / 156 Def / 116 SpD
+Careful Nature
+- Stealth Rock
+- Rock Blast
+- Earthquake
+- Megahorn

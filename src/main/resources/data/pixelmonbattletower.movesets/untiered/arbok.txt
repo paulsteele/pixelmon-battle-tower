@@ -1,0 +1,8 @@
+Arbok @ Waterium Z
+Ability: Intimidate
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Coil
+- Gunk Shot
+- Aqua Tail
+- Sucker Punch

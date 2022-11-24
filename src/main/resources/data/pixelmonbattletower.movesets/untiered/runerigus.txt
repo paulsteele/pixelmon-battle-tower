@@ -1,0 +1,8 @@
+Runerigus @ Leftovers
+Ability: Wandering Spirit
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Stealth Rock
+- Earthquake
+- Will-O-Wisp
+- Toxic Spikes

@@ -1,0 +1,8 @@
+Scyther @ Heavy-Duty Boots
+Ability: Technician
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- U-turn
+- Dual Wingbeat
+- Knock Off
+- Roost

@@ -1,0 +1,10 @@
+Noibat @ Life Orb
+Level: 5
+Ability: Infiltrator
+EVs: 236 SpA / 36 SpD / 236 Spe
+IVs: 9 HP
+Timid Nature
+- Draco Meteor
+- Hurricane
+- Heat Wave
+- Tailwind

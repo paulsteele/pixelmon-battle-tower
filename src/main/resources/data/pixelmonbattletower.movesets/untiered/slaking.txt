@@ -1,0 +1,8 @@
+Slaking @ Life Orb
+Ability: Truant
+EVs: 252 Atk / 4 SpA / 252 Spe
+Naive Nature
+- Return
+- Pursuit
+- Earthquake
+- Fire Blast

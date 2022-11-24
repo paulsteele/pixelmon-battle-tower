@@ -1,0 +1,8 @@
+Lycanroc @ Life Orb
+Ability: Sand Rush
+EVs: 252 Atk / 4 Def / 252 Spe
+Jolly Nature
+- Stone Edge
+- Close Combat
+- Psychic Fangs
+- Accelerock

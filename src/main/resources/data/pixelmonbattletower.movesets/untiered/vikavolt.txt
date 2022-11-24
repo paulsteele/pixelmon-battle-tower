@@ -1,0 +1,8 @@
+Vikavolt @ Heavy-Duty Boots
+Ability: Levitate
+EVs: 56 HP / 252 SpA / 200 Spe
+Modest Nature
+- Sticky Web
+- Volt Switch
+- Bug Buzz
+- Roost

@@ -1,0 +1,8 @@
+Glaceon @ Choice Specs
+Ability: Ice Body
+EVs: 252 SpA / 4 SpD / 252 Spe
+Modest Nature
+- Ice Beam
+- Freeze-Dry
+- Shadow Ball
+- Water Pulse

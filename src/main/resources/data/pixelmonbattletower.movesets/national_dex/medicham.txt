@@ -1,0 +1,8 @@
+Medicham @ Medichamite
+Ability: Telepathy
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Fake Out
+- High Jump Kick
+- Zen Headbutt
+- Ice Punch

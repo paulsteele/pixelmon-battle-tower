@@ -1,0 +1,8 @@
+Electrode @ Light Clay
+Ability: Aftermath
+EVs: 252 HP / 4 Def / 252 Spe
+Jolly Nature
+- Reflect
+- Light Screen
+- Taunt
+- Explosion

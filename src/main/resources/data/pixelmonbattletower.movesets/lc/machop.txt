@@ -1,0 +1,9 @@
+Machop @ Choice Scarf
+Level: 5
+Ability: No Guard
+EVs: 36 HP / 196 Atk / 36 Def / 236 Spe
+Jolly Nature
+- Dynamic Punch
+- Knock Off
+- Poison Jab
+- Rock Slide

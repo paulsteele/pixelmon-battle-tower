@@ -1,0 +1,10 @@
+Litwick @ Eviolite
+Level: 5
+Ability: Flame Body
+EVs: 116 HP / 236 Def / 156 SpD
+IVs: 0 Spe
+Quiet Nature
+- Memento
+- Trick Room
+- Fire Blast
+- Will-O-Wisp

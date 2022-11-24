@@ -1,0 +1,6 @@
+Stoutland @ Silk Scarf
+Ability: Scrappy
+EVs: 252 Atk / 4 Def / 252 SpD
+Adamant Nature
+- Retaliate
+- Last Resort

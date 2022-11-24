@@ -1,0 +1,9 @@
+Minccino @ Life Orb
+Level: 5
+Ability: Skill Link
+EVs: 196 Atk / 36 Def / 36 SpD / 236 Spe
+Jolly Nature
+- Tail Slap
+- Knock Off
+- Seed Bomb
+- U-turn

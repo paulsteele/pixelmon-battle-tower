@@ -1,0 +1,8 @@
+Decidueye @ Choice Band
+Ability: Long Reach
+EVs: 252 Atk / 4 Def / 252 Spe
+Adamant Nature
+- Leaf Blade
+- Spirit Shackle
+- U-turn
+- Shadow Sneak

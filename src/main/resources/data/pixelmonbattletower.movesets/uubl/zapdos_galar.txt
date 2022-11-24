@@ -1,0 +1,8 @@
+Zapdos-Galar @ Choice Band
+Ability: Defiant
+EVs: 252 Atk / 4 SpD / 252 Spe
+Jolly Nature
+- Brave Bird
+- Close Combat
+- Thunderous Kick
+- U-turn

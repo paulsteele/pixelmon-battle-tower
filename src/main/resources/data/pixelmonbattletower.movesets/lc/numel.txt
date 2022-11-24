@@ -1,0 +1,9 @@
+Numel @ Eviolite
+Level: 5
+Ability: Simple
+EVs: 36 HP / 236 SpA / 236 Spe
+Modest Nature
+- Flame Charge
+- Fire Blast
+- Earth Power
+- Growth

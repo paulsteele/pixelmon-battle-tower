@@ -1,0 +1,8 @@
+Sharpedo @ Life Orb
+Ability: Speed Boost
+EVs: 4 Atk / 252 SpA / 252 Spe
+Rash Nature
+- Hydro Pump
+- Dark Pulse
+- Close Combat
+- Protect

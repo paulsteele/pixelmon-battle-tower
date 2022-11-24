@@ -1,0 +1,9 @@
+Hoothoot @ Eviolite
+Level: 5
+Ability: Insomnia
+EVs: 196 HP / 36 Def / 228 SpD / 36 Spe
+Calm Nature
+- Hypnosis
+- Roost
+- Air Slash
+- Reflect

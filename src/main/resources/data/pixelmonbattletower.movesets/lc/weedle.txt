@@ -1,0 +1,8 @@
+Weedle @ Life Orb
+Level: 5
+Ability: Shield Dust
+EVs: 196 HP / 236 Atk / 36 Def / 36 Spe
+Adamant Nature
+- Bug Bite
+- Poison Sting
+- String Shot

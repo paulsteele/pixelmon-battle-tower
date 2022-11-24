@@ -1,0 +1,9 @@
+Honedge @ Eviolite
+Level: 5
+Ability: No Guard
+EVs: 76 HP / 116 Atk / 116 Def / 140 SpD / 52 Spe
+Adamant Nature
+- Shadow Sneak
+- Iron Head
+- Sacred Sword
+- Pursuit

@@ -1,0 +1,8 @@
+Giratina @ Leftovers
+Ability: Pressure
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Defog
+- Toxic
+- Will-O-Wisp
+- Rest

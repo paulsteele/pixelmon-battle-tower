@@ -1,0 +1,8 @@
+Gyarados @ Mystic Water
+Ability: Moxie
+EVs: 252 Atk / 4 SpD / 252 Spe
+Adamant Nature
+- Dragon Dance
+- Waterfall
+- Ice Fang
+- Power Whip

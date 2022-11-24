@@ -1,0 +1,8 @@
+Weezing @ Black Sludge
+Ability: Levitate
+EVs: 252 HP / 220 Def / 36 Spe
+Bold Nature
+- Sludge Bomb
+- Will-O-Wisp
+- Toxic Spikes
+- Pain Split

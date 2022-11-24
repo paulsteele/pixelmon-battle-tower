@@ -1,0 +1,8 @@
+Pachirisu @ Leftovers
+Ability: Volt Absorb
+EVs: 252 HP / 252 Def / 4 SpD
+Impish Nature
+- Nuzzle
+- Toxic
+- U-turn
+- Super Fang

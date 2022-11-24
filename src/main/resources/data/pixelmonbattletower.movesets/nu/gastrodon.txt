@@ -1,0 +1,7 @@
+Gastrodon @ Leftovers
+EVs: 252 HP / 252 Def / 4 SpD
+Bold Nature
+- Earth Power
+- Ice Beam
+- Toxic
+- Recover

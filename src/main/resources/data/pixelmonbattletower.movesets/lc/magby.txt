@@ -1,0 +1,10 @@
+Magby @ Berry Juice
+Level: 5
+Ability: Vital Spirit
+EVs: 236 Atk / 252 Spe
+IVs: 29 HP
+Jolly Nature
+- Belly Drum
+- Fire Punch
+- Mach Punch
+- Return

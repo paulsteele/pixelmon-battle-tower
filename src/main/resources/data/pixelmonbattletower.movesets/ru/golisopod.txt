@@ -1,0 +1,8 @@
+Golisopod @ Heavy-Duty Boots
+Ability: Emergency Exit
+EVs: 156 HP / 252 Atk / 100 Spe
+Adamant Nature
+- First Impression
+- Leech Life
+- Liquidation
+- Knock Off

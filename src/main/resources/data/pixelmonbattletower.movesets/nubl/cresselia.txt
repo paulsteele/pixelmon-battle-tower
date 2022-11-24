@@ -1,0 +1,8 @@
+Cresselia @ Choice Scarf
+Ability: Levitate
+EVs: 252 HP / 148 SpD / 108 Spe
+Calm Nature
+- Ice Beam
+- Lunar Dance
+- Trick
+- Moonlight

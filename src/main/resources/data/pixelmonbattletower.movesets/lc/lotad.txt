@@ -1,0 +1,10 @@
+Lotad @ Life Orb
+Level: 5
+Ability: Swift Swim
+EVs: 116 Def / 196 SpA / 196 Spe
+IVs: 19 HP
+Modest Nature
+- Surf
+- Giga Drain
+- Ice Beam
+- Rain Dance

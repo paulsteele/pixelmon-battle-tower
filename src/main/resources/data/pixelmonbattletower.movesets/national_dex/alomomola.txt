@@ -1,0 +1,8 @@
+Alomomola @ Rocky Helmet
+Ability: Regenerator
+EVs: 40 HP / 216 Def / 252 SpD
+Bold Nature
+- Scald
+- Wish
+- Protect
+- Toxic

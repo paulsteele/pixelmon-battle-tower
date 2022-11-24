@@ -1,0 +1,9 @@
+Mudkip @ Eviolite
+Level: 5
+Ability: Torrent
+EVs: 196 Atk / 116 Def / 196 SpD
+Impish Nature
+- Waterfall
+- Ice Beam
+- Superpower
+- Double-Edge

@@ -1,0 +1,9 @@
+Farfetch'd-Galar @ Choice Scarf
+Level: 5
+Ability: Scrappy
+EVs: 20 HP / 236 Atk / 236 Spe
+Jolly Nature
+- Close Combat
+- Brave Bird
+- Final Gambit
+- Knock Off
