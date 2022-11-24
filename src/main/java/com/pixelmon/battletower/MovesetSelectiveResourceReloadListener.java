@@ -2,6 +2,7 @@ package com.pixelmon.battletower;
 
 import com.pixelmonmod.api.pokemon.PokemonSpecification;
 import com.pixelmonmod.pixelmon.Pixelmon;
+import com.pixelmonmod.pixelmon.api.pokemon.Element;
 import com.pixelmonmod.pixelmon.api.pokemon.Nature;
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
 import com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory;
@@ -9,10 +10,12 @@ import com.pixelmonmod.pixelmon.api.pokemon.ability.Ability;
 import com.pixelmonmod.pixelmon.api.pokemon.ability.AbilityRegistry;
 import com.pixelmonmod.pixelmon.api.pokemon.species.Species;
 import com.pixelmonmod.pixelmon.api.pokemon.species.moves.Moves;
+import com.pixelmonmod.pixelmon.api.pokemon.stats.IVStore;
 import com.pixelmonmod.pixelmon.api.pokemon.stats.Moveset;
 import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
 import com.pixelmonmod.pixelmon.battles.attacks.Attack;
 import com.pixelmonmod.pixelmon.battles.attacks.ImmutableAttack;
+import com.pixelmonmod.pixelmon.battles.attacks.specialAttacks.basic.HiddenPower;
 import net.minecraft.resources.IResourceManager;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.resource.IResourceType;
@@ -21,10 +24,7 @@ import net.minecraftforge.resource.ISelectiveResourceReloadListener;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -62,6 +62,7 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
 
     private void CreateMoveSet(List<String> input){
         String name = "";
+        String form = "";
         String item = "";
         String abilityName = "";
         int hpEV = 0;
@@ -70,19 +71,19 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         int spAtkEv = 0;
         int spDefEv = 0;
         int speEv = 0;
+        IVStore ivStore = new IVStore(31, 31, 31, 31, 31, 31);
         String natureName = "";
-        String move1 = "";
-        String move2 = "";
-        String move3 = "";
-        String move4 = "";
+        List<String> moves = new ArrayList<>();
 
         String[] lines = input.toArray(new String[0]);
 
-        if (lines.length != 8){
-            // handle level field for LC
+        long numMoves = Arrays.stream(lines).filter(l -> l.startsWith("-")).count();
 
-            String[] newLines = Arrays.stream(lines).filter(l -> !l.startsWith("Level")).toArray(String[]::new);
-            if (newLines.length != 8){
+        if (lines.length != 4 + numMoves){
+            // handle level field for LC
+            // handle IVS for niche builds
+            String[] newLines = Arrays.stream(lines).filter(l -> !l.startsWith("Level") && !l.startsWith("IV")).toArray(String[]::new);
+            if (newLines.length != 4 + numMoves){
                 Logger.getGlobal().info("malformed moveset");
                 return;
             }
@@ -93,6 +94,12 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         name = line1Split[0].trim();
         if (line1Split.length == 2){
             item = line1Split[1].trim();
+        }
+
+        String[] nameSplit = name.split("-");
+        if (nameSplit.length == 2){
+            name = nameSplit[0].trim();
+            form = nameSplit[1].trim();
         }
 
         abilityName = lines[1].replace("Ability:", "").trim().replace(" ", "");
@@ -130,10 +137,18 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
             }
         }
         natureName = lines[3].replace("Nature", "").trim();
-        move1 = lines[4].substring(2);
-        move2 = lines[5].substring(2);
-        move3 = lines[6].substring(2);
-        move4 = lines[7].substring(2);
+        for (int i = 0; i < numMoves; i++){
+            String moveString = lines[4 + i].substring(2).trim();
+
+            String[] hiddenPowerSplit = moveString.split("Hidden Power");
+            if (hiddenPowerSplit.length == 2){
+                moveString = "Hidden Power";
+                Element ele = Element.parseType(hiddenPowerSplit[1].trim());
+                ivStore = HiddenPower.getOptimalIVs(ele);
+            }
+
+            moves.add(moveString);
+        }
 
         Optional<Species> species = PixelmonSpecies.fromName(name).getValue();
         if (!species.isPresent()){
@@ -142,22 +157,44 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         }
         Optional<Ability> ability =  AbilityRegistry.getAbility(abilityName);
         if (!ability.isPresent()){
-            Logger.getGlobal().info("Could not get ability from name " + abilityName);
-            return;
+            //some abilities have mismatched spellings
+            abilityName = abilityName
+                    .replace("ShellArmor", "ShellArmour")
+                    .replace("BattleArmor", "BattleArmour");
+
+            ability =  AbilityRegistry.getAbility(abilityName);
+            if (!ability.isPresent()){
+                Logger.getGlobal().info("Could not get ability from name " + abilityName);
+                return;
+            }
         }
         Nature nature = Nature.natureFromString(natureName);
         if (nature == null){
             Logger.getGlobal().info("Could not get nature from name " + natureName);
             return;
         }
-        ImmutableAttack[] immutableAttacks = Attack.getAttacks(new String[]{move1, move2, move3, move4});
+
+        ImmutableAttack[] immutableAttacks = Attack.getAttacks(moves.toArray(new String[0]));
         if (Arrays.stream(immutableAttacks).anyMatch(Objects::isNull)){
-            Logger.getGlobal().info("Could not get attacks from " + move1 + " " + move2 + " " + move3 + " " + move4);
+            Logger.getGlobal().info("Could not get attacks from " + moves.stream().reduce("", (a, b) -> a + " " + b));
             return;
         }
         Attack[] attacks = Arrays.stream(immutableAttacks).map(ImmutableAttack::ofMutable).toArray(Attack[]::new);
 
         Moveset moveset = new Moveset(attacks, ability.get());
         Pokemon p = PokemonFactory.create(species.get());
+
+        if (!form.isEmpty()){
+            if (species.get().hasForm(form)){
+                p.setForm(form);
+            }
+            else{
+                Logger.getGlobal().info("Could not set form " + form + " on " + p.getDisplayName());
+            }
+        }
+
+        p.setNature(nature);
+        p.getIVs().copyIVs(ivStore);
+        p.getStats().recalculateStats();
     }
 }

@@ -1,4 +1,5 @@
 Gastrodon @ Leftovers
+Ability: Storm Drain
 EVs: 252 HP / 252 Def / 4 SpD
 Bold Nature
 - Earth Power

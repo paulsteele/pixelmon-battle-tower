@@ -1,6 +1,0 @@
-Pidgeotto
-Level: 50
-- Double-Edge
-- Quick Attack
-- Wing Attack
-- Mirror Move
