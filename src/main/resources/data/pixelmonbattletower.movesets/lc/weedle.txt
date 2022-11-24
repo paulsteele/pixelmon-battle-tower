@@ -6,3 +6,4 @@ Adamant Nature
 - Bug Bite
 - Poison Sting
 - String Shot
+- Splash
