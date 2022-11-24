@@ -13,10 +13,14 @@ import com.pixelmonmod.pixelmon.api.pokemon.species.moves.Moves;
 import com.pixelmonmod.pixelmon.api.pokemon.stats.EVStore;
 import com.pixelmonmod.pixelmon.api.pokemon.stats.IVStore;
 import com.pixelmonmod.pixelmon.api.pokemon.stats.Moveset;
+import com.pixelmonmod.pixelmon.api.registries.PixelmonItems;
 import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
 import com.pixelmonmod.pixelmon.battles.attacks.Attack;
 import com.pixelmonmod.pixelmon.battles.attacks.ImmutableAttack;
 import com.pixelmonmod.pixelmon.battles.attacks.specialAttacks.basic.HiddenPower;
+import com.pixelmonmod.pixelmon.entities.pixelmon.AbstractHoldsItemsEntity;
+import com.pixelmonmod.pixelmon.items.HeldItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.resources.IResourceManager;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Tuple;
@@ -105,6 +109,12 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         }
         p.setMoveset(movesAndIvs.Moveset.get());
         p.setAbility(ability.Ability);
+        try{
+            nameFormItem.Item.ifPresent(heldItem -> p.setHeldItem(new ItemStack(() -> heldItem)));
+        }
+        catch (Exception e){
+            logger.error(e.getMessage(), e);
+        }
         p.setNature(nature.NatureValue.get());
         p.getStats().setEVs(evs.evStore);
         p.getStats().setIVs(movesAndIvs.IvStore);
@@ -113,13 +123,15 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
 
     private static class SmogonLineOne {
         Optional<Species> Species;
+        Optional<HeldItem> Item;
         public String Form = "";
-        public String Item;
         public SmogonLineOne(String line){
             String[] line1Split = line.split("@");
             String name = line1Split[0].trim();
+            String heldItem = "";
+            Item = Optional.empty();
             if (line1Split.length == 2){
-                Item = line1Split[1].trim();
+                heldItem = line1Split[1].trim();
             }
 
             String[] nameSplit = name.split("-");
@@ -208,6 +220,16 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
                         logger.error("Could not get form " + Form + " for species " + name);
                         Species = Optional.empty();
                     }
+                }
+            }
+
+            if (!heldItem.isEmpty()){
+                HeldItem tempItem = PixelmonItems.getHeldItem("item.pixelmon." + heldItem.replace(" ", "_").replace("-", "_"));
+                if (tempItem == null){
+                    logger.error("Could not get item " + heldItem);
+                }
+                else {
+                    Item = Optional.of(tempItem);
                 }
             }
         }
