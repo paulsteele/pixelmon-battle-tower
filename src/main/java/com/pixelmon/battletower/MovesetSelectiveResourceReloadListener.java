@@ -22,6 +22,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Tuple;
 import net.minecraftforge.resource.IResourceType;
 import net.minecraftforge.resource.ISelectiveResourceReloadListener;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.lwjgl.system.CallbackI;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,15 +32,14 @@ import java.io.InputStreamReader;
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class MovesetSelectiveResourceReloadListener implements ISelectiveResourceReloadListener {
-
+    static Logger logger = LogManager.getLogger(BattleTowerMain.ModId);
     @Override
     public void onResourceManagerReload(IResourceManager resourceManager, Predicate<IResourceType> resourcePredicate) {
         if (PixelmonSpecies.getAll().size() < 1){
-            Logger.getGlobal().info("Pixelmon not initialized");
+            logger.info("Pixelmon not initialized");
             return;
         }
 
@@ -51,7 +53,7 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
             }
         }
         catch (Exception e) {
-            Logger.getGlobal().log(Level.INFO,  e.getMessage(), e);
+            logger.error(e.getMessage(), e);
         }
     }
 
@@ -72,7 +74,7 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
             // handle IVS for niche builds
             String[] newLines = Arrays.stream(lines).filter(l -> !l.startsWith("Level") && !l.startsWith("IV")).toArray(String[]::new);
             if (newLines.length != 4 + numMoves){
-                Logger.getGlobal().info("malformed moveset");
+                logger.error("malformed moveset");
                 return;
             }
             lines = newLines;
@@ -135,6 +137,9 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
                 if (Form.equals("F")){
                     Form = "female";
                 }
+                if (Form.equals("M")){
+                    Form = "male";
+                }
 
                 if (Form.equals("o")){
                     name = name + "-o";
@@ -162,16 +167,45 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
                 if (Form.equals("Small") || Form.equals("Super") || Form.equals("Large")){
                     Form = "";
                 }
+
+                if (name.equals("Nidoran")){
+                    name = name + Form;
+                    Form = "";
+                }
+
+                if (name.equals("Calyrex")){
+                    Form = Form.replace("Ice", "Icerider").replace("Shadow", "Shadowrider");
+                }
+
+                if (name.equals("Meowstic")){
+                    Form = "";
+                }
+
+                if (Form.equals("Pa'u")){
+                    Form = "Pau";
+                }
+
+                if (Form.equals("Gmax")){
+                    Form = "";
+                }
+
+                if (Form.equals("Dada")){
+                    Form = "";
+                }
+
+                if (Form.equals("10%")) {
+                    Form = "ten_percent";
+                }
             }
 
             Species = PixelmonSpecies.fromName(name).getValue();
             if (!Species.isPresent()){
-                Logger.getGlobal().info("Could not get species from name " + name);
+                logger.error("Could not get species from name " + name);
             }
             else{
                 if (!Form.isEmpty()){
                     if (!Species.get().hasForm(Form)){
-                        Logger.getGlobal().info("Could not get form " + Form + " for species " + name);
+                        logger.error("Could not get form " + Form + " for species " + name);
                         Species = Optional.empty();
                     }
                 }
@@ -190,11 +224,16 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
                 //some abilities have mismatched spellings
                 abilityName = abilityName
                         .replace("ShellArmor", "ShellArmour")
-                        .replace("BattleArmor", "BattleArmour");
+                        .replace("BattleArmor", "BattleArmour")
+                        .replace("Dragon'sMaw", "DragonsMaw")
+                        .replace("AsOne(Glastrier)", "AsOne")
+                        .replace("AsOne(Spectrier)", "AsOne")
+                        .replace("Soul-Heart", "SoulHeart")
+                ;
 
                 Ability =  AbilityRegistry.getAbility(abilityName);
                 if (!Ability.isPresent()){
-                    Logger.getGlobal().info("Could not get ability from name " + abilityName);
+                    logger.error("Could not get ability from name " + abilityName);
                 }
             }
         }
@@ -254,7 +293,7 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
 
             Nature tempNatureValue = Nature.natureFromString(nature);
             if (tempNatureValue == null){
-                Logger.getGlobal().info("Could not get nature from name " + nature);
+                logger.error("Could not get nature from name " + nature);
                 NatureValue = Optional.empty();
             }
             else{
@@ -285,7 +324,7 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
 
             ImmutableAttack[] immutableAttacks = Attack.getAttacks(moves);
             if (Arrays.stream(immutableAttacks).anyMatch(Objects::isNull)){
-                Logger.getGlobal().info("Could not get attacks from " + Arrays.stream(moves).reduce("", (a, b) -> a + " " + b));
+                logger.error("Could not get attacks from " + Arrays.stream(moves).reduce("", (a, b) -> a + " " + b));
                 Moveset = Optional.empty();
             }
             else {
