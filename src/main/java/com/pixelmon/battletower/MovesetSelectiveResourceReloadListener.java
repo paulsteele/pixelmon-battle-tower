@@ -97,9 +97,47 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         }
 
         String[] nameSplit = name.split("-");
-        if (nameSplit.length == 2){
+        if (nameSplit.length >= 2){
+
             name = nameSplit[0].trim();
-            form = nameSplit[1].trim();
+            form = nameSplit[1].trim()
+                    .replace("Alola", "alolan")
+                    .replace("Galar", "galarian");
+
+            if (nameSplit.length > 2){
+                form = nameSplit[1] + nameSplit[2];
+            }
+
+            if (form.equals("F")){
+                form = "female";
+            }
+
+            if (form.equals("o")){
+                name = name + "-o";
+                form = "";
+            }
+
+            if (form.equals("Z")){
+                name = name + "-Z";
+                form = "";
+            }
+
+            if (form.equals("Oh")){
+                name = name + "-Oh";
+                form = "";
+            }
+
+            if (form.equals("Dawn Wings")){
+                form = "dawn";
+            }
+
+            if (form.equals("Dusk Mane")){
+                form = "dusk";
+            }
+
+            if (form.equals("Small") || form.equals("Super") || form.equals("Large")){
+                form = "";
+            }
         }
 
         abilityName = lines[1].replace("Ability:", "").trim().replace(" ", "");
