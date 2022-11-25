@@ -1,8 +1,8 @@
-Regigigas @ Toxic Orb
-Ability: Poison Heal
-EVs: 252 HP / 252 Atk / 252 Def / 252 SpD / 252 Spe
-Jolly Nature
-- Spikes
-- Facade
-- Nuzzle
-- Flip Turn
+Regigigas @ Leftovers
+Ability: Slow Start
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant Nature
+- Thunder Wave
+- Knock Off
+- Return
+- Drain Punch

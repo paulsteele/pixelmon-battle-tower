@@ -353,9 +353,10 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
                 Moveset = Optional.empty();
             }
             else {
-                Attack[] attacks = Arrays.stream(immutableAttacks).map(ImmutableAttack::ofMutable).toArray(Attack[]::new);
+                Moveset tempMoveset = new Moveset();
+                Arrays.stream(immutableAttacks).forEach(tempMoveset::addImmutable);
 
-                Moveset = Optional.of(new Moveset(attacks, null));
+                Moveset = Optional.of(tempMoveset);
             }
         }
     }

@@ -44,6 +44,8 @@ public class BattleTowerRun {
 
    public enum RunType {
        SINGLES,
-       DOUBLES;
+       DOUBLES,
+       FULL_TEAM_SINGLES,
+       FULL_TEAM_DOUBLES,
    }
 }

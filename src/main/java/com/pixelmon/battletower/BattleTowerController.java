@@ -6,16 +6,22 @@ import com.pixelmon.battletower.blocks.playerSpot.BattleTowerPlayerSpotBlock;
 import com.pixelmon.battletower.helper.BlockFinder;
 import com.pixelmon.battletower.persistence.BattleTowerRun;
 import com.pixelmon.battletower.persistence.BattleTowerSavedData;
+import com.pixelmonmod.pixelmon.api.battles.BattleAIMode;
 import com.pixelmonmod.pixelmon.api.battles.BattleResults;
+import com.pixelmonmod.pixelmon.api.battles.BattleType;
 import com.pixelmonmod.pixelmon.api.dialogue.Choice;
 import com.pixelmonmod.pixelmon.api.dialogue.Dialogue;
 import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
 import com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory;
 import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
+import com.pixelmonmod.pixelmon.battles.api.rules.BattleRuleRegistry;
+import com.pixelmonmod.pixelmon.battles.api.rules.BattleRules;
+import com.pixelmonmod.pixelmon.battles.api.rules.property.TeamPreviewProperty;
 import com.pixelmonmod.pixelmon.battles.api.rules.teamselection.TeamSelectionRegistry;
 import com.pixelmonmod.pixelmon.battles.controller.participants.BattleParticipant;
 import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
+import com.pixelmonmod.pixelmon.enums.EnumMegaItemsUnlocked;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
@@ -120,6 +126,18 @@ public class BattleTowerController {
             StartRun(world, player, computerBlockPos, BattleTowerRun.RunType.DOUBLES);
         });
 
+        Choice.ChoiceBuilder smogonSingles = new Choice.ChoiceBuilder();
+        smogonSingles.setText("Smogon Singles");
+        smogonSingles.setHandle(dialogueChoiceEvent -> {
+            StartRun(world, player, computerBlockPos, BattleTowerRun.RunType.FULL_TEAM_SINGLES);
+        });
+
+        Choice.ChoiceBuilder smogonDoubles = new Choice.ChoiceBuilder();
+        smogonDoubles.setText("Smogon Doubles");
+        smogonDoubles.setHandle(dialogueChoiceEvent -> {
+            StartRun(world, player, computerBlockPos, BattleTowerRun.RunType.FULL_TEAM_DOUBLES);
+        });
+
         Choice.ChoiceBuilder cancel = new Choice.ChoiceBuilder();
         cancel.setText("Cancel");
         cancel.setHandle(dialogueChoiceEvent -> {});
@@ -129,7 +147,9 @@ public class BattleTowerController {
                 .setText("Select Format")
                 .addChoice(singles.build(1))
                 .addChoice(doubles.build(2))
-                .addChoice(cancel.build(3))
+                .addChoice(smogonSingles.build(3))
+                .addChoice(smogonDoubles.build(4))
+                .addChoice(cancel.build(5))
                 .open(player);
     }
 
@@ -148,20 +168,21 @@ public class BattleTowerController {
         BlockPos playerPos = playerBlockPos.get();
         BlockPos opponentPos = opponentBlockPos.get();
 
-        String tier = "pu";
-        ArrayList<Pokemon> trainerTeam = GenerateTeam(tier);
+        String[] tiers = getTiersBasedOnStreak(savedData.GetStreak(serverPlayerEntity));
+        ArrayList<Pokemon> trainerTeam = GenerateTeam(tiers);
         if (trainerTeam.isEmpty()){
-            serverPlayerEntity.displayClientMessage(new StringTextComponent("Could not generate team for tier " + tier), false);
+            serverPlayerEntity.displayClientMessage(new StringTextComponent("Could not generate team for tier " + Arrays.stream(tiers).reduce((s, s2) -> s + ", " + s2)), false);
             return;
         }
 
         NPCTrainer trainerNPC = new NPCTrainer(world);
         trainerNPC.setPos(serverPlayerEntity.getX(), serverPlayerEntity.getY(), serverPlayerEntity.getZ());
         trainerNPC.setUUID(UUID.randomUUID());
+        trainerNPC.setMegaItem(EnumMegaItemsUnlocked.Both);
+        trainerNPC.pokemonLevel = 50;
         trainerNPC.loadPokemon(trainerTeam);
-        trainerNPC.canEngage = true;
-        trainerNPC.greeting = "hi";
-        trainerNPC.init("Cool Guy");
+        trainerNPC.setBattleAIMode(BattleAIMode.ADVANCED);
+        trainerNPC.init("Trainer");
 
         world.addFreshEntity(trainerNPC);
         trainerNPC.teleportTo(opponentPos.getX() + .5, opponentPos.getY() + 1, opponentPos.getZ() + .5);
@@ -172,24 +193,113 @@ public class BattleTowerController {
         TeamSelectionRegistry.builder()
                 .closeable(false)
                 .members(serverPlayerEntity, trainerNPC)
-                .showOpponentTeam()
+                .battleRules(getBattleRulesFromRunType(savedData.GetType(serverPlayerEntity)))
                 .start();
     }
 
-    public ArrayList<Pokemon> GenerateTeam(String tier){
+    public ArrayList<Pokemon> GenerateTeam(String[] tiers){
         ArrayList<Pokemon> list = new ArrayList<>();
-        if (!SmogonMons.containsKey(tier)){
-            return list;
+
+        int totalSize = 0;
+        for (String tier : tiers) {
+            if (!SmogonMons.containsKey(tier)) {
+                return list;
+            }
+            totalSize += SmogonMons.get(tier).size();
         }
 
         Random r = new Random();
-        List<Integer> options = IntStream.range(0, SmogonMons.get(tier).size()).boxed().collect(Collectors.toList());
+        List<Integer> options = IntStream.range(0, totalSize).boxed().collect(Collectors.toList());
         for (int i = 0; i < 6; i++){
             int index = options.remove(r.nextInt(options.size()));
-            list.add(SmogonMons.get(tier).get(index));
+            for (String tier : tiers){
+                if (index < SmogonMons.get(tier).size()){
+                    list.add(SmogonMons.get(tier).get(index));
+                    break;
+                }
+                index -= SmogonMons.get(tier).size();
+            }
         }
 
+        list.remove(0);
+        list.add(SmogonMons.get("untiered").stream().filter(pokemon -> pokemon.getDisplayName().equals("Stoutland")).findFirst().get());
+
         return list;
+    }
+
+    private BattleRules getBattleRulesFromRunType(BattleTowerRun.RunType runType){
+        BattleRules br = new BattleRules();
+        br.set(BattleRuleRegistry.BATTLE_TYPE, runType == BattleTowerRun.RunType.DOUBLES || runType == BattleTowerRun.RunType.FULL_TEAM_DOUBLES ? BattleType.DOUBLE : BattleType.SINGLE);
+        switch (runType){
+            case SINGLES:{
+                br.set(BattleRuleRegistry.NUM_POKEMON, 3);
+                break;
+            }
+            case DOUBLES:{
+                br.set(BattleRuleRegistry.NUM_POKEMON, 4);
+                break;
+            }
+            case FULL_TEAM_SINGLES:
+            case FULL_TEAM_DOUBLES:{
+                br.set(BattleRuleRegistry.NUM_POKEMON, 6);
+                break;
+            }
+        }
+        br.set(BattleRuleRegistry.TEAM_PREVIEW, true);
+        br.set(BattleRuleRegistry.FULL_HEAL, true);
+        br.set(BattleRuleRegistry.LEVEL_CAP, 75);
+
+        return br;
+    }
+
+    private String[] getTiersBasedOnStreak(int streak){
+        if (streak < 1) {
+            return new String[] { "untiered" };
+        }
+        if (streak < 2) {
+            return new String[] { "pu" };
+        }
+        if (streak < 3) {
+            return new String [] { "pu", "publ" };
+        }
+        if (streak < 4) {
+            return new String[] { "publ" , "nu"};
+        }
+        if (streak < 5) {
+            return new String[] { "nu" , "nubl"};
+        }
+        if (streak < 6) {
+            return new String[] { "nubl" , "ru"};
+        }
+        if (streak < 7) {
+            return new String[] { "ru" , "rubl"};
+        }
+        if (streak < 8) {
+            return new String[] { "rubl" , "uu"};
+        }
+        if (streak < 9) {
+            return new String[] { "uu" , "uubl"};
+        }
+        if (streak < 10) {
+            return new String[] { "uubl" , "ou"};
+        }
+        if (streak < 11) {
+            return new String[] { "ou" , "oubl"};
+        }
+        if (streak < 12) {
+            return new String[] { "ou" };
+        }
+        if (streak < 13) {
+            return new String[] { "ou", "national_dex" };
+        }
+        if (streak < 14) {
+            return new String[] { "ou", "national_dex" };
+        }
+        if (streak < 15) {
+            return new String[] { "ou", "national_dex", "ubers" };
+        }
+
+       return new String[] { "ou", "national_dex", "ubers", "ag" };
     }
 
     private Optional<BlockPos> playerBlockPos;
