@@ -10,6 +10,7 @@ import com.pixelmonmod.pixelmon.api.battles.BattleResults;
 import com.pixelmonmod.pixelmon.api.dialogue.Choice;
 import com.pixelmonmod.pixelmon.api.dialogue.Dialogue;
 import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
+import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
 import com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory;
 import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
 import com.pixelmonmod.pixelmon.battles.api.rules.teamselection.TeamSelectionRegistry;
@@ -24,10 +25,9 @@ import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import java.util.List;
-import java.util.Optional;
-import java.util.UUID;
+import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class BattleTowerController {
 
@@ -35,6 +35,8 @@ public class BattleTowerController {
     private BlockFinder finder;
     private final BattleTowerPlayerSpotBlock playerSpotBlock;
     private final BattleTowerOpponentSpotBlock opponentSpotBlock;
+
+    private HashMap<String, ArrayList<Pokemon>> SmogonMons;
 
     public BattleTowerController(
         BlockFinder finder,
@@ -45,6 +47,19 @@ public class BattleTowerController {
 
         this.playerSpotBlock = playerSpotBlock;
         this.opponentSpotBlock = opponentSpotBlock;
+        SmogonMons = new HashMap<>();
+    }
+
+    public void AddSmogonMon(String tier, Pokemon mon){
+        if (!SmogonMons.containsKey(tier)){
+            SmogonMons.put(tier, new ArrayList<>());
+        }
+
+        SmogonMons.get(tier).add(mon);
+    }
+
+    public void ClearSmogonMons(){
+        SmogonMons.clear();
     }
 
     public void PresentChoices(
@@ -133,11 +148,17 @@ public class BattleTowerController {
         BlockPos playerPos = playerBlockPos.get();
         BlockPos opponentPos = opponentBlockPos.get();
 
+        String tier = "pu";
+        ArrayList<Pokemon> trainerTeam = GenerateTeam(tier);
+        if (trainerTeam.isEmpty()){
+            serverPlayerEntity.displayClientMessage(new StringTextComponent("Could not generate team for tier " + tier), false);
+            return;
+        }
+
         NPCTrainer trainerNPC = new NPCTrainer(world);
         trainerNPC.setPos(serverPlayerEntity.getX(), serverPlayerEntity.getY(), serverPlayerEntity.getZ());
         trainerNPC.setUUID(UUID.randomUUID());
-        trainerNPC.loadPokemon(Lists.newArrayList(PokemonFactory.create(PixelmonSpecies.get("Bidoof").get().getValueUnsafe())));
-        trainerNPC.updateDrops(new ItemStack[]{ new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("minecraft:dirt"))) });
+        trainerNPC.loadPokemon(trainerTeam);
         trainerNPC.canEngage = true;
         trainerNPC.greeting = "hi";
         trainerNPC.init("Cool Guy");
@@ -151,8 +172,24 @@ public class BattleTowerController {
         TeamSelectionRegistry.builder()
                 .closeable(false)
                 .members(serverPlayerEntity, trainerNPC)
-                .hideOpponentTeam()
+                .showOpponentTeam()
                 .start();
+    }
+
+    public ArrayList<Pokemon> GenerateTeam(String tier){
+        ArrayList<Pokemon> list = new ArrayList<>();
+        if (!SmogonMons.containsKey(tier)){
+            return list;
+        }
+
+        Random r = new Random();
+        List<Integer> options = IntStream.range(0, SmogonMons.get(tier).size()).boxed().collect(Collectors.toList());
+        for (int i = 0; i < 6; i++){
+            int index = options.remove(r.nextInt(options.size()));
+            list.add(SmogonMons.get(tier).get(index));
+        }
+
+        return list;
     }
 
     private Optional<BlockPos> playerBlockPos;

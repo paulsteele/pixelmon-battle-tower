@@ -1,7 +1,5 @@
 package com.pixelmon.battletower;
 
-import com.pixelmonmod.api.pokemon.PokemonSpecification;
-import com.pixelmonmod.pixelmon.Pixelmon;
 import com.pixelmonmod.pixelmon.api.pokemon.Element;
 import com.pixelmonmod.pixelmon.api.pokemon.Nature;
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
@@ -9,7 +7,6 @@ import com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory;
 import com.pixelmonmod.pixelmon.api.pokemon.ability.Ability;
 import com.pixelmonmod.pixelmon.api.pokemon.ability.AbilityRegistry;
 import com.pixelmonmod.pixelmon.api.pokemon.species.Species;
-import com.pixelmonmod.pixelmon.api.pokemon.species.moves.Moves;
 import com.pixelmonmod.pixelmon.api.pokemon.stats.EVStore;
 import com.pixelmonmod.pixelmon.api.pokemon.stats.IVStore;
 import com.pixelmonmod.pixelmon.api.pokemon.stats.Moveset;
@@ -18,41 +15,49 @@ import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
 import com.pixelmonmod.pixelmon.battles.attacks.Attack;
 import com.pixelmonmod.pixelmon.battles.attacks.ImmutableAttack;
 import com.pixelmonmod.pixelmon.battles.attacks.specialAttacks.basic.HiddenPower;
-import com.pixelmonmod.pixelmon.entities.pixelmon.AbstractHoldsItemsEntity;
 import com.pixelmonmod.pixelmon.items.HeldItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.resources.IResourceManager;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.Tuple;
 import net.minecraftforge.resource.IResourceType;
 import net.minecraftforge.resource.ISelectiveResourceReloadListener;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.lwjgl.system.CallbackI;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 import java.util.function.Predicate;
-import java.util.logging.Level;
 import java.util.stream.Collectors;
 
 public class MovesetSelectiveResourceReloadListener implements ISelectiveResourceReloadListener {
     static Logger logger = LogManager.getLogger(BattleTowerMain.ModId);
+    private BattleTowerController controller;
+
+    public MovesetSelectiveResourceReloadListener(BattleTowerController controller){
+
+        this.controller = controller;
+    }
+
     @Override
     public void onResourceManagerReload(IResourceManager resourceManager, Predicate<IResourceType> resourcePredicate) {
         if (PixelmonSpecies.getAll().size() < 1){
             logger.info("Pixelmon not initialized");
             return;
         }
+        controller.ClearSmogonMons();
 
         try {
              List<String> tiers = GetLinesOfResourceFile(resourceManager, new ResourceLocation("pixelmonbattletower.movesets", "tiers.txt"));
 
             for (String tier : tiers) {
                 for (ResourceLocation resourceLocation : resourceManager.listResources(tier, s -> s.endsWith(".txt"))) {
-                    CreateMoveSet(GetLinesOfResourceFile(resourceManager, resourceLocation));
+                    Optional<Pokemon> smogonMon = CreateMoveSet(GetLinesOfResourceFile(resourceManager, resourceLocation));
+                    smogonMon.ifPresent(pokemon -> controller.AddSmogonMon(tier, pokemon));
                 }
             }
         }
@@ -68,7 +73,7 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         return contents;
     }
 
-    private void CreateMoveSet(List<String> input){
+    private Optional<Pokemon> CreateMoveSet(List<String> input){
         String[] lines = input.toArray(new String[0]);
 
         long numMoves = Arrays.stream(lines).filter(l -> l.startsWith("-")).count();
@@ -79,7 +84,7 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
             String[] newLines = Arrays.stream(lines).filter(l -> !l.startsWith("Level") && !l.startsWith("IV")).toArray(String[]::new);
             if (newLines.length != 4 + numMoves){
                 logger.error("malformed moveset");
-                return;
+                return Optional.empty();
             }
             lines = newLines;
         }
@@ -91,16 +96,16 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         SmogonFinalLines movesAndIvs = new SmogonFinalLines(Arrays.stream(lines).skip(4).toArray(String[]::new));
 
         if (!nameFormItem.Species.isPresent()){
-            return;
+            return Optional.empty();
         }
         if (!ability.Ability.isPresent()){
-            return;
+            return Optional.empty();
         }
         if (!nature.NatureValue.isPresent()){
-            return;
+            return Optional.empty();
         }
         if (!movesAndIvs.Moveset.isPresent()){
-            return;
+            return Optional.empty();
         }
 
         Pokemon p = PokemonFactory.create(nameFormItem.Species.get());
@@ -109,16 +114,14 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         }
         p.setMoveset(movesAndIvs.Moveset.get());
         p.setAbility(ability.Ability);
-        try{
             nameFormItem.Item.ifPresent(heldItem -> p.setHeldItem(new ItemStack(() -> heldItem)));
-        }
-        catch (Exception e){
-            logger.error(e.getMessage(), e);
-        }
         p.setNature(nature.NatureValue.get());
         p.getStats().setEVs(evs.evStore);
         p.getStats().setIVs(movesAndIvs.IvStore);
         p.getStats().recalculateStats();
+        p.setLevel(50);
+
+        return Optional.of(p);
     }
 
     private static class SmogonLineOne {

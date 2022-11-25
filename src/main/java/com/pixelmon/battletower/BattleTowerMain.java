@@ -59,6 +59,6 @@ public class BattleTowerMain
     }
 
     private void addSelectiveReloadListeners(AddReloadListenerEvent event){
-        event.addListener(new MovesetSelectiveResourceReloadListener());
+        event.addListener(new MovesetSelectiveResourceReloadListener(controller));
     }
 }
