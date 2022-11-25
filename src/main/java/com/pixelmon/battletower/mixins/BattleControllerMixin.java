@@ -1,6 +1,6 @@
 package com.pixelmon.battletower.mixins;
 
-import com.pixelmon.battletower.mixininterfaces.ICustomBattleController;
+import com.pixelmon.battletower.mixinHelpers.ICustomBattleController;
 import com.pixelmonmod.pixelmon.api.battles.BattleEndCause;
 import com.pixelmonmod.pixelmon.api.battles.BattleResults;
 import com.pixelmonmod.pixelmon.battles.controller.BattleController;

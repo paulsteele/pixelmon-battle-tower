@@ -1,4 +1,4 @@
-package com.pixelmon.battletower.mixininterfaces;
+package com.pixelmon.battletower.mixinHelpers;
 
 import com.pixelmonmod.pixelmon.api.battles.BattleResults;
 import com.pixelmonmod.pixelmon.battles.controller.participants.BattleParticipant;
