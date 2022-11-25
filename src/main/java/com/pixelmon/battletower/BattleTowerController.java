@@ -17,6 +17,7 @@ import com.pixelmonmod.pixelmon.battles.api.rules.BattleRules;
 import com.pixelmonmod.pixelmon.battles.api.rules.teamselection.TeamSelectionRegistry;
 import com.pixelmonmod.pixelmon.battles.controller.participants.BattleParticipant;
 import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
+import com.pixelmonmod.pixelmon.entities.npcs.registry.BaseTrainer;
 import com.pixelmonmod.pixelmon.enums.EnumMegaItemsUnlocked;
 import com.pixelmonmod.pixelmon.init.registry.ItemRegistration;
 import net.minecraft.command.arguments.EntityAnchorArgument;
@@ -174,12 +175,12 @@ public class BattleTowerController {
         NPCTrainer trainerNPC = new NPCTrainer(world);
         trainerNPC.setPos(serverPlayerEntity.getX(), serverPlayerEntity.getY(), serverPlayerEntity.getZ());
         trainerNPC.setUUID(UUID.randomUUID());
+        trainerNPC.init(new BaseTrainer(""));
         trainerNPC.setMegaItem(EnumMegaItemsUnlocked.Both);
         trainerNPC.loadPokemon(trainerTeam);
         trainerNPC.updateDrops(new ItemStack[]{getRewards(savedData.GetStreak(serverPlayerEntity) + 1)});
         trainerNPC.getPokemonStorage().getTeam().forEach(p -> p.setLevel(50));
         trainerNPC.setBattleAIMode(BattleAIMode.ADVANCED);
-        trainerNPC.init("Trainer");
 
         world.addFreshEntity(trainerNPC);
         trainerNPC.teleportTo(opponentPos.getX() + .5, opponentPos.getY() + 1, opponentPos.getZ() + .5);
