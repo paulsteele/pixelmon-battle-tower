@@ -184,6 +184,8 @@ public class BattleTowerController {
         world.addFreshEntity(trainerNPC);
         trainerNPC.teleportTo(opponentPos.getX() + .5, opponentPos.getY() + 1, opponentPos.getZ() + .5);
         serverPlayerEntity.teleportTo(playerPos.getX() + .5, playerPos.getY() + 1, playerPos.getZ() + .5);
+        serverPlayerEntity.lookAt(EntityAnchorArgument.Type.FEET, trainerNPC.position());
+        trainerNPC.lookAt(EntityAnchorArgument.Type.FEET,EntityAnchorArgument.Type.FEET.apply(serverPlayerEntity));
 
         savedData.StartRun(serverPlayerEntity, type);
 
@@ -192,8 +194,6 @@ public class BattleTowerController {
                 .members(serverPlayerEntity, trainerNPC)
                 .battleRules(getBattleRulesFromRunType(savedData.GetType(serverPlayerEntity)))
                 .battleStartConsumer(battleController -> {
-                    serverPlayerEntity.lookAt(EntityAnchorArgument.Type.FEET, trainerNPC, EntityAnchorArgument.Type.FEET);
-                    trainerNPC.lookAt(EntityAnchorArgument.Type.FEET,EntityAnchorArgument.Type.FEET.apply(serverPlayerEntity));
 
                     ((ICustomBattleController) battleController).OnBattleEnd( battleParticipantBattleResultsHashMap -> {
                         BattleParticipant playerParticipant = battleController.getParticipantForEntity(serverPlayerEntity);
