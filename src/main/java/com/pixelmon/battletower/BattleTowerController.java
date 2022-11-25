@@ -1,9 +1,9 @@
 package com.pixelmon.battletower;
 
-import com.google.common.collect.Lists;
 import com.pixelmon.battletower.blocks.opponentSpot.BattleTowerOpponentSpotBlock;
 import com.pixelmon.battletower.blocks.playerSpot.BattleTowerPlayerSpotBlock;
 import com.pixelmon.battletower.helper.BlockFinder;
+import com.pixelmon.battletower.mixininterfaces.ICustomBattleController;
 import com.pixelmon.battletower.persistence.BattleTowerRun;
 import com.pixelmon.battletower.persistence.BattleTowerSavedData;
 import com.pixelmonmod.pixelmon.api.battles.BattleAIMode;
@@ -13,23 +13,21 @@ import com.pixelmonmod.pixelmon.api.dialogue.Choice;
 import com.pixelmonmod.pixelmon.api.dialogue.Dialogue;
 import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
 import com.pixelmonmod.pixelmon.api.pokemon.Pokemon;
-import com.pixelmonmod.pixelmon.api.pokemon.PokemonFactory;
-import com.pixelmonmod.pixelmon.api.registries.PixelmonSpecies;
 import com.pixelmonmod.pixelmon.battles.api.rules.BattleRuleRegistry;
 import com.pixelmonmod.pixelmon.battles.api.rules.BattleRules;
-import com.pixelmonmod.pixelmon.battles.api.rules.property.TeamPreviewProperty;
 import com.pixelmonmod.pixelmon.battles.api.rules.teamselection.TeamSelectionRegistry;
 import com.pixelmonmod.pixelmon.battles.controller.participants.BattleParticipant;
 import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
 import com.pixelmonmod.pixelmon.enums.EnumMegaItemsUnlocked;
+import com.pixelmonmod.pixelmon.init.registry.ItemRegistration;
+import net.minecraft.command.arguments.EntityAnchorArgument;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
-import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -93,7 +91,7 @@ public class BattleTowerController {
         });
 
         Choice.ChoiceBuilder quit = new Choice.ChoiceBuilder();
-        quit.setText("Quit");
+        quit.setText("Reset");
         quit.setHandle(dialogueChoiceEvent -> {
             savedData.EndRun(player);
         });
@@ -179,8 +177,9 @@ public class BattleTowerController {
         trainerNPC.setPos(serverPlayerEntity.getX(), serverPlayerEntity.getY(), serverPlayerEntity.getZ());
         trainerNPC.setUUID(UUID.randomUUID());
         trainerNPC.setMegaItem(EnumMegaItemsUnlocked.Both);
-        trainerNPC.pokemonLevel = 50;
         trainerNPC.loadPokemon(trainerTeam);
+        trainerNPC.updateDrops(new ItemStack[]{getRewards(savedData.GetStreak(serverPlayerEntity) + 1)});
+        trainerNPC.getPokemonStorage().getTeam().forEach(p -> p.setLevel(50));
         trainerNPC.setBattleAIMode(BattleAIMode.ADVANCED);
         trainerNPC.init("Trainer");
 
@@ -191,9 +190,30 @@ public class BattleTowerController {
         savedData.StartRun(serverPlayerEntity, type);
 
         TeamSelectionRegistry.builder()
-                .closeable(false)
+                .closeable(true)
                 .members(serverPlayerEntity, trainerNPC)
                 .battleRules(getBattleRulesFromRunType(savedData.GetType(serverPlayerEntity)))
+                .battleStartConsumer(battleController -> {
+                    serverPlayerEntity.lookAt(EntityAnchorArgument.Type.FEET, trainerNPC, EntityAnchorArgument.Type.FEET);
+                    trainerNPC.lookAt(EntityAnchorArgument.Type.FEET,EntityAnchorArgument.Type.FEET.apply(serverPlayerEntity));
+
+                    ((ICustomBattleController) battleController).OnBattleEnd( battleParticipantBattleResultsHashMap -> {
+                        BattleParticipant playerParticipant = battleController.getParticipantForEntity(serverPlayerEntity);
+
+                        if (!battleParticipantBattleResultsHashMap.containsKey(playerParticipant)){
+                            return;
+                        }
+
+                        BattleResults results = battleParticipantBattleResultsHashMap.get(playerParticipant);
+                        if (results == BattleResults.VICTORY){
+                            savedData.IncrementStreak(serverPlayerEntity);
+                        }
+                        else {
+                            savedData.EndRun(serverPlayerEntity);
+                            trainerNPC.remove();
+                        }
+                    });
+                })
                 .start();
     }
 
@@ -220,9 +240,6 @@ public class BattleTowerController {
                 index -= SmogonMons.get(tier).size();
             }
         }
-
-        list.remove(0);
-        list.add(SmogonMons.get("untiered").stream().filter(pokemon -> pokemon.getDisplayName().equals("Stoutland")).findFirst().get());
 
         return list;
     }
@@ -302,6 +319,17 @@ public class BattleTowerController {
        return new String[] { "ou", "national_dex", "ubers", "ag" };
     }
 
+    private ItemStack getRewards(int streak){
+        int cappedStreak = Math.min(20, streak);
+        int reward = cappedStreak;
+
+        if (streak != 0 && cappedStreak % 5 == 0){
+           reward += 10;
+        }
+
+        return new ItemStack(ItemRegistration.getItemFromName("item.pixelmon.gold_ability_symbol"), reward);
+    }
+
     private Optional<BlockPos> playerBlockPos;
     private Optional<BlockPos> opponentBlockPos;
     private Optional<BlockPos> GetPlayerBlock(World world, BlockPos computerBlockPos){
@@ -326,36 +354,5 @@ public class BattleTowerController {
         }
 
         return savedData;
-    }
-
-    public void OnBattleEnded(final BattleEndEvent endEvent){
-        List<ServerPlayerEntity> players = endEvent.getPlayers();
-        if (players.size() != 1){
-            return;
-        }
-
-        ServerPlayerEntity player = players.get(0);
-
-        if (!savedData.HasRun(player)){
-            return;
-        }
-
-        Optional<BattleResults> resultsOptional = endEvent.getResult(player);
-
-        if (!resultsOptional.isPresent()){
-            return;
-        }
-
-        if (resultsOptional.get() == BattleResults.VICTORY){
-            savedData.IncrementStreak(player);
-        }
-        else {
-            savedData.EndRun(player);
-            List<BattleParticipant> entities = endEvent.getBattleController().participants.stream().filter(battleParticipant -> battleParticipant.getEntity() != player).collect(Collectors.toList());
-
-            if (entities.size() == 1){
-                entities.get(0).getEntity().remove();
-            }
-        }
     }
 }

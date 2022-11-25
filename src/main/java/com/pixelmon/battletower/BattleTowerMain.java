@@ -36,7 +36,6 @@ public class BattleTowerMain
     public BattleTowerMain() {
         MinecraftForge.EVENT_BUS.register(this);
         MinecraftForge.EVENT_BUS.addListener(this::addSelectiveReloadListeners);
-        Pixelmon.EVENT_BUS.register(this);
 
         BattleTowerPlayerSpotBlock battleTowerPlayerSpotBlock = new BattleTowerPlayerSpotBlock(BlockRegister);
         new BattleTowerPlayerSpotItem(ItemRegister, battleTowerPlayerSpotBlock);
@@ -51,11 +50,6 @@ public class BattleTowerMain
 
         BlockRegister.register(FMLJavaModLoadingContext.get().getModEventBus());
         ItemRegister.register(FMLJavaModLoadingContext.get().getModEventBus());
-    }
-
-    @SubscribeEvent
-    public void onBattleEndEvent(final BattleEndEvent event){
-        controller.OnBattleEnded(event);
     }
 
     private void addSelectiveReloadListeners(AddReloadListenerEvent event){

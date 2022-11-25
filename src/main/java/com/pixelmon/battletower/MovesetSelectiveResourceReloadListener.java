@@ -118,8 +118,9 @@ public class MovesetSelectiveResourceReloadListener implements ISelectiveResourc
         p.setNature(nature.NatureValue.get());
         p.getStats().setEVs(evs.evStore);
         p.getStats().setIVs(movesAndIvs.IvStore);
-        p.getStats().recalculateStats();
         p.setLevel(50);
+        p.setDynamaxLevel(10);
+        p.getStats().recalculateStats();
 
         return Optional.of(p);
     }

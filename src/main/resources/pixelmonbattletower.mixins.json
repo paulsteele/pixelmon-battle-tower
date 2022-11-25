@@ -4,7 +4,8 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "battlettower.refmap.json",
   "mixins": [
-    "ItemFinderItemMixin"
+    "ItemFinderItemMixin",
+    "BattleControllerMixin"
   ],
   "minVersion": "0.8",
   "injectors": {
