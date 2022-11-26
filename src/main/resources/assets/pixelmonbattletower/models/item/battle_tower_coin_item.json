@@ -1,0 +1,6 @@
+{
+  "parent": "pixelmon:item/gold_ability_symbol",
+  "textures": {
+    "layer0": "pixelmon:items/badges/goldabilitysymbol"
+  }
+}

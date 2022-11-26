@@ -3,6 +3,7 @@ package com.pixelmon.battletower;
 import com.pixelmon.battletower.blocks.opponentSpot.BattleTowerOpponentSpotBlock;
 import com.pixelmon.battletower.blocks.playerSpot.BattleTowerPlayerSpotBlock;
 import com.pixelmon.battletower.helper.BlockFinder;
+import com.pixelmon.battletower.items.BattleTowerCoinItem;
 import com.pixelmon.battletower.mixinHelpers.ICustomBattleController;
 import com.pixelmon.battletower.persistence.BattleTowerRun;
 import com.pixelmon.battletower.persistence.BattleTowerSavedData;
@@ -19,7 +20,6 @@ import com.pixelmonmod.pixelmon.battles.controller.participants.BattleParticipan
 import com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer;
 import com.pixelmonmod.pixelmon.entities.npcs.registry.BaseTrainer;
 import com.pixelmonmod.pixelmon.enums.EnumMegaItemsUnlocked;
-import com.pixelmonmod.pixelmon.init.registry.ItemRegistration;
 import net.minecraft.command.arguments.EntityAnchorArgument;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.ItemStack;
@@ -38,32 +38,25 @@ public class BattleTowerController {
     private BlockFinder finder;
     private final BattleTowerPlayerSpotBlock playerSpotBlock;
     private final BattleTowerOpponentSpotBlock opponentSpotBlock;
+    private final MovesetRepository movesetRepository;
+    private final BattleTowerCoinItem coinItem;
 
-    private HashMap<String, ArrayList<Pokemon>> SmogonMons;
 
     public BattleTowerController(
         BlockFinder finder,
         BattleTowerPlayerSpotBlock playerSpotBlock,
-        BattleTowerOpponentSpotBlock opponentSpotBlock
+        BattleTowerOpponentSpotBlock opponentSpotBlock,
+        MovesetRepository movesetRepository,
+        BattleTowerCoinItem coinItem
     ){
         this.finder = finder;
 
         this.playerSpotBlock = playerSpotBlock;
         this.opponentSpotBlock = opponentSpotBlock;
-        SmogonMons = new HashMap<>();
+        this.movesetRepository = movesetRepository;
+        this.coinItem = coinItem;
     }
 
-    public void AddSmogonMon(String tier, Pokemon mon){
-        if (!SmogonMons.containsKey(tier)){
-            SmogonMons.put(tier, new ArrayList<>());
-        }
-
-        SmogonMons.get(tier).add(mon);
-    }
-
-    public void ClearSmogonMons(){
-        SmogonMons.clear();
-    }
 
     public void PresentChoices(
             World world,
@@ -221,10 +214,10 @@ public class BattleTowerController {
 
         int totalSize = 0;
         for (String tier : tiers) {
-            if (!SmogonMons.containsKey(tier)) {
+            if (!movesetRepository.SmogonMons.containsKey(tier)) {
                 return list;
             }
-            totalSize += SmogonMons.get(tier).size();
+            totalSize += movesetRepository.SmogonMons.get(tier).size();
         }
 
         Random r = new Random();
@@ -232,11 +225,11 @@ public class BattleTowerController {
         for (int i = 0; i < 6; i++){
             int index = options.remove(r.nextInt(options.size()));
             for (String tier : tiers){
-                if (index < SmogonMons.get(tier).size()){
-                    list.add(SmogonMons.get(tier).get(index));
+                if (index < movesetRepository.SmogonMons.get(tier).size()){
+                    list.add(movesetRepository.SmogonMons.get(tier).get(index));
                     break;
                 }
-                index -= SmogonMons.get(tier).size();
+                index -= movesetRepository.SmogonMons.get(tier).size();
             }
         }
 
@@ -263,7 +256,7 @@ public class BattleTowerController {
         }
         br.set(BattleRuleRegistry.TEAM_PREVIEW, true);
         br.set(BattleRuleRegistry.FULL_HEAL, true);
-        br.set(BattleRuleRegistry.LEVEL_CAP, 75);
+        br.set(BattleRuleRegistry.LEVEL_CAP, 50);
 
         return br;
     }
@@ -326,7 +319,7 @@ public class BattleTowerController {
            reward += 10;
         }
 
-        return new ItemStack(ItemRegistration.getItemFromName("item.pixelmon.gold_ability_symbol"), reward);
+        return new ItemStack(this.coinItem, reward);
     }
 
     private Optional<BlockPos> playerBlockPos;

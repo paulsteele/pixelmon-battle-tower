@@ -7,13 +7,12 @@ import com.pixelmon.battletower.blocks.opponentSpot.BattleTowerOpponentSpotItem;
 import com.pixelmon.battletower.blocks.playerSpot.BattleTowerPlayerSpotBlock;
 import com.pixelmon.battletower.blocks.playerSpot.BattleTowerPlayerSpotItem;
 import com.pixelmon.battletower.helper.BlockFinder;
-import com.pixelmonmod.pixelmon.Pixelmon;
-import com.pixelmonmod.pixelmon.api.events.battles.BattleEndEvent;
+import com.pixelmon.battletower.items.BattleTowerCoinItem;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.AddReloadListenerEvent;
+import net.minecraftforge.event.world.WorldEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -32,6 +31,7 @@ public class BattleTowerMain
     private static final DeferredRegister<Item> ItemRegister = DeferredRegister.create(ForgeRegistries.ITEMS, ModId);
 
     private final BattleTowerController controller;
+    private final MovesetRepository movesetRepository;
 
     public BattleTowerMain() {
         MinecraftForge.EVENT_BUS.register(this);
@@ -42,8 +42,10 @@ public class BattleTowerMain
 
         BattleTowerOpponentSpotBlock battleTowerOpponentSpotBlock = new BattleTowerOpponentSpotBlock(BlockRegister);
         new BattleTowerOpponentSpotItem(ItemRegister, battleTowerOpponentSpotBlock);
+        BattleTowerCoinItem coinItem = new BattleTowerCoinItem(ItemRegister);
+        movesetRepository = new MovesetRepository();
 
-        controller = new BattleTowerController(new BlockFinder(), battleTowerPlayerSpotBlock, battleTowerOpponentSpotBlock);
+        controller = new BattleTowerController(new BlockFinder(), battleTowerPlayerSpotBlock, battleTowerOpponentSpotBlock, movesetRepository, coinItem);
 
         BattleTowerComputerBlock battleTowerComputerBlock = new BattleTowerComputerBlock(BlockRegister, controller);
         new BattleTowerComputerItem(ItemRegister, battleTowerComputerBlock);
@@ -53,6 +55,11 @@ public class BattleTowerMain
     }
 
     private void addSelectiveReloadListeners(AddReloadListenerEvent event){
-        event.addListener(new MovesetSelectiveResourceReloadListener(controller));
+        event.addListener(new MovesetSelectiveResourceReloadListener(movesetRepository));
+    }
+
+    @SubscribeEvent
+    public void OnWorldLoad(WorldEvent.Load event){
+        movesetRepository.OnLoad(event);
     }
 }

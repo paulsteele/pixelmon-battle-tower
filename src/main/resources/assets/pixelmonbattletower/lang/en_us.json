@@ -1,5 +1,6 @@
 {
   "block.pixelmonbattletower.battle_tower_block" : "Battle Tower Computer",
   "block.pixelmonbattletower.battle_tower_player_spot_block" : "Battle Tower Challenger Pedestal",
-  "block.pixelmonbattletower.battle_tower_opponent_spot_block" : "Battle Tower Opponent Pedestal"
+  "block.pixelmonbattletower.battle_tower_opponent_spot_block" : "Battle Tower Opponent Pedestal",
+  "item.pixelmonbattletower.battle_tower_coin_item" : "Battle Tower Coin"
 }
